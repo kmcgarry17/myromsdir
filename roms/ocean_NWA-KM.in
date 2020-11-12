@@ -872,13 +872,13 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      CLMNAME == /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2013.nc |
                 /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2014.nc |
                 /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2015.nc \
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_bio/NWA_clim_bio.nc
+!                /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_bio/NWA_clim_bio.nc
 
     NBCFILES == 2                          ! number of boundary files
      BRYNAME == /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2013.nc |
                 /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2014.nc |
                 /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2015.nc \
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_bio/NWA_bdry_bio.nc
+!                /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_bio/NWA_bdry_bio.nc
 
 ! Input climatology nudging coefficients file name.
 
