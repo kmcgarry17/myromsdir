@@ -2,7 +2,7 @@
 !
 !! svn $Id$
 !!======================================================================
-!! Copyright (c) 2002-2016 The ROMS/TOMS Group                         !
+!! Copyright (c) 2002-2013 The ROMS/TOMS Group                         !
 !!   Licensed under a MIT/X style license                              !
 !!   See License_ROMS.txt                                              !
 !=======================================================================
@@ -127,7 +127,7 @@
 !
       integer :: i, j
 
-      real(r8) :: cff
+      real(r8) :: cff, h0
 
 #include "set_bounds.h"
 !
@@ -141,22 +141,43 @@
 #endif
 !-----------------------------------------------------------------------
 !
-#if defined UPWELLING
-# if defined UV_LOGDRAG
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
-          ZoBot(i,j)=0.05_r8*(1.0_r8+TANH(GRID(ng)%h(i,j)/50.0_r8))
-        END DO
-      END DO
-# elif defined UV_LDRAG
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
-          rdrag(i,j)=0.002_r8*(1.0_r8-TANH(GRID(ng)%h(i,j)/150.0_r8))
+#if defined NWA
+# if defined UV_LDRAG
+      cff =  3.0d-04
+      h0 = 1000.
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
+          IF (GRID(ng)%h(i,j) >= h0) THEN
+            rdrag(i,j)=cff
+          ELSE
+            rdrag(i,j)=cff + (h0-GRID(ng)%h(i,j))*77.0d-4/h0
+          END IF
         END DO
       END DO
 # elif defined UV_QDRAG
-      DO j=JstrT,JendT          ! based on Chezy coefficient (g/c^2)
-        DO i=IstrT,IendT
+      DO j=JstrR,JendR          ! based on Chezy coefficient (g/c^2)
+        DO i=IstrR,IendR
+          cff=1.8_r8*GRID(ng)%h(i,j)*LOG(GRID(ng)%h(i,j))
+          rdrag2(i,j)=g/(cff*cff)
+        END DO
+      END DO
+# endif
+#elif defined NEP6
+# if defined UV_LDRAG
+      cff =  3.0d-04
+      h0 = 1000.
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
+          IF (GRID(ng)%h(i,j) >= h0) THEN
+            rdrag(i,j)=cff
+          ELSE
+            rdrag(i,j)=cff + (h0-GRID(ng)%h(i,j))*77.0d-4/h0
+          END IF
+        END DO
+      END DO
+# elif defined UV_QDRAG
+      DO j=JstrR,JendR          ! based on Chezy coefficient (g/c^2)
+        DO i=IstrR,IendR
           cff=1.8_r8*GRID(ng)%h(i,j)*LOG(GRID(ng)%h(i,j))
           rdrag2(i,j)=g/(cff*cff)
         END DO
@@ -164,37 +185,38 @@
 # endif
 #else
 # if defined UV_LOGDRAG
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
           ZoBot(i,j)=???
         END DO
       END DO
 # elif defined UV_LDRAG
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
           rdrag(i,j)=???
         END DO
       END DO
 # elif defined UV_QDRAG
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
           rdrag2(i,j)=???
         END DO
       END DO
 # endif
 #endif
+
 !
 !  Exchange boundary data.
 !
       IF (EWperiodic(ng).or.NSperiodic(ng)) THEN
         CALL exchange_r2d_tile (ng, tile,                               &
-     &                          LBi, UBi, LBj, UBj,                     &
+     &                        LBi, UBi, LBj, UBj,                       &
 #if defined UV_LOGDRAG
-     &                          ZoBot)
+     &                        ZoBot)
 #elif defined UV_LDRAG
-     &                          rdrag)
+     &                        rdrag)
 #elif defined UV_QDRAG
-     &                          rdrag2)
+     &                        rdrag2)
 #endif
       END IF
 
@@ -218,8 +240,8 @@
 !  Load bottom roughness length into bottom properties array.
 !-----------------------------------------------------------------------
 !
-      DO j=JstrT,JendT
-        DO i=IstrT,IendT
+      DO j=JstrR,JendR
+        DO i=IstrR,IendR
           bottom(i,j,izdef)=ZoBot(i,j)
         END DO
       END DO

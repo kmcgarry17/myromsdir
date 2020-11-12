@@ -60,12 +60,12 @@ endif
 #  the .h extension. For example, the upwelling application includes the
 #  "upwelling.h" header file.
 
-ROMS_APPLICATION ?= 
+ROMS_APPLICATION ?= NWA
 
 #  If application header files is not located in "ROMS/Include",
 #  provide an alternate directory FULL PATH.
 
-MY_HEADER_DIR ?=
+MY_HEADER_DIR ?= /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/Include
 
 #  If your application requires analytical expressions and they are
 #  not located in "ROMS/Functionals", provide an alternate directory.
@@ -79,7 +79,7 @@ MY_ANALYTICAL_DIR ?=
 
 # If applicable, where does CICE put its binary files?
 
-MY_CICE_DIR ?= /center/w/kate/CICE/NEP/compile
+MY_CICE_DIR ?= 
 
 #  Sometimes it is desirable to activate one or more CPP options to
 #  run different variants of the same application without modifying
