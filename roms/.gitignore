@@ -1,0 +1,8 @@
+.svn
+Build*
+Ocean?
+.*.swp
+makefile.*
+Makefile.*
+clean_ice_*
+comp_ice_*
