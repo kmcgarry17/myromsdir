@@ -869,20 +869,20 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! except the last one.
 
    NCLMFILES == 2
-     CLMNAME == /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2013.nc |
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2014.nc |
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_SODA3.3.1/NWA_clim_SODA3.3.1_y2015.nc \
+     CLMNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/clim_SODA/NWA_clim_SODA3.3.1_y2013.nc |
+                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc |
+                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/clim_SODA/NWA_clim_SODA3.3.1_y2015.nc \
 !                /t0/scratch/shuwen/NWA_COBALT_Inputs/Clim_bio/NWA_clim_bio.nc
 
     NBCFILES == 2                          ! number of boundary files
-     BRYNAME == /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2013.nc |
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2014.nc |
-                /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_SODA3.3.1/NWA_bdry_SODA3.3.1_y2015.nc \
+     BRYNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/bdry_SODA/NWA_bdry_SODA3.3.1_y2013.nc |
+                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc |
+                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/bdry_SODA/NWA_bdry_SODA3.3.1_y2015.nc \
 !                /t0/scratch/shuwen/NWA_COBALT_Inputs/Bdry_bio/NWA_bdry_bio.nc
 
 ! Input climatology nudging coefficients file name.
 
-     NUDNAME == /t0/scratch/shuwen/NWA_COBALT_Inputs/NWA_nudging_coef.nc
+     NUDNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NWA_nudging_coef.nc
 
 ! Input Sources/Sinks forcing (like river runoff) file name.
 
@@ -901,52 +901,48 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
     NFFILES == 24                        ! number of forcing files
 
-    FRCNAME == /t0/scratch/shuwen/MERRA_Forcing//MERRA_lwrad_down_2009-2014_3hours_corr.nc   \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_Pair_2009-2014_3hours.nc    \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_Qair_2009-2014_3hours.nc    \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_rain_2009-2014_3hours.nc    \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_swrad_2009-2014_3hours_corr.nc   \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_Tair_2009-2014_3hours.nc    \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_Uwind_2009-2014_3hours.nc   \
-               /t0/scratch/shuwen/MERRA_Forcing//MERRA_Vwind_2009-2014_3hours.nc   \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/runoff_NWA_daitren_inter_annual_1948-2015.nc \
-               /t1/scratch/dujuan/NWA/Inputs/Forcing/sss_monthly_climato_flooded.nc \
-               /t1/scratch/dujuan/NWA/Inputs/Tides/NWA_tides_otps.nc  \
-               /t1/scratch/raphael/CCS1/CCS1-I/cobalt/composite_CO2_MLO+GLO.nc \
-               /t1/scratch/raphael/CCS1/CCS1-I/cobalt/Soluble_Fe_Flux_PI_ROMS.nc \
-               /t1/scratch/shuwen/NWA_COBALT_Inputs/Iron_sediment/iron_sediment_NWA.nc \
-               /t1/scratch/raphael/CCS1/CCS1-I/cobalt/Mineral_Fe_Flux_PI_ROMS.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc \
-               /t0/scratch/shuwen/NWA_COBALT_Inputs/Runoff/NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc
-
-!  /t1/scratch/raphael/CCS1/CCS1-I/cobalt/Mineral_Fe_Flux_PI_ROMS.nc 
-!  /t1/scratch/raphael/CCS1/CCS1-I/cobalt/Soluble_Fe_Flux_PI_ROMS.nc 
-!  /t1/scratch/shuwen/NWA_COBALT_Inputs/Iron_sediment/iron_sediment_NWA.nc 
+    FRCNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_lwrad_down_2009-2014_3hours_corr.nc   \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_Pair_2009-2014_3hours.nc    \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_Qair_2009-2014_3hours.nc    \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_rain_2009-2014_3hours.nc    \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_swrad_2009-2014_3hours_corr.nc   \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_Tair_2009-2014_3hours.nc    \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_Uwind_2009-2014_3hours.nc   \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/MERRA/MERRA_Vwind_2009-2014_3hours.nc   \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/runoff_NWA_daitren_inter_annual_1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/sss_monthly_climato_flooded.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NWA_input/NWA_tides_otps.nc  \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/composite_CO2_MLO+GLO.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NWA_input/Soluble_Fe_Flux_PI_ROMS.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/iron_sediment_NWA.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/Mineral_Fe_Flux_PI_ROMS.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc
 
 ! Output NetCDF file names, [1:Ngrids].
 ! (rst = restart)
 
      GSTNAME == /dev/null
-     RSTNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_rst.nc
-     HISNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_his.nc
+     RSTNAME == /gpfs/scratchfs1/kmm18005-lab/romsoutput/run1/NWA-KM_rst.nc
+     HISNAME == /gpfs/scratchfs1/kmm18005-lab/romsoutput/run1/NWA-KM_his.nc
      TLMNAME == /dev/null
      TLFNAME == /dev/null
      ADJNAME == /dev/null
-     AVGNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_avg.nc
-     DIANAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_dia.nc
-     STANAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_sta.nc
-     FLTNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_flt.nc
-     FISHNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_fish.nc
-     PREDNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_pred.nc
-     FLEETNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_fleet.nc
-     TMSNAME == /t0/scratch/shuwen/tmpdir_NWA-SZ.HCob05T/NWA-SZ.HCob05T_tms.nc
+     AVGNAME == /gpfs/scratchfs1/kmm18005-lab/romsoutput/run1/NWA-KM_avg.nc
+     DIANAME == /dev/null
+     STANAME == /dev/null
+     FLTNAME == /dev/null
+     FISHNAME == /dev/null
+     PREDNAME == /dev/null
+     FLEETNAME == /dev/null
+     TMSNAME == /dev/null
 
 ! Input ASCII parameter filenames.
 
@@ -959,6 +955,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      BPARNAM =  bio_Cobalt.in.full
      SPARNAM =  ROMS/External/sediment.in
      USRNAME =  ROMS/External/MyFile.dat
+
 
 !
 !  GLOSSARY:
