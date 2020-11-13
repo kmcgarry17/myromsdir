@@ -928,12 +928,12 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! (rst = restart)
 
      GSTNAME == /dev/null
-     RSTNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/tempdir/NWA-KM_rst.nc
-     HISNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/tempdir/NWA-KM_his.nc
+     RSTNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_rst.nc
+     HISNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_his.nc
      TLMNAME == /dev/null
      TLFNAME == /dev/null
      ADJNAME == /dev/null 
-     AVGNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/tempdir/NWA-KM_avg.nc
+     AVGNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_avg.nc
      DIANAME == /dev/null
      STANAME == /dev/null
      FLTNAME == /dev/null
