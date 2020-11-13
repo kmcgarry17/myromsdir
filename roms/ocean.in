@@ -865,17 +865,17 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! line per entry with a vertical bar (|) symbol after each entry,
 ! except the last one.
 
-   NCLMFILES == 1
+   NCLMFILES == 2
      CLMNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2013.nc |
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc 
-!                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/nwa_input/NWA_clim_bio.nc
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc \
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_clim_bio.nc
 
-    NBCFILES == 1                          ! number of boundary files
+    NBCFILES == 2                          ! number of boundary files
      BRYNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2013.nc |
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir//input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc 
-!                /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NWA_bdry_bio.nc
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir//input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc \
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_bdry_bio.nc
 
 ! Input climatology nudging coefficients file name.
 
@@ -896,7 +896,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! at the each entry, except the last one.
 
 
-    NFFILES == 11                        ! number of forcing files
+    NFFILES == 24                       ! number of forcing files
 
     FRCNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_lwrad_down_2009-2014_3hours_corr.nc   \
                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Pair_2009-2014_3hours.nc    \
@@ -908,20 +908,20 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Vwind_2009-2014_3hours.nc   \
                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/runoff_NWA_daitren_inter_annual_1948-2015.nc \
                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/sss_monthly_climato_flooded.nc \
-               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_tides_otps.nc  
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cd6/roms/NWA_input/composite_CO2_MLO+GLO.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/Soluble_Fe_Flux_PI_ROMS.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/iron_sediment_NWA.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/Mineral_Fe_Flux_PI_ROMS.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc \
-!               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/NWA_input/NEWS/NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_tides_otps.nc \ 
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/composite_CO2_MLO+GLO.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/Soluble_Fe_Flux_PI_ROMS.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/iron_sediment_NWA.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/Mineral_Fe_Flux_PI_ROMS.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc \
+               /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc
 
 
 ! Output NetCDF file names, [1:Ngrids].

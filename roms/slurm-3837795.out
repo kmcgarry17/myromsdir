@@ -1,0 +1,143 @@
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+srun: error: cn217: tasks 120-127: Exited with exit code 2
+srun: Terminating job step 3837795.0
+srun: Job step 3837795.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: *** STEP 3837795.0 ON cn190 CANCELLED AT 2020-11-12T20:01:35 ***
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 1 failed: Broken pipe
+slurmstepd: write to unblock task 2 failed: Broken pipe
+slurmstepd: write to unblock task 3 failed: Broken pipe
+slurmstepd: write to unblock task 4 failed: Broken pipe
+slurmstepd: write to unblock task 5 failed: Broken pipe
+slurmstepd: write to unblock task 6 failed: Broken pipe
+slurmstepd: write to unblock task 7 failed: Broken pipe
+slurmstepd: write to unblock task 8 failed: Broken pipe
+slurmstepd: write to unblock task 9 failed: Broken pipe
+slurmstepd: write to unblock task 10 failed: Broken pipe
+slurmstepd: write to unblock task 11 failed: Broken pipe
+slurmstepd: write to unblock task 12 failed: Broken pipe
+slurmstepd: write to unblock task 13 failed: Broken pipe
+slurmstepd: write to unblock task 14 failed: Broken pipe
+slurmstepd: write to unblock task 15 failed: Broken pipe
+slurmstepd: write to unblock task 16 failed: Broken pipe
+slurmstepd: write to unblock task 17 failed: Broken pipe
+slurmstepd: write to unblock task 18 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 1 failed: Broken pipe
+slurmstepd: write to unblock task 2 failed: Broken pipe
+slurmstepd: write to unblock task 3 failed: Broken pipe
+slurmstepd: write to unblock task 4 failed: Broken pipe
+slurmstepd: write to unblock task 5 failed: Broken pipe
+slurmstepd: write to unblock task 6 failed: Broken pipe
+slurmstepd: write to unblock task 7 failed: Broken pipe
+slurmstepd: write to unblock task 8 failed: Broken pipe
+slurmstepd: write to unblock task 9 failed: Broken pipe
+slurmstepd: write to unblock task 10 failed: Broken pipe
+slurmstepd: write to unblock task 11 failed: Broken pipe
+slurmstepd: write to unblock task 12 failed: Broken pipe
+slurmstepd: write to unblock task 13 failed: Broken pipe
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 1 failed: Broken pipe
+slurmstepd: write to unblock task 2 failed: Broken pipe
+slurmstepd: write to unblock task 3 failed: Broken pipe
+slurmstepd: write to unblock task 4 failed: Broken pipe
+slurmstepd: write to unblock task 5 failed: Broken pipe
+slurmstepd: write to unblock task 6 failed: Broken pipe
+slurmstepd: write to unblock task 7 failed: Broken pipe
+slurmstepd: write to unblock task 8 failed: Broken pipe
+slurmstepd: write to unblock task 9 failed: Broken pipe
+slurmstepd: write to unblock task 10 failed: Broken pipe
+slurmstepd: write to unblock task 11 failed: Broken pipe
+slurmstepd: write to unblock task 12 failed: Broken pipe
+slurmstepd: write to unblock task 13 failed: Broken pipe
+slurmstepd: write to unblock task 14 failed: Broken pipe
+slurmstepd: write to unblock task 15 failed: Broken pipe
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 1 failed: Broken pipe
+slurmstepd: write to unblock task 2 failed: Broken pipe
+slurmstepd: write to unblock task 3 failed: Broken pipe
+slurmstepd: write to unblock task 4 failed: Broken pipe
+slurmstepd: write to unblock task 5 failed: Broken pipe
+slurmstepd: write to unblock task 6 failed: Broken pipe
+slurmstepd: write to unblock task 7 failed: Broken pipe
+slurmstepd: write to unblock task 8 failed: Broken pipe
+slurmstepd: write to unblock task 9 failed: Broken pipe
+slurmstepd: write to unblock task 10 failed: Broken pipe
+slurmstepd: write to unblock task 11 failed: Broken pipe
+slurmstepd: write to unblock task 12 failed: Broken pipe
+slurmstepd: write to unblock task 13 failed: Broken pipe
+slurmstepd: write to unblock task 14 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 1 failed: Broken pipe
+slurmstepd: write to unblock task 2 failed: Broken pipe
+slurmstepd: write to unblock task 3 failed: Broken pipe
+slurmstepd: write to unblock task 4 failed: Broken pipe
+slurmstepd: write to unblock task 5 failed: Broken pipe
+slurmstepd: write to unblock task 6 failed: Broken pipe
+slurmstepd: write to unblock task 7 failed: Broken pipe
+slurmstepd: write to unblock task 8 failed: Broken pipe
+slurmstepd: write to unblock task 9 failed: Broken pipe
+slurmstepd: write to unblock task 10 failed: Broken pipe
+slurmstepd: write to unblock task 11 failed: Broken pipe
+slurmstepd: write to unblock task 12 failed: Broken pipe
+slurmstepd: write to unblock task 13 failed: Broken pipe
+slurmstepd: write to unblock task 14 failed: Broken pipe
+slurmstepd: write to unblock task 15 failed: Broken pipe
+slurmstepd: write to unblock task 14 failed: Broken pipe
+slurmstepd: write to unblock task 15 failed: Broken pipe
+slurmstepd: write to unblock task 16 failed: Broken pipe
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+slurmstepd: execve(): /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/./oceanM: No such file or directory
+srun: error: cn190: tasks 0-18: Killed
+srun: error: cn190: tasks 19-23: Exited with exit code 2
+srun: error: cn191: tasks 24-40: Killed
+srun: error: cn191: tasks 41-47: Exited with exit code 2
+srun: error: cn215: tasks 72-87: Killed
+srun: error: cn215: tasks 88-95: Exited with exit code 2
+srun: error: cn216: tasks 96-111: Killed
+srun: error: cn216: tasks 112-119: Exited with exit code 2
+srun: error: cn192: tasks 48-62: Killed
+srun: error: cn192: tasks 63-71: Exited with exit code 2
