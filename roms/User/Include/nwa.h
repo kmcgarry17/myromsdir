@@ -181,8 +181,8 @@
 #endif
 
 /* biological model options */
-#define BIOLOGY
-#define BIO_COBALT 
+#undef BIOLOGY
+#undef BIO_COBALT 
 /* #define DEBUG_COBALT */
 /*#define COBALT_CONSERVATION_TEST */
 /*#define COBALT_NOSOURCE */

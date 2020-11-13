@@ -1,0 +1,205 @@
+
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Friday - November 13, 2020 -  6:42:53 PM
+ -----------------------------------------------------------------------------
+
+ Northwest Atlantic 7km Grid
+
+ Operating system : Linux
+ CPU/hardware     : x86_64
+ Compiler system  : ifort
+ Compiler command : /apps2/mpich2/1.5-ics/bin/mpif90
+ Compiler flags   : -heap-arrays -fp-model precise -g -check uninit -ftrapuv -traceback -check bounds -free -free
+
+ Input Script  : 
+
+ SVN Root URL  : https:://myroms.org/svn/src
+ SVN Revision  : exported
+
+ Local Root    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms
+ Header Dir    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/Include
+ Header file   : nwa.h
+ Analytical Dir: /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/ROMS/Functionals
+
+ Resolution, Grid 01: 0720x0360x040,  Parallel Nodes: 128,  Tiling: 008x016
+
+
+ Physical Parameters, Grid: 01
+ =============================
+
+     370000  ntimes            Number of timesteps for 3-D equations.
+    240.000  dt                Timestep size (s) for 3-D equations.
+         30  ndtfast           Number of timesteps for 2-D equations between
+                                 each 3D timestep.
+          1  ERstr             Starting ensemble/perturbation run number.
+          1  ERend             Ending ensemble/perturbation run number.
+          0  nrrec             Number of restart records to read from disk.
+          T  LcycleRST         Switch to recycle time-records in restart file.
+       1800  nRST              Number of timesteps between the writing of data
+                                 into restart fields.
+          1  ninfo             Number of timesteps between print of information
+                                 to standard output.
+          F  ldefout           Switch to create a new output NetCDF file(s).
+        360  nHIS              Number of timesteps between the writing fields
+                                 into history file.
+        360  ndefHIS           Number of timesteps between creation of new
+                                 history files.
+          0  nQCK              Number of timesteps between the writing fields
+                                 into quicksave file.
+          1  ntsAVG            Starting timestep for the accumulation of output
+                                 time-averaged data.
+        360  nAVG              Number of timesteps between the writing of
+                                 time-averaged data into averages file.
+        360  ndefAVG           Number of timesteps between creation of new
+                                 time-averaged file.
+ 5.0000E+00  nl_tnu2(01)       NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for tracer 01: temp
+ 5.0000E+00  nl_tnu2(02)       NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for tracer 02: salt
+ 2.5000E+01  nl_visc2          NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for momentum.
+          F  LuvSponge         Turning OFF sponge on horizontal momentum.
+          F  LtracerSponge(01) Turning OFF sponge on tracer 01: temp
+          F  LtracerSponge(02) Turning OFF sponge on tracer 02: salt
+ 1.0000E-06  Akt_bak(01)       Background vertical mixing coefficient (m2/s)
+                                 for tracer 01: temp
+ 1.0000E-06  Akt_bak(02)       Background vertical mixing coefficient (m2/s)
+                                 for tracer 02: salt
+ 1.0000E-05  Akv_bak           Background vertical mixing coefficient (m2/s)
+                                 for momentum.
+ 3.0000E-04  rdrg              Linear bottom drag coefficient (m/s).
+ 3.0000E-03  rdrg2             Quadratic bottom drag coefficient.
+ 2.0000E-02  Zob               Bottom roughness (m).
+ 1.0000E+01  blk_ZQ            Height (m) of surface air humidity measurement.
+ 1.0000E+01  blk_ZT            Height (m) of surface air temperature measurement.
+ 1.0000E+01  blk_ZW            Height (m) of surface winds measurement.
+          1  lmd_Jwt           Jerlov water type.
+          2  Vtransform        S-coordinate transformation equation.
+          4  Vstretching       S-coordinate stretching function.
+ 7.0000E+00  theta_s           S-coordinate surface control parameter.
+ 2.0000E+00  theta_b           S-coordinate bottom  control parameter.
+    250.000  Tcline            S-coordinate surface/bottom layer width (m) used
+                                 in vertical coordinate stretching.
+   1025.000  rho0              Mean density (kg/m3) for Boussinesq approximation.
+  40925.040  dstart            Time-stamp assigned to model initialization (days).
+     -1.000  tide_start        Reference time origin for tidal forcing (days).
+19000101.00  time_ref          Reference time for units attribute (yyyymmdd.dd)
+ 3.6000E+02  Tnudg(01)         Nudging/relaxation time scale (days)
+                                 for tracer 01: temp
+ 3.6000E+02  Tnudg(02)         Nudging/relaxation time scale (days)
+                                 for tracer 02: salt
+ 9.0000E+01  Tnudg_SSS         Nudging/relaxation time scale (days)
+                                 for sea surface salinity.
+ 1.0000E-01  sss_mismatch_thresdifference in SSS that triggers correction
+                                 for sea surface salinity.
+ 3.6000E+02  Znudg             Nudging/relaxation time scale (days)
+                                 for free-surface.
+ 3.6000E+02  M2nudg            Nudging/relaxation time scale (days)
+                                 for 2D momentum.
+ 3.6000E+02  M3nudg            Nudging/relaxation time scale (days)
+                                 for 3D momentum.
+ 1.2000E+02  obcfac            Factor between passive and active
+                                 open boundary conditions.
+          F  VolCons(1)        NLM western  edge boundary volume conservation.
+          F  VolCons(2)        NLM southern edge boundary volume conservation.
+          F  VolCons(3)        NLM eastern  edge boundary volume conservation.
+          F  VolCons(4)        NLM northern edge boundary volume conservation.
+     10.000  T0                Background potential temperature (C) constant.
+     35.000  S0                Background salinity (PSU) constant.
+      1.000  gamma2            Slipperiness variable: free-slip (1.0) or 
+                                                      no-slip (-1.0).
+          F  LuvSrc            Turning OFF momentum point Sources/Sinks.
+          F  LwSrc             Turning OFF volume influx point Sources/Sinks.
+          F  LtracerSrc(01)    Turning OFF point Sources/Sinks on tracer 01: temp
+          F  LtracerSrc(02)    Turning OFF point Sources/Sinks on tracer 02: salt
+          T  LsshCLM           Turning ON  processing of SSH climatology.
+          T  Lm2CLM            Turning ON  processing of 2D momentum climatology.
+          T  Lm3CLM            Turning ON  processing of 3D momentum climatology.
+          T  LtracerCLM(01)    Turning ON  processing of climatology tracer 01: temp
+          T  LtracerCLM(02)    Turning ON  processing of climatology tracer 02: salt
+          T  LnudgeM2CLM       Turning ON  nudging of 2D momentum climatology.
+          T  LnudgeM3CLM       Turning ON  nudging of 3D momentum climatology.
+          T  LnudgeTCLM(01)    Turning ON  nudging of climatology tracer 01: temp
+          T  LnudgeTCLM(02)    Turning ON  nudging of climatology tracer 02: salt
+
+          T  Hout(idFsur)      Write out free-surface.
+          T  Hout(idUbar)      Write out 2D U-momentum component.
+          T  Hout(idVbar)      Write out 2D V-momentum component.
+          T  Hout(idUvel)      Write out 3D U-momentum component.
+          T  Hout(idVvel)      Write out 3D V-momentum component.
+          T  Hout(idWvel)      Write out W-momentum component.
+          T  Hout(idOvel)      Write out omega vertical velocity.
+          T  Hout(idTvar)      Write out tracer 01: temp
+          T  Hout(idTvar)      Write out tracer 02: salt
+          T  Hout(idTsur)      Write out surface net heat flux.
+          T  Hout(idTsur)      Write out surface net salt flux.
+          T  Hout(idSrad)      Write out shortwave radiation flux.
+          T  Hout(idLrad)      Write out longwave radiation flux.
+          T  Hout(idLhea)      Write out latent heat flux.
+          T  Hout(idShea)      Write out sensible heat flux.
+          T  Hout(idEmPf)      Write out E-P flux.
+          T  Hout(idevap)      Write out evaporation rate.
+          T  Hout(idrain)      Write out rain rate.
+          T  Hout(idVvis)      Write out vertical viscosity: AKv.
+          T  Hout(idTdif)      Write out vertical diffusion: AKt(itemp).
+          T  Hout(idHsbl)      Write out depth of surface boundary layer.
+
+          T  Aout(idFsur)      Write out averaged free-surface.
+          T  Aout(idUbar)      Write out averaged 2D U-momentum component.
+          T  Aout(idVbar)      Write out averaged 2D V-momentum component.
+          T  Aout(idUvel)      Write out averaged 3D U-momentum component.
+          T  Aout(idVvel)      Write out averaged 3D V-momentum component.
+          T  Aout(idWvel)      Write out averaged W-momentum component.
+          T  Aout(idOvel)      Write out averaged omega vertical velocity.
+          T  Aout(idTvar)      Write out averaged tracer 01: temp
+          T  Aout(idTvar)      Write out averaged tracer 02: salt
+          T  Aout(idUsms)      Write out averaged surface U-momentum stress.
+          T  Aout(idVsms)      Write out averaged surface V-momentum stress.
+          T  Aout(idRunoff)    Write out averaged surface fresh water input via runoff.
+          T  Aout(idPair)      Write out averaged surface air pressure.
+          T  Aout(idUair)      Write out averaged surface U-wind component.
+          T  Aout(idVair)      Write out averaged surface V-wind component.
+          T  Aout(idTsur)      Write out averaged surface net heat flux.
+          T  Aout(idTsur)      Write out averaged surface net salt flux.
+          T  Aout(idSrad)      Write out averaged shortwave radiation flux.
+          T  Aout(idLrad)      Write out averaged longwave radiation flux.
+          T  Aout(idLhea)      Write out averaged latent heat flux.
+          T  Aout(idShea)      Write out averaged sensible heat flux.
+          T  Aout(idevap)      Write out averaged evaporation rate.
+          T  Aout(idrain)      Write out averaged rain rate.
+          T  Aout(idDano)      Write out averaged density anomaly.
+          T  Aout(idVvis)      Write out averaged vertical viscosity: AKv.
+          T  Aout(idTdif)      Write out averaged vertical diffusion: AKt(itemp).
+          T  Aout(idHsbl)      Write out averaged depth of surface boundary layer.
+
+ Output/Input Files:
+
+             Output Restart File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_rst.nc
+        Prefix for History Files:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_his
+       Prefix for Averages Files:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_avg
+                 Input Grid File:  /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
+    Input Nonlinear Initial File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_avg_fmumem.nc
+           Input Forcing File 01:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_lwrad_down_2009-2014_3hours_corr.nc
+           Input Forcing File 02:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Pair_2009-2014_3hours.nc
+           Input Forcing File 03:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Qair_2009-2014_3hours.nc
+           Input Forcing File 04:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_rain_2009-2014_3hours.nc
+           Input Forcing File 05:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_swrad_2009-2014_3hours_corr.nc
+           Input Forcing File 06:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Tair_2009-2014_3hours.nc
+           Input Forcing File 07:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Uwind_2009-2014_3hours.nc
+           Input Forcing File 08:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Vwind_2009-2014_3hours.nc
+           Input Forcing File 09:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/runoff_NWA_daitren_inter_annual_1948-2015.nc
+           Input Forcing File 10:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/sss_monthly_climato_flooded.nc
+           Input Forcing File 11:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_tides_otps.nc
+           Input Forcing File 12:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/composite_CO2_MLO+GLO.nc
+
+ READ_PHYPAR - could not find input file:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/Soluble_Fe_Flux_PI_ROMS.nc
+
+ Elapsed CPU time (seconds):
+
+
+ ROMS/TOMS - Output NetCDF summary for Grid 01:
+
+ ROMS/TOMS - I/O error ............... exit_flag:   4
+
+
+ ERROR: I/O related problem.

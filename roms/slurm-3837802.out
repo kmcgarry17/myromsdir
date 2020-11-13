@@ -1,0 +1,1548 @@
+
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003E2861ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000306F01ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003559C1ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Thursday - November 12, 2020 -  8:12:06 PM
+ -----------------------------------------------------------------------------
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D8C61ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          0000003D87A1ED5D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (408): fort: (2): Subscript #1 of the array RVAL has value 201 which is greater than the upper bound of 200
+
+Image              PC                Routine            Line        Source             
+oceanG             0000000002692406  Unknown               Unknown  Unknown
+oceanG             0000000002079D25  decode_line_              932  inp_par.f90
+oceanG             000000000222AF10  read_phypar_               85  read_phypar.f90
+oceanG             000000000200406C  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          000000326841ED1D  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+srun: error: cn190: tasks 0-23: Exited with exit code 152
+srun: Terminating job step 3837802.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: cn217: tasks 120-127: Exited with exit code 152
+srun: error: cn192: tasks 48-71: Exited with exit code 152
+srun: error: cn215: tasks 72-95: Exited with exit code 152
+srun: error: cn216: tasks 96-119: Exited with exit code 152
+srun: error: cn191: tasks 24-47: Exited with exit code 152
