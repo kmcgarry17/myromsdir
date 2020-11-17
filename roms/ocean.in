@@ -355,7 +355,7 @@ LtracerSponge == F F                            ! temperature, salinity, inert
 ! origin for tidal forcing, and model reference time for output
 ! NetCDF units attribute.
 
-      DSTART =  40923.04                ! days
+      DSTART =  40925.04                ! days
   TIDE_START =  -1.0d0                     ! days
     TIME_REF =  19000101.0d0               ! yyyymmdd.dd
 
@@ -852,7 +852,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! Input NetCDF file names, [1:Ngrids].
 
      GRDNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
-     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA-SZ.HCob10T_avgdia_2012-01-17.nc
+     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_avg_fmumem.nc
      ITLNAME == /dev/null
      IRPNAME == /dev/null
      IADNAME == /dev/null
@@ -869,7 +869,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      CLMNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2013.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc \
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_clim_bio.nc
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_bio_edit.nc
 
     NBCFILES == 2                          ! number of boundary files
      BRYNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2012.nc |
