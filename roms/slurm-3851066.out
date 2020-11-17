@@ -1,0 +1,2590 @@
+
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Tuesday - November 17, 2020 - 12:02:53 PM
+ -----------------------------------------------------------------------------
+
+ Northwest Atlantic 7km Grid
+
+ Operating system : Linux
+ CPU/hardware     : x86_64
+ Compiler system  : ifort
+ Compiler command : /apps2/mpich2/1.5-ics/bin/mpif90
+ Compiler flags   : -heap-arrays -fp-model precise -g -check uninit -ftrapuv -traceback -check bounds -free -free
+
+ Input Script  : 
+
+ SVN Root URL  : https:://myroms.org/svn/src
+ SVN Revision  : exported
+
+ Local Root    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms
+ Header Dir    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/Include
+ Header file   : nwa.h
+ Analytical Dir: /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/ROMS/Functionals
+
+ Resolution, Grid 01: 0720x0360x040,  Parallel Nodes: 128,  Tiling: 008x016
+
+
+ Physical Parameters, Grid: 01
+ =============================
+
+     370000  ntimes            Number of timesteps for 3-D equations.
+    240.000  dt                Timestep size (s) for 3-D equations.
+         30  ndtfast           Number of timesteps for 2-D equations between
+                                 each 3D timestep.
+          1  ERstr             Starting ensemble/perturbation run number.
+          1  ERend             Ending ensemble/perturbation run number.
+          0  nrrec             Number of restart records to read from disk.
+          T  LcycleRST         Switch to recycle time-records in restart file.
+       1800  nRST              Number of timesteps between the writing of data
+                                 into restart fields.
+          1  ninfo             Number of timesteps between print of information
+                                 to standard output.
+          F  ldefout           Switch to create a new output NetCDF file(s).
+        360  nHIS              Number of timesteps between the writing fields
+                                 into history file.
+        360  ndefHIS           Number of timesteps between creation of new
+                                 history files.
+          0  nQCK              Number of timesteps between the writing fields
+                                 into quicksave file.
+          1  ntsAVG            Starting timestep for the accumulation of output
+                                 time-averaged data.
+        360  nAVG              Number of timesteps between the writing of
+                                 time-averaged data into averages file.
+        360  ndefAVG           Number of timesteps between creation of new
+                                 time-averaged file.
+ 5.0000E+00  nl_tnu2(01)       NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for tracer 01: temp
+ 5.0000E+00  nl_tnu2(02)       NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for tracer 02: salt
+ 2.5000E+01  nl_visc2          NLM Horizontal, harmonic mixing coefficient
+                                 (m2/s) for momentum.
+          F  LuvSponge         Turning OFF sponge on horizontal momentum.
+          F  LtracerSponge(01) Turning OFF sponge on tracer 01: temp
+          F  LtracerSponge(02) Turning OFF sponge on tracer 02: salt
+ 1.0000E-06  Akt_bak(01)       Background vertical mixing coefficient (m2/s)
+                                 for tracer 01: temp
+ 1.0000E-06  Akt_bak(02)       Background vertical mixing coefficient (m2/s)
+                                 for tracer 02: salt
+ 1.0000E-05  Akv_bak           Background vertical mixing coefficient (m2/s)
+                                 for momentum.
+ 3.0000E-04  rdrg              Linear bottom drag coefficient (m/s).
+ 3.0000E-03  rdrg2             Quadratic bottom drag coefficient.
+ 2.0000E-02  Zob               Bottom roughness (m).
+ 1.0000E+01  blk_ZQ            Height (m) of surface air humidity measurement.
+ 1.0000E+01  blk_ZT            Height (m) of surface air temperature measurement.
+ 1.0000E+01  blk_ZW            Height (m) of surface winds measurement.
+          1  lmd_Jwt           Jerlov water type.
+          2  Vtransform        S-coordinate transformation equation.
+          4  Vstretching       S-coordinate stretching function.
+ 7.0000E+00  theta_s           S-coordinate surface control parameter.
+ 2.0000E+00  theta_b           S-coordinate bottom  control parameter.
+    250.000  Tcline            S-coordinate surface/bottom layer width (m) used
+                                 in vertical coordinate stretching.
+   1025.000  rho0              Mean density (kg/m3) for Boussinesq approximation.
+  40923.040  dstart            Time-stamp assigned to model initialization (days).
+     -1.000  tide_start        Reference time origin for tidal forcing (days).
+19000101.00  time_ref          Reference time for units attribute (yyyymmdd.dd)
+ 3.6000E+02  Tnudg(01)         Nudging/relaxation time scale (days)
+                                 for tracer 01: temp
+ 3.6000E+02  Tnudg(02)         Nudging/relaxation time scale (days)
+                                 for tracer 02: salt
+ 9.0000E+01  Tnudg_SSS         Nudging/relaxation time scale (days)
+                                 for sea surface salinity.
+ 1.0000E-01  sss_mismatch_thresdifference in SSS that triggers correction
+                                 for sea surface salinity.
+ 3.6000E+02  Znudg             Nudging/relaxation time scale (days)
+                                 for free-surface.
+ 3.6000E+02  M2nudg            Nudging/relaxation time scale (days)
+                                 for 2D momentum.
+ 3.6000E+02  M3nudg            Nudging/relaxation time scale (days)
+                                 for 3D momentum.
+ 1.2000E+02  obcfac            Factor between passive and active
+                                 open boundary conditions.
+          F  VolCons(1)        NLM western  edge boundary volume conservation.
+          F  VolCons(2)        NLM southern edge boundary volume conservation.
+          F  VolCons(3)        NLM eastern  edge boundary volume conservation.
+          F  VolCons(4)        NLM northern edge boundary volume conservation.
+     10.000  T0                Background potential temperature (C) constant.
+     35.000  S0                Background salinity (PSU) constant.
+      1.000  gamma2            Slipperiness variable: free-slip (1.0) or 
+                                                      no-slip (-1.0).
+          F  LuvSrc            Turning OFF momentum point Sources/Sinks.
+          F  LwSrc             Turning OFF volume influx point Sources/Sinks.
+          F  LtracerSrc(01)    Turning OFF point Sources/Sinks on tracer 01: temp
+          F  LtracerSrc(02)    Turning OFF point Sources/Sinks on tracer 02: salt
+          T  LsshCLM           Turning ON  processing of SSH climatology.
+          T  Lm2CLM            Turning ON  processing of 2D momentum climatology.
+          T  Lm3CLM            Turning ON  processing of 3D momentum climatology.
+          T  LtracerCLM(01)    Turning ON  processing of climatology tracer 01: temp
+          T  LtracerCLM(02)    Turning ON  processing of climatology tracer 02: salt
+          T  LnudgeM2CLM       Turning ON  nudging of 2D momentum climatology.
+          T  LnudgeM3CLM       Turning ON  nudging of 3D momentum climatology.
+          T  LnudgeTCLM(01)    Turning ON  nudging of climatology tracer 01: temp
+          T  LnudgeTCLM(02)    Turning ON  nudging of climatology tracer 02: salt
+
+          T  Hout(idFsur)      Write out free-surface.
+          T  Hout(idUbar)      Write out 2D U-momentum component.
+          T  Hout(idVbar)      Write out 2D V-momentum component.
+          T  Hout(idUvel)      Write out 3D U-momentum component.
+          T  Hout(idVvel)      Write out 3D V-momentum component.
+          T  Hout(idWvel)      Write out W-momentum component.
+          T  Hout(idOvel)      Write out omega vertical velocity.
+          T  Hout(idTvar)      Write out tracer 01: temp
+          T  Hout(idTvar)      Write out tracer 02: salt
+          T  Hout(idTsur)      Write out surface net heat flux.
+          T  Hout(idTsur)      Write out surface net salt flux.
+          T  Hout(idSrad)      Write out shortwave radiation flux.
+          T  Hout(idLrad)      Write out longwave radiation flux.
+          T  Hout(idLhea)      Write out latent heat flux.
+          T  Hout(idShea)      Write out sensible heat flux.
+          T  Hout(idEmPf)      Write out E-P flux.
+          T  Hout(idevap)      Write out evaporation rate.
+          T  Hout(idrain)      Write out rain rate.
+          T  Hout(idVvis)      Write out vertical viscosity: AKv.
+          T  Hout(idTdif)      Write out vertical diffusion: AKt(itemp).
+          T  Hout(idHsbl)      Write out depth of surface boundary layer.
+
+          T  Aout(idFsur)      Write out averaged free-surface.
+          T  Aout(idUbar)      Write out averaged 2D U-momentum component.
+          T  Aout(idVbar)      Write out averaged 2D V-momentum component.
+          T  Aout(idUvel)      Write out averaged 3D U-momentum component.
+          T  Aout(idVvel)      Write out averaged 3D V-momentum component.
+          T  Aout(idWvel)      Write out averaged W-momentum component.
+          T  Aout(idOvel)      Write out averaged omega vertical velocity.
+          T  Aout(idTvar)      Write out averaged tracer 01: temp
+          T  Aout(idTvar)      Write out averaged tracer 02: salt
+          T  Aout(idUsms)      Write out averaged surface U-momentum stress.
+          T  Aout(idVsms)      Write out averaged surface V-momentum stress.
+          T  Aout(idRunoff)    Write out averaged surface fresh water input via runoff.
+          T  Aout(idPair)      Write out averaged surface air pressure.
+          T  Aout(idUair)      Write out averaged surface U-wind component.
+          T  Aout(idVair)      Write out averaged surface V-wind component.
+          T  Aout(idTsur)      Write out averaged surface net heat flux.
+          T  Aout(idTsur)      Write out averaged surface net salt flux.
+          T  Aout(idSrad)      Write out averaged shortwave radiation flux.
+          T  Aout(idLrad)      Write out averaged longwave radiation flux.
+          T  Aout(idLhea)      Write out averaged latent heat flux.
+          T  Aout(idShea)      Write out averaged sensible heat flux.
+          T  Aout(idevap)      Write out averaged evaporation rate.
+          T  Aout(idrain)      Write out averaged rain rate.
+          T  Aout(idDano)      Write out averaged density anomaly.
+          T  Aout(idVvis)      Write out averaged vertical viscosity: AKv.
+          T  Aout(idTdif)      Write out averaged vertical diffusion: AKt(itemp).
+          T  Aout(idHsbl)      Write out averaged depth of surface boundary layer.
+
+ Output/Input Files:
+
+             Output Restart File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_rst.nc
+        Prefix for History Files:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_his
+       Prefix for Averages Files:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_avg
+                 Input Grid File:  /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
+    Input Nonlinear Initial File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_avg_fmumem.nc
+           Input Forcing File 01:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_lwrad_down_2009-2014_3hours_corr.nc
+           Input Forcing File 02:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Pair_2009-2014_3hours.nc
+           Input Forcing File 03:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Qair_2009-2014_3hours.nc
+           Input Forcing File 04:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_rain_2009-2014_3hours.nc
+           Input Forcing File 05:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_swrad_2009-2014_3hours_corr.nc
+           Input Forcing File 06:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Tair_2009-2014_3hours.nc
+           Input Forcing File 07:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Uwind_2009-2014_3hours.nc
+           Input Forcing File 08:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/MERRA/MERRA_Vwind_2009-2014_3hours.nc
+           Input Forcing File 09:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/runoff_NWA_daitren_inter_annual_1948-2015.nc
+           Input Forcing File 10:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/sss_monthly_climato_flooded.nc
+           Input Forcing File 11:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_tides_otps.nc
+           Input Forcing File 12:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/composite_CO2_MLO+GLO.nc
+           Input Forcing File 13:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/Soluble_Fe_Flux_PI_ROMS.nc
+           Input Forcing File 14:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/iron_sediment_NWA.nc
+           Input Forcing File 15:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/Mineral_Fe_Flux_PI_ROMS.nc
+           Input Forcing File 16:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 17:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 18:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 19:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 20:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 21:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 22:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 23:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc
+           Input Forcing File 24:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NEWS/NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc
+          Input Climatology File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2012.nc
+                                   /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2013.nc
+                                   /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc
+          Input Climatology File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_clim_bio.nc
+   Input Nudge Coefficients File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_nudging_coef.nc
+         Input Boundary File 01:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2012.nc
+                                   /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2013.nc
+                                   /gpfs/scratchfs1/kmm18005-lab/myromsdir//input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc
+         Input Boundary File 02:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_bdry_bio.nc
+         Biology Parameters File:  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_Cobalt.in.full
+
+ Tile partition information for Grid 01:  0720x0360x0040  tiling: 008x016
+
+     tile     Istr     Iend     Jstr     Jend     Npts
+
+ Number of tracers:           26
+        0        1       90        1       19    68400
+        1       91      180        1       19    68400
+        2      181      270        1       19    68400
+        3      271      360        1       19    68400
+        4      361      450        1       19    68400
+        5      451      540        1       19    68400
+        6      541      630        1       19    68400
+        7      631      720        1       19    68400
+        8        1       90       20       42    82800
+        9       91      180       20       42    82800
+       10      181      270       20       42    82800
+       11      271      360       20       42    82800
+       12      361      450       20       42    82800
+       13      451      540       20       42    82800
+       14      541      630       20       42    82800
+       15      631      720       20       42    82800
+       16        1       90       43       65    82800
+       17       91      180       43       65    82800
+       18      181      270       43       65    82800
+       19      271      360       43       65    82800
+       20      361      450       43       65    82800
+       21      451      540       43       65    82800
+       22      541      630       43       65    82800
+       23      631      720       43       65    82800
+       24        1       90       66       88    82800
+       25       91      180       66       88    82800
+       26      181      270       66       88    82800
+       27      271      360       66       88    82800
+       28      361      450       66       88    82800
+       29      451      540       66       88    82800
+       30      541      630       66       88    82800
+       31      631      720       66       88    82800
+       32        1       90       89      111    82800
+       33       91      180       89      111    82800
+       34      181      270       89      111    82800
+       35      271      360       89      111    82800
+       36      361      450       89      111    82800
+       37      451      540       89      111    82800
+       38      541      630       89      111    82800
+       39      631      720       89      111    82800
+       40        1       90      112      134    82800
+       41       91      180      112      134    82800
+       42      181      270      112      134    82800
+       43      271      360      112      134    82800
+       44      361      450      112      134    82800
+       45      451      540      112      134    82800
+       46      541      630      112      134    82800
+       47      631      720      112      134    82800
+       48        1       90      135      157    82800
+       49       91      180      135      157    82800
+       50      181      270      135      157    82800
+       51      271      360      135      157    82800
+       52      361      450      135      157    82800
+       53      451      540      135      157    82800
+       54      541      630      135      157    82800
+       55      631      720      135      157    82800
+       56        1       90      158      180    82800
+       57       91      180      158      180    82800
+       58      181      270      158      180    82800
+       59      271      360      158      180    82800
+       60      361      450      158      180    82800
+       61      451      540      158      180    82800
+       62      541      630      158      180    82800
+       63      631      720      158      180    82800
+       64        1       90      181      203    82800
+       65       91      180      181      203    82800
+       66      181      270      181      203    82800
+       67      271      360      181      203    82800
+       68      361      450      181      203    82800
+       69      451      540      181      203    82800
+       70      541      630      181      203    82800
+       71      631      720      181      203    82800
+       72        1       90      204      226    82800
+       73       91      180      204      226    82800
+       74      181      270      204      226    82800
+       75      271      360      204      226    82800
+       76      361      450      204      226    82800
+       77      451      540      204      226    82800
+       78      541      630      204      226    82800
+       79      631      720      204      226    82800
+       80        1       90      227      249    82800
+       81       91      180      227      249    82800
+       82      181      270      227      249    82800
+       83      271      360      227      249    82800
+       84      361      450      227      249    82800
+       85      451      540      227      249    82800
+       86      541      630      227      249    82800
+       87      631      720      227      249    82800
+       88        1       90      250      272    82800
+       89       91      180      250      272    82800
+       90      181      270      250      272    82800
+       91      271      360      250      272    82800
+       92      361      450      250      272    82800
+       93      451      540      250      272    82800
+       94      541      630      250      272    82800
+       95      631      720      250      272    82800
+       96        1       90      273      295    82800
+       97       91      180      273      295    82800
+       98      181      270      273      295    82800
+       99      271      360      273      295    82800
+      100      361      450      273      295    82800
+      101      451      540      273      295    82800
+      102      541      630      273      295    82800
+      103      631      720      273      295    82800
+      104        1       90      296      318    82800
+      105       91      180      296      318    82800
+      106      181      270      296      318    82800
+      107      271      360      296      318    82800
+      108      361      450      296      318    82800
+      109      451      540      296      318    82800
+      110      541      630      296      318    82800
+      111      631      720      296      318    82800
+      112        1       90      319      341    82800
+      113       91      180      319      341    82800
+      114      181      270      319      341    82800
+      115      271      360      319      341    82800
+      116      361      450      319      341    82800
+      117      451      540      319      341    82800
+      118      541      630      319      341    82800
+      119      631      720      319      341    82800
+      120        1       90      342      360    68400
+      121       91      180      342      360    68400
+      122      181      270      342      360    68400
+      123      271      360      342      360    68400
+      124      361      450      342      360    68400
+      125      451      540      342      360    68400
+      126      541      630      342      360    68400
+      127      631      720      342      360    68400
+
+ Tile minimum and maximum fractional coordinates for Grid 01:
+   (interior points only)
+
+     tile     Xmin     Xmax     Ymin     Ymax     grid
+
+        0     0.50    90.50     0.50    19.50  RHO-points
+        1    90.50   180.50     0.50    19.50  RHO-points
+        2   180.50   270.50     0.50    19.50  RHO-points
+        3   270.50   360.50     0.50    19.50  RHO-points
+        4   360.50   450.50     0.50    19.50  RHO-points
+        5   450.50   540.50     0.50    19.50  RHO-points
+        6   540.50   630.50     0.50    19.50  RHO-points
+        7   630.50   720.50     0.50    19.50  RHO-points
+        8     0.50    90.50    19.50    42.50  RHO-points
+        9    90.50   180.50    19.50    42.50  RHO-points
+       10   180.50   270.50    19.50    42.50  RHO-points
+       11   270.50   360.50    19.50    42.50  RHO-points
+       12   360.50   450.50    19.50    42.50  RHO-points
+       13   450.50   540.50    19.50    42.50  RHO-points
+       14   540.50   630.50    19.50    42.50  RHO-points
+       15   630.50   720.50    19.50    42.50  RHO-points
+       16     0.50    90.50    42.50    65.50  RHO-points
+       17    90.50   180.50    42.50    65.50  RHO-points
+       18   180.50   270.50    42.50    65.50  RHO-points
+       19   270.50   360.50    42.50    65.50  RHO-points
+       20   360.50   450.50    42.50    65.50  RHO-points
+       21   450.50   540.50    42.50    65.50  RHO-points
+       22   540.50   630.50    42.50    65.50  RHO-points
+       23   630.50   720.50    42.50    65.50  RHO-points
+       24     0.50    90.50    65.50    88.50  RHO-points
+       25    90.50   180.50    65.50    88.50  RHO-points
+       26   180.50   270.50    65.50    88.50  RHO-points
+       27   270.50   360.50    65.50    88.50  RHO-points
+       28   360.50   450.50    65.50    88.50  RHO-points
+       29   450.50   540.50    65.50    88.50  RHO-points
+       30   540.50   630.50    65.50    88.50  RHO-points
+       31   630.50   720.50    65.50    88.50  RHO-points
+       32     0.50    90.50    88.50   111.50  RHO-points
+       33    90.50   180.50    88.50   111.50  RHO-points
+       34   180.50   270.50    88.50   111.50  RHO-points
+       35   270.50   360.50    88.50   111.50  RHO-points
+       36   360.50   450.50    88.50   111.50  RHO-points
+       37   450.50   540.50    88.50   111.50  RHO-points
+       38   540.50   630.50    88.50   111.50  RHO-points
+       39   630.50   720.50    88.50   111.50  RHO-points
+       40     0.50    90.50   111.50   134.50  RHO-points
+       41    90.50   180.50   111.50   134.50  RHO-points
+       42   180.50   270.50   111.50   134.50  RHO-points
+       43   270.50   360.50   111.50   134.50  RHO-points
+       44   360.50   450.50   111.50   134.50  RHO-points
+       45   450.50   540.50   111.50   134.50  RHO-points
+       46   540.50   630.50   111.50   134.50  RHO-points
+       47   630.50   720.50   111.50   134.50  RHO-points
+       48     0.50    90.50   134.50   157.50  RHO-points
+       49    90.50   180.50   134.50   157.50  RHO-points
+       50   180.50   270.50   134.50   157.50  RHO-points
+       51   270.50   360.50   134.50   157.50  RHO-points
+       52   360.50   450.50   134.50   157.50  RHO-points
+       53   450.50   540.50   134.50   157.50  RHO-points
+       54   540.50   630.50   134.50   157.50  RHO-points
+       55   630.50   720.50   134.50   157.50  RHO-points
+       56     0.50    90.50   157.50   180.50  RHO-points
+       57    90.50   180.50   157.50   180.50  RHO-points
+       58   180.50   270.50   157.50   180.50  RHO-points
+       59   270.50   360.50   157.50   180.50  RHO-points
+       60   360.50   450.50   157.50   180.50  RHO-points
+       61   450.50   540.50   157.50   180.50  RHO-points
+       62   540.50   630.50   157.50   180.50  RHO-points
+       63   630.50   720.50   157.50   180.50  RHO-points
+       64     0.50    90.50   180.50   203.50  RHO-points
+       65    90.50   180.50   180.50   203.50  RHO-points
+       66   180.50   270.50   180.50   203.50  RHO-points
+       67   270.50   360.50   180.50   203.50  RHO-points
+       68   360.50   450.50   180.50   203.50  RHO-points
+       69   450.50   540.50   180.50   203.50  RHO-points
+       70   540.50   630.50   180.50   203.50  RHO-points
+       71   630.50   720.50   180.50   203.50  RHO-points
+       72     0.50    90.50   203.50   226.50  RHO-points
+       73    90.50   180.50   203.50   226.50  RHO-points
+       74   180.50   270.50   203.50   226.50  RHO-points
+       75   270.50   360.50   203.50   226.50  RHO-points
+       76   360.50   450.50   203.50   226.50  RHO-points
+       77   450.50   540.50   203.50   226.50  RHO-points
+       78   540.50   630.50   203.50   226.50  RHO-points
+       79   630.50   720.50   203.50   226.50  RHO-points
+       80     0.50    90.50   226.50   249.50  RHO-points
+       81    90.50   180.50   226.50   249.50  RHO-points
+       82   180.50   270.50   226.50   249.50  RHO-points
+       83   270.50   360.50   226.50   249.50  RHO-points
+       84   360.50   450.50   226.50   249.50  RHO-points
+       85   450.50   540.50   226.50   249.50  RHO-points
+       86   540.50   630.50   226.50   249.50  RHO-points
+       87   630.50   720.50   226.50   249.50  RHO-points
+       88     0.50    90.50   249.50   272.50  RHO-points
+       89    90.50   180.50   249.50   272.50  RHO-points
+       90   180.50   270.50   249.50   272.50  RHO-points
+       91   270.50   360.50   249.50   272.50  RHO-points
+       92   360.50   450.50   249.50   272.50  RHO-points
+       93   450.50   540.50   249.50   272.50  RHO-points
+       94   540.50   630.50   249.50   272.50  RHO-points
+       95   630.50   720.50   249.50   272.50  RHO-points
+       96     0.50    90.50   272.50   295.50  RHO-points
+       97    90.50   180.50   272.50   295.50  RHO-points
+       98   180.50   270.50   272.50   295.50  RHO-points
+       99   270.50   360.50   272.50   295.50  RHO-points
+      100   360.50   450.50   272.50   295.50  RHO-points
+      101   450.50   540.50   272.50   295.50  RHO-points
+      102   540.50   630.50   272.50   295.50  RHO-points
+      103   630.50   720.50   272.50   295.50  RHO-points
+      104     0.50    90.50   295.50   318.50  RHO-points
+      105    90.50   180.50   295.50   318.50  RHO-points
+      106   180.50   270.50   295.50   318.50  RHO-points
+      107   270.50   360.50   295.50   318.50  RHO-points
+      108   360.50   450.50   295.50   318.50  RHO-points
+      109   450.50   540.50   295.50   318.50  RHO-points
+      110   540.50   630.50   295.50   318.50  RHO-points
+      111   630.50   720.50   295.50   318.50  RHO-points
+      112     0.50    90.50   318.50   341.50  RHO-points
+      113    90.50   180.50   318.50   341.50  RHO-points
+      114   180.50   270.50   318.50   341.50  RHO-points
+      115   270.50   360.50   318.50   341.50  RHO-points
+      116   360.50   450.50   318.50   341.50  RHO-points
+      117   450.50   540.50   318.50   341.50  RHO-points
+      118   540.50   630.50   318.50   341.50  RHO-points
+      119   630.50   720.50   318.50   341.50  RHO-points
+      120     0.50    90.50   341.50   360.50  RHO-points
+      121    90.50   180.50   341.50   360.50  RHO-points
+      122   180.50   270.50   341.50   360.50  RHO-points
+      123   270.50   360.50   341.50   360.50  RHO-points
+      124   360.50   450.50   341.50   360.50  RHO-points
+      125   450.50   540.50   341.50   360.50  RHO-points
+      126   540.50   630.50   341.50   360.50  RHO-points
+      127   630.50   720.50   341.50   360.50  RHO-points
+
+        0     1.00    90.50     0.50    19.50    U-points
+        1    90.50   180.50     0.50    19.50    U-points
+        2   180.50   270.50     0.50    19.50    U-points
+        3   270.50   360.50     0.50    19.50    U-points
+        4   360.50   450.50     0.50    19.50    U-points
+        5   450.50   540.50     0.50    19.50    U-points
+        6   540.50   630.50     0.50    19.50    U-points
+        7   630.50   720.00     0.50    19.50    U-points
+        8     1.00    90.50    19.50    42.50    U-points
+        9    90.50   180.50    19.50    42.50    U-points
+       10   180.50   270.50    19.50    42.50    U-points
+       11   270.50   360.50    19.50    42.50    U-points
+       12   360.50   450.50    19.50    42.50    U-points
+       13   450.50   540.50    19.50    42.50    U-points
+       14   540.50   630.50    19.50    42.50    U-points
+       15   630.50   720.00    19.50    42.50    U-points
+       16     1.00    90.50    42.50    65.50    U-points
+       17    90.50   180.50    42.50    65.50    U-points
+       18   180.50   270.50    42.50    65.50    U-points
+       19   270.50   360.50    42.50    65.50    U-points
+       20   360.50   450.50    42.50    65.50    U-points
+       21   450.50   540.50    42.50    65.50    U-points
+       22   540.50   630.50    42.50    65.50    U-points
+       23   630.50   720.00    42.50    65.50    U-points
+       24     1.00    90.50    65.50    88.50    U-points
+       25    90.50   180.50    65.50    88.50    U-points
+       26   180.50   270.50    65.50    88.50    U-points
+       27   270.50   360.50    65.50    88.50    U-points
+       28   360.50   450.50    65.50    88.50    U-points
+       29   450.50   540.50    65.50    88.50    U-points
+       30   540.50   630.50    65.50    88.50    U-points
+       31   630.50   720.00    65.50    88.50    U-points
+       32     1.00    90.50    88.50   111.50    U-points
+       33    90.50   180.50    88.50   111.50    U-points
+       34   180.50   270.50    88.50   111.50    U-points
+       35   270.50   360.50    88.50   111.50    U-points
+       36   360.50   450.50    88.50   111.50    U-points
+       37   450.50   540.50    88.50   111.50    U-points
+       38   540.50   630.50    88.50   111.50    U-points
+       39   630.50   720.00    88.50   111.50    U-points
+       40     1.00    90.50   111.50   134.50    U-points
+       41    90.50   180.50   111.50   134.50    U-points
+       42   180.50   270.50   111.50   134.50    U-points
+       43   270.50   360.50   111.50   134.50    U-points
+       44   360.50   450.50   111.50   134.50    U-points
+       45   450.50   540.50   111.50   134.50    U-points
+       46   540.50   630.50   111.50   134.50    U-points
+       47   630.50   720.00   111.50   134.50    U-points
+       48     1.00    90.50   134.50   157.50    U-points
+       49    90.50   180.50   134.50   157.50    U-points
+       50   180.50   270.50   134.50   157.50    U-points
+       51   270.50   360.50   134.50   157.50    U-points
+       52   360.50   450.50   134.50   157.50    U-points
+       53   450.50   540.50   134.50   157.50    U-points
+       54   540.50   630.50   134.50   157.50    U-points
+       55   630.50   720.00   134.50   157.50    U-points
+       56     1.00    90.50   157.50   180.50    U-points
+       57    90.50   180.50   157.50   180.50    U-points
+       58   180.50   270.50   157.50   180.50    U-points
+       59   270.50   360.50   157.50   180.50    U-points
+       60   360.50   450.50   157.50   180.50    U-points
+       61   450.50   540.50   157.50   180.50    U-points
+       62   540.50   630.50   157.50   180.50    U-points
+       63   630.50   720.00   157.50   180.50    U-points
+       64     1.00    90.50   180.50   203.50    U-points
+       65    90.50   180.50   180.50   203.50    U-points
+       66   180.50   270.50   180.50   203.50    U-points
+       67   270.50   360.50   180.50   203.50    U-points
+       68   360.50   450.50   180.50   203.50    U-points
+       69   450.50   540.50   180.50   203.50    U-points
+       70   540.50   630.50   180.50   203.50    U-points
+       71   630.50   720.00   180.50   203.50    U-points
+       72     1.00    90.50   203.50   226.50    U-points
+       73    90.50   180.50   203.50   226.50    U-points
+       74   180.50   270.50   203.50   226.50    U-points
+       75   270.50   360.50   203.50   226.50    U-points
+       76   360.50   450.50   203.50   226.50    U-points
+       77   450.50   540.50   203.50   226.50    U-points
+       78   540.50   630.50   203.50   226.50    U-points
+       79   630.50   720.00   203.50   226.50    U-points
+       80     1.00    90.50   226.50   249.50    U-points
+       81    90.50   180.50   226.50   249.50    U-points
+       82   180.50   270.50   226.50   249.50    U-points
+       83   270.50   360.50   226.50   249.50    U-points
+       84   360.50   450.50   226.50   249.50    U-points
+       85   450.50   540.50   226.50   249.50    U-points
+       86   540.50   630.50   226.50   249.50    U-points
+       87   630.50   720.00   226.50   249.50    U-points
+       88     1.00    90.50   249.50   272.50    U-points
+       89    90.50   180.50   249.50   272.50    U-points
+       90   180.50   270.50   249.50   272.50    U-points
+       91   270.50   360.50   249.50   272.50    U-points
+       92   360.50   450.50   249.50   272.50    U-points
+       93   450.50   540.50   249.50   272.50    U-points
+       94   540.50   630.50   249.50   272.50    U-points
+       95   630.50   720.00   249.50   272.50    U-points
+       96     1.00    90.50   272.50   295.50    U-points
+       97    90.50   180.50   272.50   295.50    U-points
+       98   180.50   270.50   272.50   295.50    U-points
+       99   270.50   360.50   272.50   295.50    U-points
+      100   360.50   450.50   272.50   295.50    U-points
+      101   450.50   540.50   272.50   295.50    U-points
+      102   540.50   630.50   272.50   295.50    U-points
+      103   630.50   720.00   272.50   295.50    U-points
+      104     1.00    90.50   295.50   318.50    U-points
+      105    90.50   180.50   295.50   318.50    U-points
+      106   180.50   270.50   295.50   318.50    U-points
+      107   270.50   360.50   295.50   318.50    U-points
+      108   360.50   450.50   295.50   318.50    U-points
+      109   450.50   540.50   295.50   318.50    U-points
+      110   540.50   630.50   295.50   318.50    U-points
+      111   630.50   720.00   295.50   318.50    U-points
+      112     1.00    90.50   318.50   341.50    U-points
+      113    90.50   180.50   318.50   341.50    U-points
+      114   180.50   270.50   318.50   341.50    U-points
+      115   270.50   360.50   318.50   341.50    U-points
+      116   360.50   450.50   318.50   341.50    U-points
+      117   450.50   540.50   318.50   341.50    U-points
+      118   540.50   630.50   318.50   341.50    U-points
+      119   630.50   720.00   318.50   341.50    U-points
+      120     1.00    90.50   341.50   360.50    U-points
+      121    90.50   180.50   341.50   360.50    U-points
+      122   180.50   270.50   341.50   360.50    U-points
+      123   270.50   360.50   341.50   360.50    U-points
+      124   360.50   450.50   341.50   360.50    U-points
+      125   450.50   540.50   341.50   360.50    U-points
+      126   540.50   630.50   341.50   360.50    U-points
+      127   630.50   720.00   341.50   360.50    U-points
+
+        0     0.50    90.50     1.00    19.50    V-points
+        1    90.50   180.50     1.00    19.50    V-points
+        2   180.50   270.50     1.00    19.50    V-points
+        3   270.50   360.50     1.00    19.50    V-points
+        4   360.50   450.50     1.00    19.50    V-points
+        5   450.50   540.50     1.00    19.50    V-points
+        6   540.50   630.50     1.00    19.50    V-points
+        7   630.50   720.50     1.00    19.50    V-points
+        8     0.50    90.50    19.50    42.50    V-points
+        9    90.50   180.50    19.50    42.50    V-points
+       10   180.50   270.50    19.50    42.50    V-points
+       11   270.50   360.50    19.50    42.50    V-points
+       12   360.50   450.50    19.50    42.50    V-points
+       13   450.50   540.50    19.50    42.50    V-points
+       14   540.50   630.50    19.50    42.50    V-points
+       15   630.50   720.50    19.50    42.50    V-points
+       16     0.50    90.50    42.50    65.50    V-points
+       17    90.50   180.50    42.50    65.50    V-points
+       18   180.50   270.50    42.50    65.50    V-points
+       19   270.50   360.50    42.50    65.50    V-points
+       20   360.50   450.50    42.50    65.50    V-points
+       21   450.50   540.50    42.50    65.50    V-points
+       22   540.50   630.50    42.50    65.50    V-points
+       23   630.50   720.50    42.50    65.50    V-points
+       24     0.50    90.50    65.50    88.50    V-points
+       25    90.50   180.50    65.50    88.50    V-points
+       26   180.50   270.50    65.50    88.50    V-points
+       27   270.50   360.50    65.50    88.50    V-points
+       28   360.50   450.50    65.50    88.50    V-points
+       29   450.50   540.50    65.50    88.50    V-points
+       30   540.50   630.50    65.50    88.50    V-points
+       31   630.50   720.50    65.50    88.50    V-points
+       32     0.50    90.50    88.50   111.50    V-points
+       33    90.50   180.50    88.50   111.50    V-points
+       34   180.50   270.50    88.50   111.50    V-points
+       35   270.50   360.50    88.50   111.50    V-points
+       36   360.50   450.50    88.50   111.50    V-points
+       37   450.50   540.50    88.50   111.50    V-points
+       38   540.50   630.50    88.50   111.50    V-points
+       39   630.50   720.50    88.50   111.50    V-points
+       40     0.50    90.50   111.50   134.50    V-points
+       41    90.50   180.50   111.50   134.50    V-points
+       42   180.50   270.50   111.50   134.50    V-points
+       43   270.50   360.50   111.50   134.50    V-points
+       44   360.50   450.50   111.50   134.50    V-points
+       45   450.50   540.50   111.50   134.50    V-points
+       46   540.50   630.50   111.50   134.50    V-points
+       47   630.50   720.50   111.50   134.50    V-points
+       48     0.50    90.50   134.50   157.50    V-points
+       49    90.50   180.50   134.50   157.50    V-points
+       50   180.50   270.50   134.50   157.50    V-points
+       51   270.50   360.50   134.50   157.50    V-points
+       52   360.50   450.50   134.50   157.50    V-points
+       53   450.50   540.50   134.50   157.50    V-points
+       54   540.50   630.50   134.50   157.50    V-points
+       55   630.50   720.50   134.50   157.50    V-points
+       56     0.50    90.50   157.50   180.50    V-points
+       57    90.50   180.50   157.50   180.50    V-points
+       58   180.50   270.50   157.50   180.50    V-points
+       59   270.50   360.50   157.50   180.50    V-points
+       60   360.50   450.50   157.50   180.50    V-points
+       61   450.50   540.50   157.50   180.50    V-points
+       62   540.50   630.50   157.50   180.50    V-points
+       63   630.50   720.50   157.50   180.50    V-points
+       64     0.50    90.50   180.50   203.50    V-points
+       65    90.50   180.50   180.50   203.50    V-points
+       66   180.50   270.50   180.50   203.50    V-points
+       67   270.50   360.50   180.50   203.50    V-points
+       68   360.50   450.50   180.50   203.50    V-points
+       69   450.50   540.50   180.50   203.50    V-points
+       70   540.50   630.50   180.50   203.50    V-points
+       71   630.50   720.50   180.50   203.50    V-points
+       72     0.50    90.50   203.50   226.50    V-points
+       73    90.50   180.50   203.50   226.50    V-points
+       74   180.50   270.50   203.50   226.50    V-points
+       75   270.50   360.50   203.50   226.50    V-points
+       76   360.50   450.50   203.50   226.50    V-points
+       77   450.50   540.50   203.50   226.50    V-points
+       78   540.50   630.50   203.50   226.50    V-points
+       79   630.50   720.50   203.50   226.50    V-points
+       80     0.50    90.50   226.50   249.50    V-points
+       81    90.50   180.50   226.50   249.50    V-points
+       82   180.50   270.50   226.50   249.50    V-points
+       83   270.50   360.50   226.50   249.50    V-points
+       84   360.50   450.50   226.50   249.50    V-points
+       85   450.50   540.50   226.50   249.50    V-points
+       86   540.50   630.50   226.50   249.50    V-points
+       87   630.50   720.50   226.50   249.50    V-points
+       88     0.50    90.50   249.50   272.50    V-points
+       89    90.50   180.50   249.50   272.50    V-points
+       90   180.50   270.50   249.50   272.50    V-points
+       91   270.50   360.50   249.50   272.50    V-points
+       92   360.50   450.50   249.50   272.50    V-points
+       93   450.50   540.50   249.50   272.50    V-points
+       94   540.50   630.50   249.50   272.50    V-points
+       95   630.50   720.50   249.50   272.50    V-points
+       96     0.50    90.50   272.50   295.50    V-points
+       97    90.50   180.50   272.50   295.50    V-points
+       98   180.50   270.50   272.50   295.50    V-points
+       99   270.50   360.50   272.50   295.50    V-points
+      100   360.50   450.50   272.50   295.50    V-points
+      101   450.50   540.50   272.50   295.50    V-points
+      102   540.50   630.50   272.50   295.50    V-points
+      103   630.50   720.50   272.50   295.50    V-points
+      104     0.50    90.50   295.50   318.50    V-points
+      105    90.50   180.50   295.50   318.50    V-points
+      106   180.50   270.50   295.50   318.50    V-points
+      107   270.50   360.50   295.50   318.50    V-points
+      108   360.50   450.50   295.50   318.50    V-points
+      109   450.50   540.50   295.50   318.50    V-points
+      110   540.50   630.50   295.50   318.50    V-points
+      111   630.50   720.50   295.50   318.50    V-points
+      112     0.50    90.50   318.50   341.50    V-points
+      113    90.50   180.50   318.50   341.50    V-points
+      114   180.50   270.50   318.50   341.50    V-points
+      115   270.50   360.50   318.50   341.50    V-points
+      116   360.50   450.50   318.50   341.50    V-points
+      117   450.50   540.50   318.50   341.50    V-points
+      118   540.50   630.50   318.50   341.50    V-points
+      119   630.50   720.50   318.50   341.50    V-points
+      120     0.50    90.50   341.50   360.00    V-points
+      121    90.50   180.50   341.50   360.00    V-points
+      122   180.50   270.50   341.50   360.00    V-points
+      123   270.50   360.50   341.50   360.00    V-points
+      124   360.50   450.50   341.50   360.00    V-points
+      125   450.50   540.50   341.50   360.00    V-points
+      126   540.50   630.50   341.50   360.00    V-points
+      127   630.50   720.50   341.50   360.00    V-points
+
+ Maximum halo size in XI and ETA directions:
+
+               HaloSizeI(1) =     204
+               HaloSizeJ(1) =      70
+                TileSide(1) =      96
+                TileSize(1) =    2784
+
+
+
+ GFDL Cobalt Model Parameters, Grid: 01
+ =================================
+
+          1  BioIter         Number of iterations for nonlinear convergence.
+ 1.0000E-02  htotal_scale_lo htotal_scale_lo ?[N/A].
+ 1.0000E+02  htotal_scale_hi htotal_scale_hi ?[N/A].
+ 1.0350E+03  RHO_0           sea water density[N/A].
+ 2.0091E+00  a_0             a_0 : coefficients for O2 saturation[N/A].
+ 3.2201E+00  a_1             a_1 : coefficients for O2 saturation[N/A].
+ 4.0501E+00  a_2             a_2 : coefficients for O2 saturation[N/A].
+ 4.9446E+00  a_3             a_3 : coefficients for O2 saturation[N/A].
+-2.5685E-01  a_4             a_4 : coefficients for O2 saturation[N/A].
+ 3.8877E+00  a_5             a_5 : coefficients for O2 saturation[N/A].
+-6.2452E-03  b_0             b_0 : coefficients for O2 saturation[N/A].
+-7.3761E-03  b_1             b_1 : coefficients for O2 saturation[N/A].
+-1.0341E-02  b_2             b_2 : coefficients for O2 saturation[N/A].
+-8.1708E-03  b_3             b_3 : coefficients for O2 saturation[N/A].
+-4.8868E-07  c_0             c_0 : coefficients for O2 saturation[N/A].
+ 2.0689E+03  a1_co2          a1_co2 : Compute the Schmidt number of CO2 in                    seawater[N/A].
+-1.1863E+02  a2_co2          a2_co2 : Compute the Schmidt number of CO2 in                    seawater[N/A].
+ 2.9311E+00  a3_co2          a3_co2 : Compute the Schmidt number of CO2 in                    seawater[N/A].
+-2.7000E-02  a4_co2          a4_co2 : Compute the Schmidt number of CO2 in                    seawater[N/A].
+ 1.9297E+03  a1_o2           a1_o2 : Compute the Schmidt number of O2 in                      seawater[N/A].
+-1.1746E+02  a2_o2           a2_o2 : Compute the Schmidt number of O2 in                      seawater[N/A].
+ 3.1160E+00  a3_o2           a3_o2 : Compute the Schmidt number of O2 in                      seawater[N/A].
+-3.0600E-02  a4_o2           a4_o2 : Compute the Schmidt number of O2 in                      seawater[N/A].
+ 1.4866E+02  mass_2_n        mass_2_n: Stoichiometry[g mol N-1].
+ 5.9000E+00  n_2_n_denit     n_2_n_denit: Stoichiometry[mol N NO3 mol N org-1].
+ 1.4150E+00  o2_2_c          o2_2_c: Stoichiometry[mol O2 mol C-1].
+ 1.1838E+02  o2_2_nfix       o2_2_nfix: Stoichiometry[mol O2 mol N-1].
+ 7.3750E+00  o2_2_nh4        o2_2_nh4: Stoichiometry[mol O2 mol N-1].
+ 2.0000E+00  o2_2_nitrif     o2_2_nitrif: Stoichiometry[mol O2 mol N-1].
+ 9.3750E+00  o2_2_no3        o2_2_no3: Stoichiometry[mol O2 mol N-1].
+ 5.0000E-10  k_fed_Di        k_fed_Di: Nutrient Limitation Parameters                         (phytoplankton)[mol Fed kg-1].
+ 5.0000E-10  k_fed_Lg        k_fed_Lg: Nutrient Limitation Parameters                         (phytoplankton)[mol Fed kg-1].
+ 1.0000E-10  k_fed_Sm        k_fed_Sm: Nutrient Limitation Parameters                         (phytoplankton)[mol Fed kg-1].
+ 5.0000E-07  k_nh4_Lg        k_nh4_Lg: Nutrient Limitation Parameters                         (phytoplankton)[mol NH4 kg-1].
+ 1.0000E-07  k_nh4_Sm        k_nh4_Sm: Nutrient Limitation Parameters                         (phytoplankton)[mol NH4 kg-1].
+ 5.0000E-07  k_nh4_Di        k_nh4_Di: Nutrient Limitation Parameters                         (phytoplankton)[mol NH4 kg-1].
+ 2.5000E-06  k_no3_Lg        k_no3_Lg: Nutrient Limitation Parameters                         (phytoplankton)[mol NO3 kg-1].
+ 5.0000E-07  k_no3_Sm        k_no3_Sm: Nutrient Limitation Parameters                         (phytoplankton) [mol NO3 kg-1].
+ 2.5000E-06  k_no3_Di        k_no3_Di: Nutrient Limitation Parameters                         (phytoplankton) [mol NO3 kg-1].
+ 5.0000E-08  k_po4_Di        k_po4_Di: Nutrient Limitation Parameters                         (phytoplankton) [mol PO4 kg-1].
+ 5.0000E-08  k_po4_Lg        k_po4_Lg: Nutrient Limitation Parameters                         (phytoplankton) [mol PO4 kg-1].
+ 1.0000E-08  k_po4_Sm        k_po4_Sm: Nutrient Limitation Parameters                         (phytoplankton) [mol PO4 kg-1].
+ 2.0000E-06  k_sio4_Lg       k_sio4_Lg: Nutrient Limitation Parameters                        (phytoplankton) [mol SiO4 kg-1].
+ 1.6563E-04  k_fe_2_n_Di     k_fe_2_n_Di: Nutrient Limitation Parameters                      (phytoplankton) [mol Fe mol N-1].
+ 3.9750E-05  k_fe_2_n_Lg     k_fe_2_n_Lg: Nutrient Limitation Parameters (phytoplankton) [mol Fe mol N-1].
+ 1.9875E-05  k_fe_2_n_Sm     k_fe_2_n_Sm: Nutrient Limitation Parameters (phytoplankton) [mol Fe mol N-1].
+ 3.3125E-04  fe_2_n_max_Sm   fe_2_n_max_Sm: Nutrient Limitation Parameters (phytoplankton)[mol Fe mol N-1].
+ 3.3125E-03  fe_2_n_max_Lg   fe_2_n_max_Lg: Nutrient Limitation Parameters (phytoplankton)[mol Fe mol N-1].
+ 3.3125E-03  fe_2_n_max_Di   fe_2_n_max_Di: Nutrient Limitation Parameters (phytoplankton)[mol Fe mol N-1].
+ 1.5000E-05  fe_2_n_upt_fac  fe_2_n_upt_fac: Nutrient Limitation Parameters (phytoplankton)[mol Fe mol N-1].
+ 4.6000E-05  alpha_Di        alpha_Di: Phytoplankton light limitation/growth rate[g C g Chl-1 m2 W-1 s-1].
+ 4.6000E-05  alpha_Lg        alpha_Lg: Phytoplankton light limitation/growth rate[g C g Chl-1 m2 W-1 s-1].
+ 9.2000E-05  alpha_Sm        alpha_Sm: Phytoplankton light limitation/growth rate[g C g Chl-1 m2 W-1 s-1].
+ 6.3000E-02  kappa_eppley    kappa_eppley: Phytoplankton light limitation/growth rate[deg C-1].
+ 0.0000E+00  P_C_max_Di      P_C_max_Di: Phytoplankton light limitation/growth rate[s-1].
+ 1.3021E-05  P_C_max_Lg      P_C_max_Lg: Phytoplankton light limitation/growth rate[s-1].
+ 1.3020E-05  P_C_max_Sm      P_C_max_Sm: Phytoplankton light limitation/growth rate[s-1].
+ 3.0000E-02  thetamax_Di     thetamax_Di: Phytoplankton light limitation/growth rate[g Chl g C-1].
+ 5.0000E-02  thetamax_Lg     thetamax_Lg: Phytoplankton light limitation/growth rate[g Chl g C-1].
+ 3.0000E-02  thetamax_Sm     thetamax_Sm: Phytoplankton light limitation/growth rate[g Chl g C-1].
+ 2.8940E-07  bresp_Di        bresp_Di: Phytoplankton light limitation/growth rate[sec-1].
+ 2.8935E-07  bresp_Lg        bresp_Lg: Phytoplankton light limitation/growth rate[sec-1].
+ 2.6040E-07  bresp_Sm        bresp_Sm: Phytoplankton light limitation/growth rate[sec-1].
+ 2.0000E-03  thetamin        thetamin: Phytoplankton light limitation/growth rate[g Chl g C-1].
+ 0.0000E+00  thetamin_nolim  thetamin_nolim: Phytoplankton light limitation/growth rate[g Chl g C-1].
+ 5.0000E-02  zpllgr          zpllgr: Phytoplankton light limitation/growth rate[dimensionless].
+ 1.1574E-05  gamma_irr_mem   gamma_irr_mem: Phytoplankton light limitation/growth rate[s-1].
+ 1.1574E-05  gamma_mu_mem    gamma_mu_mem: Phytoplankton aggregation rate[s-1].
+ 1.0000E-06  k_n_inhib_Di    k_n_inhib_Di: Nitrogen fixation inhibition parameters[mol NO3 kg-1].
+ 4.0000E+00  o2_inhib_Di_pow o2_inhib_Di_pow: Nitrogen fixation inhibition parameters[mol O2-1 m3].
+ 3.0000E-04  o2_inhib_Di_sat o2_inhib_Di_sat: Nitrogen fixation inhibition parameters[mol O2 kg-1].
+ 6.6250E+00  c_2_n           c_2_n: Other stoichiometry[N/A].
+ 1.1695E+00  alk_2_n_denit   alk_2_n_denit: Other stoichiometry[eq. alk mol NO3-1].
+ 2.5000E-02  p_2_n_static_Di p_2_n_static_Di: Other stoichiometry[mol P mol N-1].
+ 6.2500E-02  p_2_n_static_Lg p_2_n_static_Lg: Other stoichiometry[mol P mol N-1].
+ 6.2500E-02  p_2_n_static_Sm p_2_n_static_Sm: Other stoichiometry[mol P mol N-1].
+ 2.0000E+00  si_2_n_static_Lgsi_2_n_static_Lg: Other stoichiometry[mol Si mol N-1].
+ 5.0000E+00  si_2_n_max_Lg   si_2_n_max_Lg: Other stoichiometry[mol Si mol N-1].
+ 1.3250E-01  ca_2_n_arag     ca_2_n_arag: Other stoichiometry[mol Ca mol N-1].
+ 6.6250E-02  ca_2_n_calc     ca_2_n_calc: Other stoichiometry[mol Ca mol N-1].
+ 1.0000E+01  caco3_sat_max   caco3_sat_max: Other stoichiometry[dimensionless].
+ 6.2500E-02  q_p_2_n_smz     q_p_2_n_smz: Zooplankton Stoichiometry - presently static[mol P mol N-1].
+ 6.2500E-02  q_p_2_n_mdz     q_p_2_n_mdz: Zooplankton Stoichiometry - presently static[mol P mol N-1].
+ 6.2500E-02  q_p_2_n_lgz     q_p_2_n_lgz: Zooplankton Stoichiometry - presently static[mol P mol N-1].
+ 6.2500E-02  q_p_2_n_bact    q_p_2_n_bact: Bacteria Stoichiometry - presently static[mol P mol N-1].
+ 1.1574E+00  agg_Sm          agg_Sm: Phytoplankton aggregation[s-1 (mole N kg)-1].
+ 0.0000E+00  agg_Di          agg_Di: Phytoplankton aggregation[s-1 (mole N kg)-1].
+ 3.4722E+00  agg_Lg          agg_Lg: Phytoplankton aggregation[s-1 (mole N kg)-1].
+ 2.8940E-01  vir_Sm          vir_Sm: Phytoplankton and bacterial losses to viruses[s-1 (mole N kg)-1].
+ 0.0000E+00  vir_Di          vir_Di: Phytoplankton and bacterial losses to viruses[s-1 (mole N kg)-1].
+ 0.0000E+00  vir_Lg          vir_Lg: Phytoplankton and bacterial losses to viruses[s-1 (mole N kg)-1].
+ 3.8194E-01  vir_Bact        vir_Bact: Phytoplankton and bacterial losses to viruses[s-1 (mole N kg)-1].
+ 6.3000E-02  ktemp_vir       ktemp_vir: Phytoplankton and bacterial losses to viruses[C-1].
+ 1.3000E-01  exu_Sm          exu_Sm: Phytoplankton losses to exudation[dimensionless (fraction of NPP)].
+ 1.3000E-01  exu_Di          exu_Di: Phytoplankton losses to exudation[dimensionless (fraction of NPP)].
+ 1.3000E-01  exu_Lg          exu_Lg: Phytoplankton losses to exudation[dimensionless (fraction of NPP)].
+ 1.6435E-05  imax_smz        imax_smz: Zooplankton ingestion parameterization and temperature dependence[s-1].
+ 6.5972E-06  imax_mdz        imax_mdz: Zooplankton ingestion parameterization and temperature dependence[s-1].
+ 2.6620E-06  imax_lgz        imax_lgz: Zooplankton ingestion parameterization and temperature dependence[s-1].
+ 1.2500E-06  ki_smz          ki_smz: Zooplankton ingestion parameterization and temperature dependence[moles N kg-1].
+ 1.2500E-06  ki_mdz          ki_mdz: Zooplankton ingestion parameterization and temperature dependence[moles N kg-1].
+ 1.2500E-06  ki_lgz          ki_lgz: Zooplankton ingestion parameterization and temperature dependence[moles N kg-1].
+ 6.3000E-02  ktemp_smz       ktemp_smz: Zooplankton ingestion parameterization and temperature dependence[C-1].
+ 6.3000E-02  ktemp_mdz       ktemp_mdz: Zooplankton ingestion parameterization and temperature dependence[C-1].
+ 6.3000E-02  ktemp_lgz       ktemp_lgz: Zooplankton ingestion parameterization and temperature dependence[C-1].
+ 1.1574E-05  mu_max_bact     mu_max_bact: Bacterial growth and uptake parameters[s-1].
+ 5.0000E-07  k_ldon_bact     k_ldon_bact: Bacterial growth and uptake parameters[mol ldon kg-1].
+ 6.3000E-02  ktemp_bact      ktemp_bact: Bacterial growth and uptake parameters[C-1].
+ 2.0000E+00  nswitch_smz     nswitch_smz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.0000E+00  nswitch_mdz     nswitch_mdz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.0000E+00  nswitch_lgz     nswitch_lgz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.0000E+00  mswitch_smz     mswitch_smz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.0000E+00  mswitch_mdz     mswitch_mdz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.0000E+00  mswitch_lgz     mswitch_lgz: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  smz_ipa_smp     smz_ipa_smp: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_lgp     smz_ipa_lgp: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_diaz    smz_ipa_diaz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_smz     smz_ipa_smz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_mdz     smz_ipa_mdz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_lgz     smz_ipa_lgz: Zooplankton switching and prey preference parameters[dimensionless].
+ 2.5000E-01  smz_ipa_bact    smz_ipa_bact: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  smz_ipa_det     smz_ipa_det: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  mdz_ipa_smp     mdz_ipa_smp: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  mdz_ipa_lgp     mdz_ipa_lgp: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  mdz_ipa_diaz    mdz_ipa_diaz: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  mdz_ipa_smz     mdz_ipa_smz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  mdz_ipa_mdz     mdz_ipa_mdz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  mdz_ipa_lgz     mdz_ipa_lgz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  mdz_ipa_bact    mdz_ipa_bact: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  mdz_ipa_det     mdz_ipa_det: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  lgz_ipa_smp     lgz_ipa_smp: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  lgz_ipa_lgp     lgz_ipa_lgp: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  lgz_ipa_diaz    lgz_ipa_diaz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  lgz_ipa_smz     lgz_ipa_smz: Zooplankton switching and prey preference parameters[dimensionless].
+ 1.0000E+00  lgz_ipa_mdz     lgz_ipa_mdz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  lgz_ipa_lgz     lgz_ipa_lgz: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  lgz_ipa_bact    lgz_ipa_bact: Zooplankton switching and prey preference parameters[dimensionless].
+ 0.0000E+00  lgz_ipa_det     lgz_ipa_det: Zooplankton switching and prey preference parameters[dimensionless].
+ 4.0000E-01  gge_max_smz     gge_max_smz: Zooplankton bioenergetics[dimensionless].
+ 4.0000E-01  gge_max_mdz     gge_max_mdz: Zooplankton bioenergetics[dimensionless].
+ 4.0000E-01  gge_max_lgz     gge_max_lgz: Zooplankton bioenergetics[dimensionless].
+ 2.3148E-07  bresp_smz       bresp_smz: Zooplankton bioenergetics[s-1].
+ 9.2593E-08  bresp_mdz       bresp_mdz: Zooplankton bioenergetics[s-1].
+ 3.7037E-08  bresp_lgz       bresp_lgz: Zooplankton bioenergetics[s-1].
+ 4.0000E-01  gge_max_bact    gge_max_bact: Bacterial bioenergetics[dimensionless].
+ 8.6806E-08  bresp_bact      bresp_bact: Bacterial bioenergetics[s-1].
+ 0.0000E+00  phi_det_smz     phi_det_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 2.0000E-01  phi_det_mdz     phi_det_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_det_lgz     phi_det_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.6500E-01  phi_ldon_smz    phi_ldon_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 5.5000E-02  phi_ldon_mdz    phi_ldon_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_ldon_lgz    phi_ldon_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.3500E-01  phi_ldop_smz    phi_ldop_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 4.5000E-02  phi_ldop_mdz    phi_ldop_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_ldop_lgz    phi_ldop_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.5000E-02  phi_srdon_smz   phi_srdon_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 5.0000E-03  phi_srdon_mdz   phi_srdon_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_srdon_lgz   phi_srdon_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 4.5000E-02  phi_srdop_smz   phi_srdop_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.5000E-02  phi_srdop_mdz   phi_srdop_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_srdop_lgz   phi_srdop_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.2000E-01  phi_sldon_smz   phi_sldon_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 4.0000E-02  phi_sldon_mdz   phi_sldon_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_sldon_lgz   phi_sldon_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 1.2000E-01  phi_sldop_smz   phi_sldop_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 4.0000E-02  phi_sldop_mdz   phi_sldop_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 0.0000E+00  phi_sldop_lgz   phi_sldop_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_nh4_smz     phi_nh4_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_nh4_mdz     phi_nh4_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_nh4_lgz     phi_nh4_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_po4_smz     phi_po4_smz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_po4_mdz     phi_po4_mdz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 3.0000E-01  phi_po4_lgz     phi_po4_lgz: Partitioning of zooplankton ingestion to other compartments[dimensionless].
+ 5.5000E-01  phi_ldon_vir    phi_ldon_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 5.0000E-02  phi_srdon_vir   phi_srdon_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 4.0000E-01  phi_sldon_vir   phi_sldon_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 4.5000E-01  phi_ldop_vir    phi_ldop_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 1.5000E-01  phi_srdop_vir   phi_srdop_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 4.0000E-01  phi_sldop_vir   phi_sldop_vir: Partitioning of viral losses to various dissolved pools[dimensionless].
+ 1.0417E-06  imax_hp         imax_hp: Parameters for unresolved higher predators[s-1].
+ 1.2000E-06  ki_hp           ki_hp: Parameters for unresolved higher predators[mol N kg-1].
+ 2.0000E+00  coef_hp         coef_hp: Parameters for unresolved higher predators[dimensionless].
+ 6.3000E-02  ktemp_hp        ktemp_hp: Parameters for unresolved higher predators[C-1].
+ 2.0000E+00  nswitch_hp      nswitch_hp: Parameters for unresolved higher predators[dimensionless].
+ 2.0000E+00  mswitch_hp      mswitch_hp: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_smp      hp_ipa_smp: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_lgp      hp_ipa_lgp: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_diaz     hp_ipa_diaz: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_smz      hp_ipa_smz: Parameters for unresolved higher predators[dimensionless].
+ 1.0000E+00  hp_ipa_mdz      hp_ipa_mdz: Parameters for unresolved higher predators[dimensionless].
+ 1.0000E+00  hp_ipa_lgz      hp_ipa_lgz: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_bact     hp_ipa_bact: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_ipa_det      hp_ipa_det: Parameters for unresolved higher predators[dimensionless].
+ 3.5000E-01  hp_phi_det      hp_phi_det: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_ldon     hp_phi_ldon: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_ldop     hp_phi_ldop: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_srdon    hp_phi_srdon: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_srdop    hp_phi_srdop: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_sldon    hp_phi_sldon: Parameters for unresolved higher predators[dimensionless].
+ 0.0000E+00  hp_phi_sldop    hp_phi_sldop: Parameters for unresolved higher predators[dimensionless].
+ 6.5000E-01  hp_phi_nh4      hp_phi_nh4: Parameters for unresolved higher predators[dimensionless].
+ 6.5000E-01  hp_phi_po4      hp_phi_po4: Parameters for unresolved higher predators[dimensionless].
+ 1.0000E-09  felig_bkg       felig_bkg: Iron chemistry[mol Fe kg-1].
+ 0.0000E+00  felig_2_don     felig_2_don: Iron chemistry[mol Fe mol N-1].
+ 6.6250E-03  fe_2_n_sed      fe_2_n_sed: Iron chemistry[mol Fe mol N-1].
+ 1.0000E-11  fe_coast        fe_coast: Iron chemistry[mol Fe m kg-1 s-1].
+ 4.7565E-07  alpha_fescav    alpha_fescav: Iron chemistry[sec-1].
+ 0.0000E+00  beta_fescav     beta_fescav: Iron chemistry[mol N-1 sec-1].
+ 1.0000E-01  remin_eff_fedet remin_eff_fedet: Iron chemistry[unitless].
+ 1.0000E+00  ki_fescav       ki_fescav: Iron chemistry[watts m-2].
+ 1.0000E+01  io_fescav       io_fescav: Iron chemistry[watts m-2].
+ 1.0000E+00  gamma_fescav    gamma_fescav: Iron chemistry[watts m-2].
+ 1.0000E+12  kfe_eq_lig_ll   kfe_eq_lig_ll: Iron chemistry[mol lig-1 kg].
+ 1.0000E+08  kfe_eq_lig_hl   kfe_eq_lig_hl: Iron chemistry[mol lig-1 kg].
+ 2.0000E-05  k_o2            k_o2: Remineralization[mol O2 kg-1].
+ 1.0000E-06  o2_min          o2_min: Remineralization[mol O2 kg-1].
+ 8.8050E-02  rpcaco3         rpcaco3: Remineralization[mol N mol Ca-1].
+ 8.1761E-04  rplith          rplith: Remineralization[mol N g lith-1].
+ 1.9623E-02  rpsio2          rpsio2: Remineralization[mol N mol Si-1].
+ 6.1564E-06  gamma_ndet      gamma_ndet: Remineralization[s-1].
+ 1.5229E-06  gamma_cadet_araggamma_cadet_arag: Remineralization[s-1].
+ 8.6181E-07  gamma_cadet_calcgamma_cadet_calc: Remineralization[s-1].
+ 5.7870E-07  gamma_sidet     gamma_sidet: Remineralization[s-1].
+ 2.0000E-03  phi_lith        phi_lith: Remineralization[kg mol-1].
+ 1.1574E-11  k_lith          k_lith: Remineralization[s-1].
+ 1.0000E-01  z_sed           z_sed: Remineralization[m].
+ 1.0000E-06  k_no3_denit     k_no3_denit: Remineralization[mol NO3 kg-1].
+ 1.7604E-09  gamma_srdon     gamma_srdon: Dissolved Organic Material[s-1].
+ 7.9220E-09  gamma_srdop     gamma_srdop: Dissolved Organic Material[s-1].
+ 1.2860E-07  gamma_sldon     gamma_sldon: Dissolved Organic Material[s-1].
+ 1.2860E-07  gamma_sldop     gamma_sldop: Dissolved Organic Material[s-1].
+ 3.8580E-07  gamma_nitrif    gamma_nitrif: Nitrification[s-1].
+ 1.0000E-01  irr_inhibit     irr_inhibit: Nitrification[m2 W-1].
+ 1.0000E-08  htotal_in       htotal_in: ?[N/A].
+ 1.1574E-03  wsink           wsink: Sinking velocity of detritus[m s-1].
+
+ Lateral Boundary Conditions: NLM
+ ============================
+
+ Variable               Grid  West Edge    South Edge   East Edge    North Edge
+ ---------              ----  ----------   ----------   ----------   ----------
+
+ zeta                     1   Closed       Chapman Imp  Chapman Imp  Closed
+
+ ubar                     1   Closed       Flather      Flather      Closed
+
+ vbar                     1   Closed       Flather      Flather      Closed
+
+ u                        1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ v                        1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ temp                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ salt                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nsm                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nlg                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ ndi                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nsmz                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nmdz                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nlgz                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ ldon                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ sldon                    1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ srdon                    1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nbact                    1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ nh4                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ no3                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ ndet                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ sio4                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ silg                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ sidet                    1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ cadet_calc               1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ cadet_arag               1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ lith                     1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ lithdet                  1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ po4                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ o2                       1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ dic                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ alk                      1   Closed       Rad + Nud    Rad + Nud    Closed
+
+ Activated C-preprocessing Options:
+
+ NWA                 Northwest Atlantic 7km Grid
+ ADD_FSOBC           Adding tidal elevation to processed OBC data.
+ ADD_M2OBC           Adding tidal currents to processed OBC data.
+ ALBEDO_CURVE        Shortwave radiation adjusted by albedo curve.
+ ANA_BPFLUX          Analytical bottom passive tracers fluxes.
+ ANA_BSFLUX          Analytical kinematic bottom salinity flux.
+ ANA_BTFLUX          Analytical kinematic bottom temperature flux.
+ ANA_DRAG_GRID       Analytical spatially varying linear drag coefficient.
+ ANA_SPFLUX          Analytical surface passive tracer fluxes.
+ ASSUMED_SHAPE       Using assumed-shape arrays.
+ AVERAGES            Writing out time-averaged nonlinear model fields.
+ BIO_COBALT          GFDL Cobalt ecosystem model.
+ BULK_FLUXES         Surface bulk fluxes parameterization.
+ CCSM_FLUXES         Surface bulk fluxes parameterization.
+ COBALT_CARBON       Turn on carbon chemistry in COBALT.
+ COBALT_MINERALS     Turn on mineral chemistry in COBALT.
+ CORE_FORCING        Humidity from CORE forcing files.
+ CURVGRID            Orthogonal curvilinear grid.
+ DIFF_GRID           Horizontal diffusion coefficient scaled by grid size.
+ DIURNAL_SRFLUX      Modulate shortwave radiation by the local diurnal cycle.
+ DJ_GRADPS           Parabolic Splines density Jacobian (Shchepetkin, 2002).
+ DOUBLE_PRECISION    Double precision arithmetic.
+ EMINUSP             Compute Salt Flux using E-P.
+ LIMIT_BSTRESS       Limit bottom stress to maintain bottom velocity direction.
+ LMD_BKPP            KPP bottom boundary layer mixing.
+ LMD_CONVEC          LMD convective mixing due to shear instability.
+ LMD_MIXING          Large/McWilliams/Doney interior mixing.
+ LMD_NONLOCAL        LMD convective nonlocal transport.
+ LMD_RIMIX           LMD diffusivity due to shear instability.
+ LMD_SHAPIRO         Shapiro filtering boundary layer depth.
+ LMD_SKPP            KPP surface boundary layer mixing.
+ LONGWAVE_OUT        Compute outgoing longwave radiation internally.
+ MASKING             Land/Sea masking.
+ MIX_GEO_TS          Mixing of tracers along geopotential surfaces.
+ MIX_S_UV            Mixing of momentum along constant S-surfaces.
+ MPI                 MPI distributed-memory configuration.
+ NONLINEAR           Nonlinear Model.
+ NONLIN_EOS          Nonlinear Equation of State for seawater.
+ NO_HIS              Turn off writing of history files.
+ NO_WRITE_GRID       Not Writing grid arrays into NetCDF ouput files.
+ OPTIC_MANIZZA       Optics subroutine from Manizza.
+ POT_TIDES           Add tidal potential terms to the forcing.
+ POWER_LAW           Power-law shape time-averaging barotropic filter.
+ PROFILE             Time profiling activated .
+ RUNOFF              Surface flux of ungauged river runoff.
+ RADIATION_2D        Use tangential phase speed in radiation conditions.
+ RI_SPLINES          Parabolic Spline Reconstruction for Richardson Number.
+ RST_SINGLE          Single precision fields in restart NetCDF file.
+ SALINITY            Using salinity.
+ SCORRECTION         Surface salinity flux correction.
+ SSSC_THRESHOLD      Limit to SCORRECTION nudging.
+ SOLAR_SOURCE        Solar Radiation Source Term.
+ SOLVE3D             Solving 3D Primitive Equations.
+ SPLINES_VDIFF       Parabolic Spline Reconstruction for Vertical Diffusion.
+ SPLINES_VVISC       Parabolic Spline Reconstruction for Vertical Viscosity.
+ SSH_TIDES           Add tidal elevation to SSH climatology.
+ TIDES_ASTRO         Compute astronomical (long-period tide) corrections.
+ TS_U3HADVECTION     Third-order upstream horizontal advection of tracers.
+ TS_C4VADVECTION     Fourth-order centered vertical advection of tracers.
+ TS_DIF2             Harmonic mixing of tracers.
+ UV_ADV              Advection of momentum.
+ UV_COR              Coriolis term.
+ UV_U3HADVECTION     Third-order upstream horizontal advection of 3D momentum.
+ UV_C4VADVECTION     Fourth-order centered vertical advection of momentum.
+ UV_DRAG_GRID        Spatially varying linear drag coefficient.
+ UV_LDRAG            Linear bottom stress.
+ UV_TIDES            Add tidal currents to 2D momentum climatologies.
+ UV_VIS2             Harmonic mixing of momentum.
+ VAR_RHO_2D          Variable density barotropic mode.
+ VISC_GRID           Horizontal viscosity coefficient scaled by grid size.
+ VISC_3DCOEF         Horizontal, time-dependent 3D viscosity coefficient.
+
+ Process Information:
+
+ Node # 47 (pid=   81750) is active.
+ Node # 62 (pid=  122979) is active.
+ Node # 78 (pid=  122995) is active.
+ Node # 81 (pid=   16945) is active.
+ Node #105 (pid=  157097) is active.
+ Node # 24 (pid=  188897) is active.
+ Node # 79 (pid=  122996) is active.
+ Node # 63 (pid=  122980) is active.
+ Node # 64 (pid=  122981) is active.
+ Node # 65 (pid=  122982) is active.
+ Node # 66 (pid=  122983) is active.
+ Node # 68 (pid=  122985) is active.
+ Node # 69 (pid=  122986) is active.
+ Node # 70 (pid=  122987) is active.
+ Node # 71 (pid=  122988) is active.
+ Node # 72 (pid=  122989) is active.
+ Node # 73 (pid=  122990) is active.
+ Node # 74 (pid=  122991) is active.
+ Node # 75 (pid=  122992) is active.
+ Node # 76 (pid=  122993) is active.
+ Node # 77 (pid=  122994) is active.
+ Node # 80 (pid=  122997) is active.
+ Node # 67 (pid=  122984) is active.
+ Node #  0 (pid=   60165) is active.
+ Node #  2 (pid=   60167) is active.
+ Node #  4 (pid=   60169) is active.
+ Node # 16 (pid=   60181) is active.
+ Node # 20 (pid=   60185) is active.
+ Node #  5 (pid=   60170) is active.
+ Node #  6 (pid=   60171) is active.
+ Node # 17 (pid=   60182) is active.
+ Node # 18 (pid=   60183) is active.
+ Node # 22 (pid=   60187) is active.
+ Node # 23 (pid=   60188) is active.
+ Node #  3 (pid=   60168) is active.
+ Node #  7 (pid=   60172) is active.
+ Node #  8 (pid=   60173) is active.
+ Node #  9 (pid=   60174) is active.
+ Node # 10 (pid=   60175) is active.
+ Node # 11 (pid=   60176) is active.
+ Node # 12 (pid=   60177) is active.
+ Node # 13 (pid=   60178) is active.
+ Node # 14 (pid=   60179) is active.
+ Node # 15 (pid=   60180) is active.
+ Node # 19 (pid=   60184) is active.
+ Node # 21 (pid=   60186) is active.
+ Node #  1 (pid=   60166) is active.
+ Node # 82 (pid=   16946) is active.
+ Node #113 (pid=  157105) is active.
+ Node # 25 (pid=  188898) is active.
+ Node # 48 (pid=   81751) is active.
+ Node # 85 (pid=   16949) is active.
+ Node #115 (pid=  157107) is active.
+ Node # 32 (pid=  188905) is active.
+ Node # 49 (pid=   81752) is active.
+ Node # 86 (pid=   16950) is active.
+ Node #121 (pid=  157113) is active.
+ Node # 34 (pid=  188907) is active.
+ Node # 50 (pid=   81753) is active.
+ Node # 89 (pid=   16953) is active.
+ Node #106 (pid=  157098) is active.
+ Node # 40 (pid=  188913) is active.
+ Node # 51 (pid=   81754) is active.
+ Node # 90 (pid=   16954) is active.
+ Node #107 (pid=  157099) is active.
+ Node # 41 (pid=  188914) is active.
+ Node # 55 (pid=   81758) is active.
+ Node # 83 (pid=   16947) is active.
+ Node #109 (pid=  157101) is active.
+ Node # 42 (pid=  188915) is active.
+ Node # 52 (pid=   81755) is active.
+ Node # 87 (pid=   16951) is active.
+ Node #110 (pid=  157102) is active.
+ Node # 43 (pid=  188916) is active.
+ Node # 53 (pid=   81756) is active.
+ Node # 88 (pid=   16952) is active.
+ Node #111 (pid=  157103) is active.
+ Node # 26 (pid=  188899) is active.
+ Node # 54 (pid=   81757) is active.
+ Node # 91 (pid=   16955) is active.
+ Node #114 (pid=  157106) is active.
+ Node # 28 (pid=  188901) is active.
+ Node # 56 (pid=   81759) is active.
+ Node # 92 (pid=   16956) is active.
+ Node #116 (pid=  157108) is active.
+ Node # 29 (pid=  188902) is active.
+ Node # 57 (pid=   81760) is active.
+ Node # 93 (pid=   16957) is active.
+ Node #117 (pid=  157109) is active.
+ Node # 30 (pid=  188903) is active.
+ Node # 58 (pid=   81761) is active.
+ Node # 94 (pid=   16958) is active.
+ Node #118 (pid=  157110) is active.
+ Node # 31 (pid=  188904) is active.
+ Node # 59 (pid=   81762) is active.
+ Node # 95 (pid=   16959) is active.
+ Node #119 (pid=  157111) is active.
+ Node # 33 (pid=  188906) is active.
+ Node # 60 (pid=   81763) is active.
+ Node # 96 (pid=   16960) is active.
+ Node #120 (pid=  157112) is active.
+ Node # 35 (pid=  188908) is active.
+ Node # 61 (pid=   81764) is active.
+ Node # 97 (pid=   16961) is active.
+ Node #122 (pid=  157114) is active.
+ Node # 36 (pid=  188909) is active.
+ Node # 98 (pid=   16962) is active.
+ Node #123 (pid=  157115) is active.
+ Node # 37 (pid=  188910) is active.
+ Node #101 (pid=   16965) is active.
+ Node #124 (pid=  157116) is active.
+ Node # 38 (pid=  188911) is active.
+ Node #102 (pid=   16966) is active.
+ Node #125 (pid=  157117) is active.
+ Node # 39 (pid=  188912) is active.
+ Node # 99 (pid=   16963) is active.
+ Node #127 (pid=  157119) is active.
+ Node # 44 (pid=  188917) is active.
+ Node #100 (pid=   16964) is active.
+ Node #112 (pid=  157104) is active.
+ Node # 45 (pid=  188918) is active.
+ Node #103 (pid=   16967) is active.
+ Node #126 (pid=  157118) is active.
+ Node # 46 (pid=  188919) is active.
+ Node #104 (pid=   16968) is active.
+ Node #108 (pid=  157100) is active.
+ Node # 27 (pid=  188900) is active.
+ Node # 84 (pid=   16948) is active.
+
+ INITIAL: Configuring and initializing forward nonlinear model ...
+ *******
+
+ Vertical S-coordinate System, Grid 01:
+
+ level   S-coord     Cs-curve   Z   at hmin       at hc    half way     at hmax
+
+    40   0.0000000   0.0000000        0.000       0.000       0.000       0.000
+    39  -0.0250000  -0.0000649       -0.240      -3.133      -5.894      -6.320
+    38  -0.0500000  -0.0002615       -0.481      -6.283     -12.120     -13.332
+    37  -0.0750000  -0.0005958       -0.721      -9.449     -18.695     -21.069
+    36  -0.1000000  -0.0010779       -0.962     -12.635     -25.643     -29.584
+    35  -0.1250000  -0.0017224       -1.203     -15.840     -33.001     -38.953
+    34  -0.1500000  -0.0025489       -1.443     -19.069     -40.818     -49.279
+    33  -0.1750000  -0.0035823       -1.684     -22.323     -49.158     -60.694
+    32  -0.2000000  -0.0048536       -1.925     -25.607     -58.100     -73.360
+    31  -0.2250000  -0.0064012       -2.166     -28.925     -67.738     -87.480
+    30  -0.2500000  -0.0082712       -2.407     -32.284     -78.192    -103.296
+    29  -0.2750000  -0.0105194       -2.648     -35.690     -89.600    -121.102
+    28  -0.3000000  -0.0132122       -2.890     -39.152    -102.132    -141.247
+    27  -0.3250000  -0.0164290       -3.131     -42.679    -115.987    -164.148
+    26  -0.3500000  -0.0202635       -3.373     -46.283    -131.402    -190.300
+    25  -0.3750000  -0.0248266       -3.615     -49.978    -148.657    -220.283
+    24  -0.4000000  -0.0302484       -3.858     -53.781    -168.082    -254.785
+    23  -0.4250000  -0.0366816       -4.101     -57.710    -190.061    -294.608
+    22  -0.4500000  -0.0443042       -4.344     -61.788    -215.044    -340.687
+    21  -0.4750000  -0.0533226       -4.588     -66.040    -243.553    -394.110
+    20  -0.5000000  -0.0639753       -4.832     -70.497    -276.189    -456.131
+    19  -0.5250000  -0.0765351       -5.078     -75.192    -313.643    -528.185
+    18  -0.5500000  -0.0913119       -5.324     -80.164    -356.696    -611.902
+    17  -0.5750000  -0.1086538       -5.571     -85.457    -406.228    -709.113
+    16  -0.6000000  -0.1289464       -5.819     -91.118    -463.213    -821.848
+    15  -0.6250000  -0.1526095       -6.068     -97.201    -528.712    -952.315
+    14  -0.6500000  -0.1800894       -6.319    -103.761    -603.850   -1102.862
+    13  -0.6750000  -0.2118460       -6.572    -110.856    -689.791   -1275.907
+    12  -0.7000000  -0.2483317       -6.826    -118.541    -787.677   -1473.832
+    11  -0.7250000  -0.2899613       -7.083    -126.870    -898.555   -1698.818
+    10  -0.7500000  -0.3370698       -7.341    -135.884   -1023.271   -1952.628
+     9  -0.7750000  -0.3898574       -7.602    -145.607   -1162.332   -2236.315
+     8  -0.8000000  -0.4483212       -7.865    -156.040   -1315.730   -2549.864
+     7  -0.8250000  -0.5121761       -8.130    -167.147   -1482.745   -2891.774
+     6  -0.8500000  -0.5807728       -8.396    -178.847   -1661.736   -3258.631
+     5  -0.8750000  -0.6530234       -8.665    -191.003   -1849.957   -3644.710
+     4  -0.9000000  -0.7273553       -8.934    -203.419   -2043.434   -4041.739
+     3  -0.9250000  -0.8017196       -9.203    -215.840   -2236.994   -4438.938
+     2  -0.9500000  -0.8736807       -9.471    -227.960   -2424.483   -4823.494
+     1  -0.9750000  -0.9406122       -9.737    -239.452   -2599.268   -5181.590
+     0  -1.0000000  -1.0000000      -10.000    -250.000   -2755.000   -5500.000
+
+ Time Splitting Weights for Grid 01:    ndtfast =  30    nfast =  42
+ ==================================
+
+    Primary            Secondary            Accumulated to Current Step
+
+  1-0.0008094437383769 0.0333333333333333-0.0008094437383769 0.0333333333333333
+  2-0.0014053566728197 0.0333603147912792-0.0022148004111966 0.0666936481246126
+  3-0.0017877524645903 0.0334071600137066-0.0040025528757869 0.1001008081383191
+  4-0.0019566842408176 0.0334667517625262-0.0059592371166046 0.1335675599008453
+  5-0.0019122901320372 0.0335319745705535-0.0078715272486418 0.1670995344713988
+  6-0.0016548570247459 0.0335957175749547-0.0095263842733877 0.2006952520463536
+  7-0.0011849025289723 0.0336508794757796-0.0107112868023600 0.2343461315221331
+  8-0.0005032751608631 0.0336903762267453-0.0112145619632232 0.2680365077488784
+  9 0.0003887272597151 0.0337071520654408-0.0108258347035081 0.3017436598143192
+ 10 0.0014892209965583 0.0336941944901169-0.0093366137069498 0.3354378543044362
+ 11 0.0027955815694920 0.0336445537902317-0.0065410321374578 0.3690824080946679
+ 12 0.0043042707117221 0.0335513677379153-0.0022367614257356 0.4026337758325831
+ 13 0.0060106451121704 0.0334078920475245 0.0037738836864348 0.4360416678801076
+ 14 0.0079087469427945 0.0332075372104522 0.0116826306292293 0.4692492050905598
+ 15 0.0099910761708920 0.0329439123123590 0.0216737068001213 0.5021931174029188
+ 16 0.0122483446563884 0.0326108764399960 0.0339220514565097 0.5348039938429148
+ 17 0.0146692120341107 0.0322025982847830 0.0485912634906204 0.5670065921276978
+ 18 0.0172400033810439 0.0317136245503127 0.0658312668716643 0.5987202166780105
+ 19 0.0199444086685725 0.0311389577709445 0.0857756755402368 0.6298591744489550
+ 20 0.0227631639997064 0.0304741441486588 0.1085388395399432 0.6603333185976138
+ 21 0.0256737146312911 0.0297153720153352 0.1342125541712342 0.6900486906129490
+ 22 0.0286498597812016 0.0288595815276255 0.1628624139524359 0.7189082721405746
+ 23 0.0316613792205220 0.0279045862015855 0.1945237931729578 0.7468128583421600
+ 24 0.0346736416507075 0.0268492068942347 0.2291974348236653 0.7736620652363948
+ 25 0.0376471948657328 0.0256934188392112 0.2668446296893981 0.7993554840756060
+ 26 0.0405373376992232 0.0244385123436867 0.3073819673886213 0.8237939964192927
+ 27 0.0432936737565710 0.0230872677537126 0.3506756411451924 0.8468812641730054
+ 28 0.0458596469320356 0.0216441452951603 0.3965352880772280 0.8685254094681656
+ 29 0.0481720587108284 0.0201154903974257 0.4447073467880565 0.8886408998655914
+ 30 0.0501605672561820 0.0185097551070648 0.4948679140442384 0.9071506549726561
+ 31 0.0517471682814030 0.0168377361985254 0.5466150823256415 0.9239883911711815
+ 32 0.0528456577069106 0.0151128305891453 0.5994607400325521 0.9391012217603267
+ 33 0.0533610761022577 0.0133513086655816 0.6528218161348098 0.9524525304259084
+ 34 0.0531891349131379 0.0115726061288397 0.7060109510479478 0.9640251365547481
+ 35 0.0522156244733761 0.0097996349650684 0.7582265755213239 0.9738247715198165
+ 36 0.0503158038019030 0.0080591141492892 0.8085423793232269 0.9818838856691057
+ 37 0.0473537721847153 0.0063819206892258 0.8558961515079423 0.9882658063583315
+ 38 0.0431818225418188 0.0048034616164019 0.8990779740497611 0.9930692679747334
+ 39 0.0376397765791564 0.0033640675316746 0.9367177506289175 0.9964333355064080
+ 40 0.0305543017255206 0.0021094083123694 0.9672720523544381 0.9985427438187774
+ 41 0.0217382098544504 0.0010909315881854 0.9890102622088885 0.9996336754069628
+ 42 0.0109897377911118 0.0003663245930371 1.0000000000000004 0.9999999999999999
+
+ ndtfast, nfast =   30  42   nfast/ndtfast =  1.40000
+
+ Centers of gravity and integrals (values must be 1, 1, approx 1/2, 1, 1):
+
+    1.000000000000 1.047601458608 0.523800729304 1.000000000000 1.000000000000
+
+ Power filter parameters, Fgamma, gamma =  0.28400   0.18933
+
+ Metrics information for Grid 01:
+ ===============================
+
+ Minimum X-grid spacing, DXmin =  6.34996262E+00 km
+ Maximum X-grid spacing, DXmax =  7.04326282E+00 km
+ Minimum Y-grid spacing, DYmin =  6.33272836E+00 km
+ Maximum Y-grid spacing, DYmax =  7.01476579E+00 km
+ Minimum Z-grid spacing, DZmin =  2.40409568E-01 m
+ Maximum Z-grid spacing, DZmax =  3.97198972E+02 m
+
+ Minimum barotropic Courant Number =  1.59566865E-02
+ Maximum barotropic Courant Number =  3.91944804E-01
+ Maximum Coriolis   Courant Number =  2.74193593E-02
+
+ Horizontal mixing scaled by grid size, GRDMAX =  7.02260379E+00 km
+
+ Minimum horizontal viscosity coefficient =  5.28444970E+01 m2/s
+ Maximum horizontal viscosity coefficient =  5.85216983E+01 m2/s
+
+ NLM: GET_STATE - Read state initial conditions,             t = 40925 01:00:00
+                   (Grid 01, File: NWA_avg_fmumem.nc, Rec=0001, Index=1)
+                - free-surface
+                   (Min = -9.41849113E-01 Max =  4.01245922E-01)
+                - vertically integrated u-momentum component
+                   (Min = -8.35547686E-01 Max =  9.29434836E-01)
+                - vertically integrated v-momentum component
+                   (Min = -8.00832093E-01 Max =  8.32284868E-01)
+                - u-momentum component
+                   (Min = -9.27521765E-01 Max =  1.50994313E+00)
+                - v-momentum component
+                   (Min = -1.42399478E+00 Max =  1.67839479E+00)
+                - potential temperature
+                   (Min = -1.03028278E+01 Max =  2.87221584E+01)
+                - salinity
+                   (Min =  8.41274917E-01 Max =  9.14943771E+01)
+                - Small Phytoplankton Nitrogen
+                   (Min = -4.18700701E-08 Max =  1.60303159E-06)
+                - Large Phytoplankton Nitrogen
+                   (Min = -1.11554506E-07 Max =  2.70587097E-05)
+                - Diazotroph Nitrogen
+                   (Min = -3.85626331E-09 Max =  2.22922711E-08)
+                - Small Zooplankton Nitrogen
+                   (Min = -4.01812663E-08 Max =  1.68436043E-06)
+                - Medium-sized zooplankton Nitrogen
+                   (Min = -4.01423819E-08 Max =  1.37132486E-06)
+                - large Zooplankton Nitrogen
+                   (Min = -4.10501571E-08 Max =  1.10145379E-06)
+                - labile DON
+                   (Min = -5.87515352E-08 Max =  3.94437166E-06)
+                - Semilabile DON
+                   (Min = -2.02159427E-07 Max =  2.40471054E-05)
+                - Semi-Refractory DON
+                   (Min = -3.25654895E-07 Max =  2.17296110E-04)
+                - bacterial
+                   (Min = -3.47503999E-08 Max =  3.31357114E-06)
+                - Ammonia
+                   (Min = -1.62232155E-07 Max =  2.34672625E-04)
+                - Nitrate
+                   (Min = -7.02052967E-06 Max =  9.45179549E-04)
+                - ndet
+                   (Min = -2.90998510E-11 Max =  1.36127980E-07)
+                - Silicate
+                   (Min = -6.45769114E-06 Max =  6.92466056E-05)
+                - Large Phytoplankton Silicon
+                   (Min = -4.88660476E-07 Max =  1.49510142E-05)
+                - Detrital Silicon
+                   (Min = -1.87032678E-09 Max =  2.63023850E-07)
+                - Detrital CaCO3
+                   (Min = -9.03940388E-13 Max =  1.01023261E-08)
+                - Detrital CaCO3
+                   (Min = -1.07013891E-10 Max =  2.36559323E-08)
+                - Lithogenic Aluminosilicate
+                   (Min = -4.45632759E-06 Max =  6.14361651E-03)
+                - lithdet
+                   (Min =  1.74561740E-10 Max =  5.81292738E-07)
+                - Phosphate
+                   (Min = -5.98041652E-07 Max =  2.13898488E-06)
+                - Oxygen
+                   (Min =  4.28886124E-05 Max =  5.73684578E-04)
+                - Dissolved Inorganic Carbon
+                   (Min =  4.16073948E-04 Max =  2.53082020E-03)
+                - Alkalinity
+                   (Min =  2.83114699E-04 Max =  2.44035386E-03)
+                - vertical viscosity coefficient
+                   (Min = -2.19769366E-02 Max =  4.12381440E-01)
+                - temperature vertical diffusion coefficient
+                   (Min = -4.00667489E-02 Max =  5.04764080E-01)
+                - Chlorophyll
+                   (Min =  0.00000000E+00 Max =  2.91366577E+01)
+                - Irradiance memory
+                   (Min =  0.00000000E+00 Max =  4.94352951E+01)
+                - H+ ion concentration
+                   (Min =  0.00000000E+00 Max =  7.98548001E-07)
+                - Carbonate ion
+                   (Min =  0.00000000E+00 Max =  2.50544352E-03)
+                - Aggreg memory small phyto
+                   (Min = -3.82026366E-09 Max =  2.08460715E-05)
+                - Aggreg memory diatoms
+                   (Min = -4.05124290E-09 Max =  4.56479016E-31)
+                - Aggreg memory large phyto
+                   (Min = -4.42400117E-09 Max =  1.58059647E-05)
+    GET_NGFLD   - tidal period
+                   (Min =  4.30820446E+04 Max =  9.67260841E+04)
+    GET_2DFLD   - tidal elevation amplitude
+                   (Min =  4.25031292E-04 Max =  3.42687154E+00)
+    GET_2DFLD   - tidal elevation phase angle
+                   (Min =  2.18966246E-04 Max =  6.28253763E+00)
+    GET_2DFLD   - tidal current inclination angle
+                   (Min = -1.53970539E+00 Max =  3.14159265E+00)
+    GET_2DFLD   - tidal current phase angle
+                   (Min =  0.00000000E+00 Max =  6.28269955E+00)
+    GET_2DFLD   - maximum tidal current, ellipse major axis
+                   (Min =  0.00000000E+00 Max =  9.10565281E+00)
+    GET_2DFLD   - minimum tidal current, ellipse minor axis
+                   (Min = -3.21201062E+00 Max =  1.01584697E+00)
+    GET_2DFLD   - tidal potential elevation amplitude
+                   (Min =  4.10570297E-03 Max =  1.88335195E-01)
+    GET_2DFLD   - tidal potential elevation phase angle
+                   (Min =  2.74285832E+00 Max =  5.48594513E+00)
+    GET_2DFLD   - surface u-wind component,                  t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_Uwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -6.94431050E+00 Max =  1.20755517E+01)
+    GET_2DFLD   - surface v-wind component,                  t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_Vwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -9.16853716E+00 Max =  1.18878943E+01)
+    GET_2DFLD   - surface air pressure,                      t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_Pair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  9.85161298E+02 Max =  1.03017871E+03)
+    GET_2DFLD   - surface air temperature,                   t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_Tair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -1.89382945E+01 Max =  3.34410886E+01)
+    GET_2DFLD   - surface air relative humidity,             t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_Qair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  7.07792389E-04 Max =  1.95343217E-02)
+    GET_2DFLD   - no3 river source,                          t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  2.61727282E-07)
+    GET_2DFLD   - ldon river source,                         t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.00978067E-08)
+    GET_2DFLD   - sldon river source,                        t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.51141049E-08)
+    GET_2DFLD   - srdon river source,                        t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.51141049E-08)
+    GET_2DFLD   - ndet river source,                         t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_2DFLD   - po4 river source,                          t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  5.00689265E-09)
+    GET_2DFLD   - ldop river source,                         t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  8.53685163E-10)
+    GET_2DFLD   - sldop river source,                        t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  9.95966011E-10)
+    GET_2DFLD   - srdop river source,                        t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  9.95966011E-10)
+    GET_2DFLD   - atmCO2,                                    t = 40921 00:00:00
+                   (Rec=0000649, Index=1, File: composite_CO2_MLO+GLO.nc)
+                   (Tmin=      21198.0000 Tmax=      41986.0000)
+                   (Min =  3.92470000E+02 Max =  3.92470000E+02)
+    GET_2DFLD   - mineralfe,                                 t =    15 12:00:00
+                   (Rec=0000001, Index=1, File: Mineral_Fe_Flux_PI_ROMS.nc)
+                   (Tmin=         15.5000 Tmax=        349.5000)
+                   (Min =  2.31491511E-09 Max =  4.39106962E-08)
+    GET_2DFLD   - solar shortwave radiation flux,            t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_swrad_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  5.77038203E-05)
+    GET_2DFLD   - downwelling longwave radiation flux,       t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_lwrad_down_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  4.09321333E-05 Max =  1.21605117E-04)
+    GET_2DFLD   - rain fall rate,                            t = 40924 22:30:00
+                   (Rec=0008904, Index=1, File: MERRA_rain_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  1.01168708E-03)
+    GET_2DFLD   - Fresh water runoff from land,              t = 40900 12:00:00
+                   (Rec=0000769, Index=1, File: runoff_NWA_daitren_inter_annual_1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  5.28544912E-03)
+    GET_2DFLD   - sea surface salinity climatology,          t =    15 05:15:00
+                   (Rec=0000001, Index=1, File: sss_monthly_climato_flooded.nc)
+                   (Tmin=         15.2188 Tmax=        350.0312)
+                   (Min =  1.89106566E+01 Max =  3.68269469E+01)
+    GET_NGFLD   - free-surface eastern boundary condition,   t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -6.52401690E-01 Max =  1.05868015E-01)
+    GET_NGFLD   - free-surface southern boundary condition,  t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.34336842E-01 Max =  3.93019073E-01)
+    GET_NGFLD   - 2D u-momentum eastern boundary condition,  t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.29073515E-01 Max =  1.05172748E-01)
+    GET_NGFLD   - 2D v-momentum eastern boundary condition,  t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -8.37477632E-02 Max =  5.65544924E-02)
+    GET_NGFLD   - 2D u-momentum southern boundary condition, t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.47056155E-01 Max =  7.25883678E-02)
+    GET_NGFLD   - 2D v-momentum southern boundary condition, t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -5.45097690E-01 Max =  1.26648207E-01)
+    GET_NGFLD   - 3D u-momentum eastern boundary condition,  t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.41694859E-01 Max =  3.59895578E-01)
+    GET_NGFLD   - 3D v-momentum eastern boundary condition,  t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -4.26677491E-01 Max =  1.40945083E-01)
+    GET_NGFLD   - 3D u-momentum southern boundary condition, t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -5.55106494E-01 Max =  2.04072236E-01)
+    GET_NGFLD   - 3D v-momentum southern boundary condition, t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -6.19787199E-01 Max =  4.38606574E-01)
+    GET_NGFLD   - temperature eastern boundary condition,    t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -7.92324340E-01 Max =  1.97648092E+01)
+    GET_NGFLD   - salinity eastern boundary condition,       t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.66096012E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen eastern boundat =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.25728989E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen eastern boundat =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.48456326E-07)
+    GET_NGFLD   - Diazotroph Nitrogen eastern boundary conditt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.20672659E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen eastern boundaryt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.31637171E-08)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen eastern bt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.11816112E-08)
+    GET_NGFLD   - large Zooplankton Nitrogen eastern boundaryt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.16799481E-07)
+    GET_NGFLD   - labile DON eastern boundary condition,     t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.54082831E-08)
+    GET_NGFLD   - Semilabile DON eastern boundary condition, t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -2.16261886E-15 Max =  3.84749224E-07)
+    GET_NGFLD   - Semi-Refractory DON eastern boundary conditt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -7.33045215E-11 Max =  1.64730838E-06)
+    GET_NGFLD   - bacterial eastern boundary condition,      t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.78497271E-07)
+    GET_NGFLD   - Ammonia eastern boundary condition,        t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.56677569E-07)
+    GET_NGFLD   - Nitrate eastern boundary condition,        t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.98259022E-05)
+    GET_NGFLD   - ndet eastern boundary condition,           t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.86280379E-09)
+    GET_NGFLD   - Silicate eastern boundary condition,       t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.41621867E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon eastern boundart =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.97371913E-07)
+    GET_NGFLD   - Detrital Silicon eastern boundary conditiont =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.13692044E-08)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.64983955E-09)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.36848941E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate eastern boundaryt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.70505060E-04)
+    GET_NGFLD   - lithdet eastern boundary condition,        t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.25225058E-07)
+    GET_NGFLD   - Phosphate eastern boundary condition,      t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.65179836E-06)
+    GET_NGFLD   - Oxygen eastern boundary condition,         t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.64151783E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon eastern boundaryt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.36334559E-03)
+    GET_NGFLD   - Alkalinity eastern boundary condition,     t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43065250E-03)
+    GET_NGFLD   - temperature southern boundary condition,   t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  2.85276583E+01)
+    GET_NGFLD   - salinity southern boundary condition,      t = 40921 13:00:00
+                   (Rec=0000003, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.71536589E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen southern boundt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.28826768E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen southern boundt =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.43203362E-07)
+    GET_NGFLD   - Diazotroph Nitrogen southern boundary condit =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.09439187E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen southern boundart =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.65128405E-08)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen southern t =    15 12:00:00,
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.29660589E-08)
+    GET_NGFLD   - large Zooplankton Nitrogen southern boundart =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.41259705E-08)
+    GET_NGFLD   - labile DON southern boundary condition,    t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.56098784E-08)
+    GET_NGFLD   - Semilabile DON southern boundary condition,t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.81041468E-07)
+    GET_NGFLD   - Semi-Refractory DON southern boundary condit =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -1.01980534E-13 Max =  2.28648016E-06)
+    GET_NGFLD   - bacterial southern boundary condition,     t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.26415448E-07)
+    GET_NGFLD   - Ammonia southern boundary condition,       t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.72797362E-07)
+    GET_NGFLD   - Nitrate southern boundary condition,       t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.02752578E-05)
+    GET_NGFLD   - ndet southern boundary condition,          t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.96923453E-09)
+    GET_NGFLD   - Silicate southern boundary condition,      t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.27400687E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon southern boundat =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.71332387E-08)
+    GET_NGFLD   - Detrital Silicon southern boundary conditiot =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.78222160E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  4.11906156E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.86665577E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate southern boundart =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.09776688E-03)
+    GET_NGFLD   - lithdet southern boundary condition,       t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.21257374E-07)
+    GET_NGFLD   - Phosphate southern boundary condition,     t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.08736833E-06)
+    GET_NGFLD   - Oxygen southern boundary condition,        t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.52672064E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon southern boundart =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.35828431E-03)
+    GET_NGFLD   - Alkalinity southern boundary condition,    t =    15 12:00:00
+                   (Rec=0000001, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43464718E-03)
+    GET_2DFLD   - sea surface height climatology,            t = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -8.28295920E-01 Max =  6.37460018E-01)
+    GET_2DFLD   - vertically integrated u-momentum climatologt = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -3.95351201E-01 Max =  8.44609461E-01)
+    GET_2DFLD   - vertically integrated v-momentum climatologt = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -4.27489023E-01 Max =  8.16465519E-01)
+    GET_3DFLD   - u-momentum component climatology,          t = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -6.30646424E-01 Max =  1.23716275E+00)
+    GET_3DFLD   - v-momentum component climatology,          t = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.07176321E+00 Max =  8.32433694E-01)
+    GET_3DFLD   - potential temperature climatology,         t = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.47921220E+00 Max =  2.84334200E+01)
+    GET_3DFLD   - salinity climatology,                      t = 40924 01:00:00
+                   (Rec=0000001, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min =  2.19303332E+01 Max =  3.74408648E+01)
+    GET_3DFLD   - Small Phytoplankton Nitrogen climatology,  t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Large Phytoplankton Nitrogen climatology,  t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Diazotroph Nitrogen climatology,           t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Small Zooplankton Nitrogen climatology,    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Medium-sized zooplankton Nitrogen climatolot = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - large Zooplankton Nitrogen climatology,    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - labile DON climatology,                    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Semilabile DON climatology,                t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Semi-Refractory DON climatology,           t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - bacterial climatology,                     t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Ammonia climatology,                       t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Nitrate climatology,                       t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - ndet climatology,                          t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Silicate climatology,                      t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Large Phytoplankton Silicon climatology,   t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Detrital Silicon climatology,              t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Lithogenic Aluminosilicate climatology,    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - lithdet climatology,                       t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Phosphate climatology,                     t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Oxygen climatology,                        t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Dissolved Inorganic Carbon climatology,    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Alkalinity climatology,                    t = 41253 11:45:36
+                   (Rec=0000012, Index=1, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+
+ Basin information for Grid 01:
+
+ Maximum grid stiffness ratios:  rx0 =   3.551150E-01 (Beckmann and Haidvogel)
+                                 rx1 =   2.278447E+01 (Haney)
+
+ Initial basin volumes: TotVolume =  2.7293523690E+16 m3
+                        MinVolume =  1.0428377156E+07 m3
+                        MaxVolume =  1.9587014974E+10 m3
+                          Max/Min =  1.8782419048E+03
+
+ NL ROMS/TOMS: started time-stepping: (Grid: 01 TimeSteps: 00000722 - 00370000)
+
+    GET_2DFLD   - surface u-wind component,                  t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_Uwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -6.91714837E+00 Max =  1.25267256E+01)
+    GET_2DFLD   - surface v-wind component,                  t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_Vwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -9.05771348E+00 Max =  1.17676537E+01)
+    GET_2DFLD   - surface air pressure,                      t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_Pair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  9.85534665E+02 Max =  1.02974509E+03)
+    GET_2DFLD   - surface air temperature,                   t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_Tair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -2.13219211E+01 Max =  2.95718421E+01)
+    GET_2DFLD   - surface air relative humidity,             t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_Qair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  5.80296610E-04 Max =  1.98581950E-02)
+    GET_2DFLD   - no3 river source,                          t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.04195234E-07)
+    GET_2DFLD   - ldon river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.48369211E-08)
+    GET_2DFLD   - sldon river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.06430713E-08)
+    GET_2DFLD   - srdon river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.06430713E-08)
+    GET_2DFLD   - ndet river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_2DFLD   - po4 river source,                          t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  5.81931266E-09)
+    GET_2DFLD   - ldop river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  9.88103983E-10)
+    GET_2DFLD   - sldop river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.15278797E-09)
+    GET_2DFLD   - srdop river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.15278797E-09)
+    GET_2DFLD   - atmCO2,                                    t = 40952 00:00:00
+                   (Rec=0000650, Index=2, File: composite_CO2_MLO+GLO.nc)
+                   (Tmin=      21198.0000 Tmax=      41986.0000)
+                   (Min =  3.93090000E+02 Max =  3.93090000E+02)
+    GET_2DFLD   - mineralfe,                                 t =    45 00:00:00
+                   (Rec=0000002, Index=2, File: Mineral_Fe_Flux_PI_ROMS.nc)
+                   (Tmin=         15.5000 Tmax=        349.5000)
+                   (Min =  3.05923097E-09 Max =  8.89778828E-08)
+    GET_2DFLD   - solar shortwave radiation flux,            t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_swrad_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  3.43348201E-07)
+    GET_2DFLD   - downwelling longwave radiation flux,       t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_lwrad_down_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  3.89493843E-05 Max =  1.22542526E-04)
+    GET_2DFLD   - rain fall rate,                            t = 40925 01:30:00
+                   (Rec=0008905, Index=2, File: MERRA_rain_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  1.08971802E-03)
+    GET_2DFLD   - Fresh water runoff from land,              t = 40930 12:00:00
+                   (Rec=0000770, Index=2, File: runoff_NWA_daitren_inter_annual_1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  6.11768620E-03)
+    GET_2DFLD   - sea surface salinity climatology,          t =    45 15:45:00
+                   (Rec=0000002, Index=2, File: sss_monthly_climato_flooded.nc)
+                   (Tmin=         15.2188 Tmax=        350.0312)
+                   (Min =  1.89106566E+01 Max =  3.68433662E+01)
+    GET_NGFLD   - free-surface eastern boundary condition,   t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -6.74216872E-01 Max =  1.18258656E-01)
+    GET_NGFLD   - free-surface southern boundary condition,  t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.08899357E-01 Max =  4.14700645E-01)
+    GET_NGFLD   - 2D u-momentum eastern boundary condition,  t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.25785911E-01 Max =  9.73313508E-02)
+    GET_NGFLD   - 2D v-momentum eastern boundary condition,  t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -8.46279638E-02 Max =  5.48323248E-02)
+    GET_NGFLD   - 2D u-momentum southern boundary condition, t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.50233020E-01 Max =  7.22647938E-02)
+    GET_NGFLD   - 2D v-momentum southern boundary condition, t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -5.54996919E-01 Max =  1.22979743E-01)
+    GET_NGFLD   - 3D u-momentum eastern boundary condition,  t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.86127504E-01 Max =  3.59104823E-01)
+    GET_NGFLD   - 3D v-momentum eastern boundary condition,  t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -4.82348977E-01 Max =  9.59839733E-02)
+    GET_NGFLD   - 3D u-momentum southern boundary condition, t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -5.70782754E-01 Max =  2.39872328E-01)
+    GET_NGFLD   - 3D v-momentum southern boundary condition, t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -5.92062669E-01 Max =  4.06280358E-01)
+    GET_NGFLD   - temperature eastern boundary condition,    t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.09047050E+00 Max =  1.95813760E+01)
+    GET_NGFLD   - salinity eastern boundary condition,       t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.66068795E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen eastern boundat =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.74724182E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen eastern boundat =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.31247700E-07)
+    GET_NGFLD   - Diazotroph Nitrogen eastern boundary conditt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18809652E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.23927476E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen eastern bt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.05108702E-08)
+    GET_NGFLD   - large Zooplankton Nitrogen eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.05223544E-07)
+    GET_NGFLD   - labile DON eastern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.17871818E-08)
+    GET_NGFLD   - Semilabile DON eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -1.87892188E-15 Max =  3.20594645E-07)
+    GET_NGFLD   - Semi-Refractory DON eastern boundary conditt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -6.69415217E-11 Max =  1.57409581E-06)
+    GET_NGFLD   - bacterial eastern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.80163812E-07)
+    GET_NGFLD   - Ammonia eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.67257480E-07)
+    GET_NGFLD   - Nitrate eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.99483948E-05)
+    GET_NGFLD   - ndet eastern boundary condition,           t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.92506201E-09)
+    GET_NGFLD   - Silicate eastern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.41627406E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon eastern boundart =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  4.90327613E-07)
+    GET_NGFLD   - Detrital Silicon eastern boundary conditiont =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.48415966E-08)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.29017644E-09)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.47432391E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.60203127E-04)
+    GET_NGFLD   - lithdet eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.03691985E-07)
+    GET_NGFLD   - Phosphate eastern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.40000986E-06)
+    GET_NGFLD   - Oxygen eastern boundary condition,         t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.73035349E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.36334559E-03)
+    GET_NGFLD   - Alkalinity eastern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43065250E-03)
+    GET_NGFLD   - temperature southern boundary condition,   t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  2.85746011E+01)
+    GET_NGFLD   - salinity southern boundary condition,      t = 40926 13:00:00
+                   (Rec=0000004, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.71573390E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen southern boundt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.75708975E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen southern boundt =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.90575028E-07)
+    GET_NGFLD   - Diazotroph Nitrogen southern boundary condit =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.75711488E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.18758147E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen southern t =    45 03:00:00,
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.04318388E-07)
+    GET_NGFLD   - large Zooplankton Nitrogen southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.69848195E-08)
+    GET_NGFLD   - labile DON southern boundary condition,    t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18000172E-08)
+    GET_NGFLD   - Semilabile DON southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.73490030E-07)
+    GET_NGFLD   - Semi-Refractory DON southern boundary condit =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -9.92999608E-14 Max =  2.27871899E-06)
+    GET_NGFLD   - bacterial southern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.48929129E-07)
+    GET_NGFLD   - Ammonia southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.51909187E-07)
+    GET_NGFLD   - Nitrate southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.00257216E-05)
+    GET_NGFLD   - ndet southern boundary condition,          t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.01218726E-08)
+    GET_NGFLD   - Silicate southern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18634741E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon southern boundat =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.17652098E-07)
+    GET_NGFLD   - Detrital Silicon southern boundary conditiot =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.05839816E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  5.15745153E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  4.83136008E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.08734939E-03)
+    GET_NGFLD   - lithdet southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.67798300E-07)
+    GET_NGFLD   - Phosphate southern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.23026063E-06)
+    GET_NGFLD   - Oxygen southern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.45545205E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.35828431E-03)
+    GET_NGFLD   - Alkalinity southern boundary condition,    t =    45 03:00:00
+                   (Rec=0000002, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43464718E-03)
+    GET_2DFLD   - sea surface height climatology,            t = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -8.04708342E-01 Max =  5.73779159E-01)
+    GET_2DFLD   - vertically integrated u-momentum climatologt = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -3.51856136E-01 Max =  7.57561063E-01)
+    GET_2DFLD   - vertically integrated v-momentum climatologt = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -4.12796528E-01 Max =  7.36143783E-01)
+    GET_3DFLD   - u-momentum component climatology,          t = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -5.39525922E-01 Max =  1.34899781E+00)
+    GET_3DFLD   - v-momentum component climatology,          t = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -8.78115663E-01 Max =  7.83775836E-01)
+    GET_3DFLD   - potential temperature climatology,         t = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.67521793E+00 Max =  2.79552760E+01)
+    GET_3DFLD   - salinity climatology,                      t = 40954 01:00:00
+                   (Rec=0000002, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min =  2.07154396E+01 Max =  3.73163229E+01)
+    GET_3DFLD   - Small Phytoplankton Nitrogen climatology,  t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  2.00106159E-13 Max =  1.94693399E-07)
+    GET_3DFLD   - Large Phytoplankton Nitrogen climatology,  t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min = -7.46578032E-13 Max =  2.44993188E-07)
+    GET_3DFLD   - Diazotroph Nitrogen climatology,           t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  4.36195866E-13 Max =  3.99922087E-08)
+    GET_3DFLD   - Small Zooplankton Nitrogen climatology,    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Medium-sized zooplankton Nitrogen climatolot = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - large Zooplankton Nitrogen climatology,    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - labile DON climatology,                    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  1.80556801E-11 Max =  2.40665337E-08)
+    GET_3DFLD   - Semilabile DON climatology,                t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Semi-Refractory DON climatology,           t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - bacterial climatology,                     t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  1.27250989E-13 Max =  2.31315241E-07)
+    GET_3DFLD   - Ammonia climatology,                       t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  1.27947303E-09 Max =  1.46919571E-06)
+    GET_3DFLD   - Nitrate climatology,                       t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  8.10553949E-14 Max =  3.48838657E-05)
+    GET_3DFLD   - ndet climatology,                          t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  7.59692096E-11 Max =  1.21154464E-08)
+    GET_3DFLD   - Silicate climatology,                      t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Large Phytoplankton Silicon climatology,   t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Detrital Silicon climatology,              t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  6.91295348E-11 Max =  4.11906156E-09)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  8.45316066E-12 Max =  3.48785896E-09)
+    GET_3DFLD   - Lithogenic Aluminosilicate climatology,    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  3.97851838E-07 Max =  1.56606249E-03)
+    GET_3DFLD   - lithdet climatology,                       t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  4.60086831E-09 Max =  3.23333618E-07)
+    GET_3DFLD   - Phosphate climatology,                     t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  3.55637235E-06)
+    GET_3DFLD   - Oxygen climatology,                        t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_3DFLD   - Dissolved Inorganic Carbon climatology,    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  1.89034024E-03 Max =  2.36458099E-03)
+    GET_3DFLD   - Alkalinity climatology,                    t = 40923 11:45:36
+                   (Rec=0000001, Index=2, File: NWA_clim_bio.nc)
+                   (Tmin=      40923.4900 Tmax=      41253.4900)
+                   (Min =  2.24147597E-03 Max =  2.43471307E-03)
+
+ SET_3DFLD  - current model time exceeds ending value for variable: nsm
+              TDAYS     =      40925.0417
+              Data Tmin =      40923.4900  Data Tmax =      41253.4900
+              Data Tstr =      41253.4900  Data Tend =      40923.4900
+              TINTRP1   =      40888.2400  TINTRP2   =      40923.4900
+              FAC1      =         -1.5517  FAC2      =         36.8017
+
+ Elapsed CPU time (seconds):
+
+ Node   #  0 CPU:      75.070
+ Node   # 63 CPU:     225.234
+ Node   #  4 CPU:     225.153
+ Node   # 81 CPU:     225.109
+ Node   #107 CPU:     225.225
+ Node   # 24 CPU:     225.205
+ Node   # 47 CPU:     225.229
+ Node   # 66 CPU:     225.231
+ Node   #  1 CPU:     225.168
+ Node   # 83 CPU:     225.220
+ Node   #108 CPU:     225.228
+ Node   # 27 CPU:     225.222
+ Node   # 49 CPU:     225.218
+ Node   # 73 CPU:     225.228
+ Node   #  2 CPU:     225.073
+ Node   # 88 CPU:     219.308
+ Node   #110 CPU:     225.232
+ Node   # 31 CPU:     225.229
+ Node   # 53 CPU:     225.231
+ Node   # 75 CPU:     225.223
+ Node   #  3 CPU:     224.834
+ Node   # 91 CPU:     225.219
+ Node   #111 CPU:     225.229
+ Node   # 32 CPU:     223.119
+ Node   # 55 CPU:     225.229
+ Node   # 64 CPU:     225.230
+ Node   #  5 CPU:     225.221
+ Node   # 97 CPU:     225.065
+ Node   #114 CPU:     225.229
+ Node   # 34 CPU:     225.230
+ Node   # 48 CPU:     225.228
+ Node   # 65 CPU:     225.233
+ Node   #  6 CPU:     225.157
+ Node   # 84 CPU:     225.205
+ Node   #120 CPU:     225.231
+ Node   # 40 CPU:     225.230
+ Node   # 50 CPU:     225.221
+ Node   # 67 CPU:     225.231
+ Node   #  8 CPU:     225.196
+ Node   # 85 CPU:     225.220
+ Node   #124 CPU:     225.232
+ Node   # 43 CPU:     225.231
+ Node   # 52 CPU:     225.220
+ Node   # 68 CPU:     225.229
+ Node   #  9 CPU:     225.215
+ Node   # 86 CPU:     225.220
+ Node   #105 CPU:     225.226
+ Node   # 25 CPU:     216.967
+ Node   # 54 CPU:     225.226
+ Node   # 69 CPU:     225.210
+ Node   # 10 CPU:     225.211
+ Node   # 87 CPU:     223.729
+ Node   #106 CPU:     225.221
+ Node   # 26 CPU:     225.213
+ Node   # 56 CPU:     225.221
+ Node   # 70 CPU:     225.231
+ Node   #  7 CPU:     225.200
+ Node   # 89 CPU:     222.397
+ Node   #109 CPU:     225.231
+ Node   # 28 CPU:     225.209
+ Node   # 57 CPU:     225.227
+ Node   # 71 CPU:     225.228
+ Node   # 11 CPU:     225.210
+ Node   # 90 CPU:     225.218
+ Node   #112 CPU:     225.230
+ Node   # 29 CPU:     225.198
+ Node   # 58 CPU:     225.230
+ Node   # 72 CPU:     225.234
+ Node   # 12 CPU:     224.872
+ Node   # 92 CPU:     225.227
+ Node   #113 CPU:     225.229
+ Node   # 30 CPU:     225.084
+ Node   # 59 CPU:     225.229
+ Node   # 74 CPU:     225.228
+ Node   # 13 CPU:     224.926
+ Node   # 93 CPU:     225.153
+ Node   #115 CPU:     225.230
+ Node   # 33 CPU:     225.231
+ Node   # 60 CPU:     225.230
+ Node   # 76 CPU:     225.228
+ Node   # 14 CPU:     224.654
+ Node   # 94 CPU:     225.192
+ Node   # 35 CPU:     225.225
+ Node   # 61 CPU:     225.229
+ Node   # 77 CPU:     225.230
+ Node   # 15 CPU:     224.936
+ Node   # 95 CPU:     225.232
+ Node   #117 CPU:     225.192
+ Node   # 51 CPU:     225.228
+ Node   # 78 CPU:     225.229
+ Node   # 16 CPU:     225.005
+ Node   #118 CPU:     225.226
+ Node   # 37 CPU:     225.234
+ Node   # 79 CPU:     225.228
+ Node   # 17 CPU:     225.128
+ Node   #119 CPU:     225.227
+ Node   # 38 CPU:     225.230
+ Node   # 80 CPU:     225.230
+ Node   # 18 CPU:     225.067
+ Node   # 96 CPU:     225.230
+ Node   #121 CPU:     225.233
+ Node   # 39 CPU:     225.231
+ Node   # 62 CPU:     225.205
+ Node   # 19 CPU:     225.133
+ Node   # 98 CPU:     225.234
+ Node   #122 CPU:     225.217
+ Node   # 41 CPU:     225.232
+ Node   # 20 CPU:     225.015
+ Node   # 99 CPU:     225.232
+ Node   #123 CPU:     225.222
+ Node   # 42 CPU:     225.231
+ Node   # 21 CPU:     225.233
+ Node   #100 CPU:     225.231
+ Node   #125 CPU:     225.232
+ Node   # 44 CPU:     225.231
+ Node   # 22 CPU:     225.149
+ Node   #101 CPU:     225.233
+ Node   #126 CPU:     225.232
+ Node   # 45 CPU:     225.231
+ Node   # 23 CPU:     224.966
+ Node   #102 CPU:     225.197
+ Node   #127 CPU:     225.231
+ Node   # 46 CPU:     225.231
+ Node   #103 CPU:     225.233
+ Node   #116 CPU:     225.168
+ Node   # 36 CPU:     225.232
+ Node   #104 CPU:     225.209
+ Node   # 82 CPU:     225.212
+ Total:             28654.033
+
+ Nonlinear ocean model elapsed time profile, Grid: 01
+
+  Allocation and array initialization ..............       252.865  ( 0.8825 %)
+  Ocean state initialization .......................         2.633  ( 0.0092 %)
+  Reading of input data ............................     23483.192  (81.9542 %)
+  Processing of input data .........................         6.175  ( 0.0216 %)
+  2D/3D coupling, vertical metrics .................         3.239  ( 0.0113 %)
+  Omega vertical velocity ..........................         1.200  ( 0.0042 %)
+  Equation of state for seawater ...................         5.133  ( 0.0179 %)
+                                              Total:     23754.436   82.9008
+
+ Nonlinear model message Passage profile, Grid: 01
+
+  Message Passage: 2D halo exchanges ...............         7.611  ( 0.0266 %)
+  Message Passage: 3D halo exchanges ...............         3.588  ( 0.0125 %)
+  Message Passage: 4D halo exchanges ...............         4.092  ( 0.0143 %)
+  Message Passage: data broadcast ..................     24728.987  (86.3019 %)
+  Message Passage: data reduction ..................        11.927  ( 0.0416 %)
+  Message Passage: data scattering..................      2722.847  ( 9.5025 %)
+                                              Total:     27479.053   95.8994
+
+ All percentages are with respect to total time =        28654.033
+
+
+ ROMS/TOMS - Output NetCDF summary for Grid 01:
+
+ Analytical header files used:
+
+     ROMS/Functionals/ana_drag.h
+     ROMS/Functionals/ana_btflux.h
+     ROMS/Functionals/ana_srflux.h
+     ROMS/Functionals/ana_stflux.h
+
+ ROMS/TOMS - Input error ............. exit_flag:   2
+
+
+ ERROR: Abnormal termination: NetCDF INPUT.
+ REASON: No error                                                                        
