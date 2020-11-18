@@ -1,0 +1,39 @@
+
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Tuesday - November 17, 2020 -  4:22:02 PM
+ -----------------------------------------------------------------------------
+
+ Northwest Atlantic 7km Grid
+
+ Operating system : Linux
+ CPU/hardware     : x86_64
+ Compiler system  : ifort
+ Compiler command : /apps2/mpich2/1.5-ics/bin/mpif90
+ Compiler flags   : -heap-arrays -fp-model precise -g -check uninit -ftrapuv -traceback -check bounds -free -free
+
+ Input Script  : 
+
+ SVN Root URL  : https:://myroms.org/svn/src
+ SVN Revision  : exported
+
+ Local Root    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms
+ Header Dir    : /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/Include
+ Header file   : nwa.h
+ Analytical Dir: /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/ROMS/Functionals
+
+ Resolution, Grid 01: 0720x0360x040,  Parallel Nodes: 192,  Tiling: 008x016
+
+ ROMS/TOMS: Wrong choice of domain 01 partition or number of parallel threads.
+            NtileI * NtileJ  must be equal to the number of parallel nodes.
+            Change -np value to mpirun or
+            change domain partition in input script.
+
+ Elapsed CPU time (seconds):
+
+
+ ROMS/TOMS - Output NetCDF summary for Grid 01:
+
+ ROMS/TOMS - Partition error ......... exit_flag:   6
+
+
+ ERROR: Illegal domain partition.

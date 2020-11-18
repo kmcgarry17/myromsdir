@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=SkylakePriority
-#SBATCH --ntasks=128
-#SBATCH --time=00:40:00
+#SBATCH --ntasks=192
+#SBATCH --time=01:00:00
 #SBATCH --mail-type=END
 #SBATCH --mail-user=kelly.m.mcgarry@uconn.edu
 
@@ -13,5 +13,5 @@ module load mpi/mpich2/1.5-ics
 module load netcdf-fortran/4.4.1-ics-haswell
 module load hdf5/1.8.9-ics
 
-srun --mpi=pmi2 ./oceanG ./ocean.in 
+srun --mpi=pmi2 ./oceanG ./ocean-rst.in 
 

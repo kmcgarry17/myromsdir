@@ -727,7 +727,8 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
 
        ! RD dev notes : replaced namelist values by values in TABLE A1 from Wanninkhof (1992)
        !co2_sc_no(i,j) = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 ) * rmask(i,j)
-       co2_sc_no = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 )
+       !co2_sc_no = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 )
+       co2_sc_no = 660.0
 
        ! RD dev notes : use 10 meters neutral wind and not wind from forcing
        ! files, this field is computed by ccsm_flux.F (Large/Yeager) or bulk_flux.F (Fairall)
