@@ -1807,3 +1807,1047 @@
                    (Min =  4.10570297E-03 Max =  1.88335195E-01)
     GET_2DFLD   - tidal potential elevation phase angle
                    (Min =  2.74285832E+00 Max =  5.48594513E+00)
+    GET_2DFLD   - surface u-wind component,                  t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_Uwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -7.17826342E+00 Max =  8.68186882E+00)
+    GET_2DFLD   - surface v-wind component,                  t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_Vwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -5.81247649E+00 Max =  1.10014882E+01)
+    GET_2DFLD   - surface air pressure,                      t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_Pair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  9.96052462E+02 Max =  1.02773916E+03)
+    GET_2DFLD   - surface air temperature,                   t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_Tair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -1.03782523E+01 Max =  3.56079028E+01)
+    GET_2DFLD   - surface air relative humidity,             t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_Qair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  1.82060577E-03 Max =  1.79453507E-02)
+    GET_2DFLD   - no3 river source,                          t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.04195234E-07)
+    GET_2DFLD   - ldon river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.48369211E-08)
+    GET_2DFLD   - sldon river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.06430713E-08)
+    GET_2DFLD   - srdon river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.06430713E-08)
+    GET_2DFLD   - ndet river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_2DFLD   - po4 river source,                          t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  5.81931266E-09)
+    GET_2DFLD   - ldop river source,                         t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  9.88103983E-10)
+    GET_2DFLD   - sldop river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.15278797E-09)
+    GET_2DFLD   - srdop river source,                        t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.15278797E-09)
+    GET_2DFLD   - atmCO2,                                    t = 40952 00:00:00
+                   (Rec=0000650, Index=1, File: composite_CO2_MLO+GLO.nc)
+                   (Tmin=      21198.0000 Tmax=      41986.0000)
+                   (Min =  3.93090000E+02 Max =  3.93090000E+02)
+    GET_2DFLD   - mineralfe,                                 t =    45 00:00:00
+                   (Rec=0000002, Index=1, File: Mineral_Fe_Flux_PI_ROMS.nc)
+                   (Tmin=         15.5000 Tmax=        349.5000)
+                   (Min =  3.05923097E-09 Max =  8.89778828E-08)
+    GET_2DFLD   - solar shortwave radiation flux,            t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_swrad_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  8.13661885E-05)
+    GET_2DFLD   - downwelling longwave radiation flux,       t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_lwrad_down_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  5.60830907E-05 Max =  1.11905467E-04)
+    GET_2DFLD   - rain fall rate,                            t = 40959 22:30:00
+                   (Rec=0009184, Index=1, File: MERRA_rain_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  7.56685519E-04)
+    GET_2DFLD   - Fresh water runoff from land,              t = 40930 12:00:00
+                   (Rec=0000770, Index=1, File: runoff_NWA_daitren_inter_annual_1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  6.11768620E-03)
+    GET_2DFLD   - sea surface salinity climatology,          t =    45 15:45:00
+                   (Rec=0000002, Index=1, File: sss_monthly_climato_flooded.nc)
+                   (Tmin=         15.2188 Tmax=        350.0312)
+                   (Min =  1.89106566E+01 Max =  3.68433662E+01)
+    GET_NGFLD   - free-surface eastern boundary condition,   t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -8.45780632E-01 Max =  1.36493916E-01)
+    GET_NGFLD   - free-surface southern boundary condition,  t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -6.28381326E-02 Max =  5.08292397E-01)
+    GET_NGFLD   - 2D u-momentum eastern boundary condition,  t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.02095654E-01 Max =  1.00323183E-01)
+    GET_NGFLD   - 2D v-momentum eastern boundary condition,  t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -7.39258839E-02 Max =  9.30840389E-02)
+    GET_NGFLD   - 2D u-momentum southern boundary condition, t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.27447489E-01 Max =  1.60728869E-01)
+    GET_NGFLD   - 2D v-momentum southern boundary condition, t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.39747218E-01 Max =  2.33340944E-01)
+    GET_NGFLD   - 3D u-momentum eastern boundary condition,  t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.97387452E-01 Max =  4.90805428E-01)
+    GET_NGFLD   - 3D v-momentum eastern boundary condition,  t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.36861130E-01 Max =  4.20772907E-01)
+    GET_NGFLD   - 3D u-momentum southern boundary condition, t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.30676341E-01 Max =  2.96017018E-01)
+    GET_NGFLD   - 3D v-momentum southern boundary condition, t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -4.61887158E-01 Max =  7.25122253E-01)
+    GET_NGFLD   - temperature eastern boundary condition,    t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.59148907E+00 Max =  1.88711379E+01)
+    GET_NGFLD   - salinity eastern boundary condition,       t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.66227319E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen eastern boundat =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.74724182E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen eastern boundat =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.31247700E-07)
+    GET_NGFLD   - Diazotroph Nitrogen eastern boundary conditt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18809652E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.23927476E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen eastern bt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.05108702E-08)
+    GET_NGFLD   - large Zooplankton Nitrogen eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.05223544E-07)
+    GET_NGFLD   - labile DON eastern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.17871818E-08)
+    GET_NGFLD   - Semilabile DON eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -1.87892188E-15 Max =  3.20594645E-07)
+    GET_NGFLD   - Semi-Refractory DON eastern boundary conditt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -6.69415217E-11 Max =  1.57409581E-06)
+    GET_NGFLD   - bacterial eastern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.80163812E-07)
+    GET_NGFLD   - Ammonia eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.67257480E-07)
+    GET_NGFLD   - Nitrate eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.99483948E-05)
+    GET_NGFLD   - ndet eastern boundary condition,           t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.92506201E-09)
+    GET_NGFLD   - Silicate eastern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.41627406E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon eastern boundart =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  4.90327613E-07)
+    GET_NGFLD   - Detrital Silicon eastern boundary conditiont =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.48415966E-08)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.29017644E-09)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.47432391E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.60203127E-04)
+    GET_NGFLD   - lithdet eastern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.03691985E-07)
+    GET_NGFLD   - Phosphate eastern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.40000986E-06)
+    GET_NGFLD   - Oxygen eastern boundary condition,         t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.73035349E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon eastern boundaryt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.36334559E-03)
+    GET_NGFLD   - Alkalinity eastern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43065250E-03)
+    GET_NGFLD   - temperature southern boundary condition,   t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  2.76755623E+01)
+    GET_NGFLD   - salinity southern boundary condition,      t = 40956 13:00:00
+                   (Rec=0000010, Index=2, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.71122161E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen southern boundt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.75708975E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen southern boundt =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.90575028E-07)
+    GET_NGFLD   - Diazotroph Nitrogen southern boundary condit =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.75711488E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.18758147E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen southern t =    45 03:00:00,
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.04318388E-07)
+    GET_NGFLD   - large Zooplankton Nitrogen southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.69848195E-08)
+    GET_NGFLD   - labile DON southern boundary condition,    t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18000172E-08)
+    GET_NGFLD   - Semilabile DON southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.73490030E-07)
+    GET_NGFLD   - Semi-Refractory DON southern boundary condit =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -9.92999608E-14 Max =  2.27871899E-06)
+    GET_NGFLD   - bacterial southern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.48929129E-07)
+    GET_NGFLD   - Ammonia southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.51909187E-07)
+    GET_NGFLD   - Nitrate southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.00257216E-05)
+    GET_NGFLD   - ndet southern boundary condition,          t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.01218726E-08)
+    GET_NGFLD   - Silicate southern boundary condition,      t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.18634741E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon southern boundat =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.17652098E-07)
+    GET_NGFLD   - Detrital Silicon southern boundary conditiot =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.05839816E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  5.15745153E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  4.83136008E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.08734939E-03)
+    GET_NGFLD   - lithdet southern boundary condition,       t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.67798300E-07)
+    GET_NGFLD   - Phosphate southern boundary condition,     t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.23026063E-06)
+    GET_NGFLD   - Oxygen southern boundary condition,        t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.45545205E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon southern boundart =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.35828431E-03)
+    GET_NGFLD   - Alkalinity southern boundary condition,    t =    45 03:00:00
+                   (Rec=0000002, Index=2, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43464718E-03)
+    GET_2DFLD   - sea surface height climatology,            t = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -8.04708342E-01 Max =  5.73779159E-01)
+    GET_2DFLD   - vertically integrated u-momentum climatologt = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -3.51856136E-01 Max =  7.57561063E-01)
+    GET_2DFLD   - vertically integrated v-momentum climatologt = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -4.12796528E-01 Max =  7.36143783E-01)
+    GET_3DFLD   - u-momentum component climatology,          t = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -5.39525922E-01 Max =  1.34899781E+00)
+    GET_3DFLD   - v-momentum component climatology,          t = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -8.78115663E-01 Max =  7.83775836E-01)
+    GET_3DFLD   - potential temperature climatology,         t = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.67521793E+00 Max =  2.79552760E+01)
+    GET_3DFLD   - salinity climatology,                      t = 40954 01:00:00
+                   (Rec=0000002, Index=1, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min =  2.07154396E+01 Max =  3.73163229E+01)
+    GET_3DFLD   - Small Phytoplankton Nitrogen climatology,  t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  5.90396160E-13 Max =  2.26234580E-07)
+    GET_3DFLD   - Large Phytoplankton Nitrogen climatology,  t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.28038134E-12 Max =  3.14962883E-07)
+    GET_3DFLD   - Diazotroph Nitrogen climatology,           t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.35945233E-13 Max =  4.28970957E-08)
+    GET_3DFLD   - Small Zooplankton Nitrogen climatology,    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.25444116E-11 Max =  1.97856451E-07)
+    GET_3DFLD   - Medium-sized zooplankton Nitrogen climatolot =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.21338905E-11 Max =  2.00114002E-07)
+    GET_3DFLD   - large Zooplankton Nitrogen climatology,    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  3.21832794E-12 Max =  1.70971987E-07)
+    GET_3DFLD   - labile DON climatology,                    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.80520072E-11 Max =  3.54381555E-08)
+    GET_3DFLD   - Semilabile DON climatology,                t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.20092348E-14 Max =  8.35943669E-07)
+    GET_3DFLD   - Semi-Refractory DON climatology,           t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -7.25754458E-11 Max =  2.38170501E-06)
+    GET_3DFLD   - bacterial climatology,                     t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.16443120E-13 Max =  2.65530815E-07)
+    GET_3DFLD   - Ammonia climatology,                       t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.27504753E-09 Max =  1.35449287E-06)
+    GET_3DFLD   - Nitrate climatology,                       t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  0.00000000E+00 Max =  3.58002289E-05)
+    GET_3DFLD   - ndet climatology,                          t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  7.75068558E-11 Max =  1.66111071E-08)
+    GET_3DFLD   - Silicate climatology,                      t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.10591265E-10 Max =  4.88228143E-05)
+    GET_3DFLD   - Large Phytoplankton Silicon climatology,   t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  8.84597454E-13 Max =  1.37603680E-06)
+    GET_3DFLD   - Detrital Silicon climatology,              t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  8.58966988E-12 Max =  4.75369233E-08)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  9.03956133E-11 Max =  5.15745153E-09)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  8.36979997E-12 Max =  4.83136008E-09)
+    GET_3DFLD   - Lithogenic Aluminosilicate climatology,    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.06135223E-07 Max =  1.57292467E-03)
+    GET_3DFLD   - lithdet climatology,                       t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.76782980E-09 Max =  3.78111564E-07)
+    GET_3DFLD   - Phosphate climatology,                     t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  2.75644525E-13 Max =  3.36906055E-06)
+    GET_3DFLD   - Oxygen climatology,                        t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  3.87551481E-05 Max =  3.75755568E-04)
+    GET_3DFLD   - Dissolved Inorganic Carbon climatology,    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.89034024E-03 Max =  2.36458099E-03)
+    GET_3DFLD   - Alkalinity climatology,                    t =    47 03:00:00
+                   (Rec=0000002, Index=1, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  2.24147597E-03 Max =  2.43471307E-03)
+
+ Basin information for Grid 01:
+
+ Maximum grid stiffness ratios:  rx0 =   3.551150E-01 (Beckmann and Haidvogel)
+                                 rx1 =   2.278447E+01 (Haney)
+
+ Initial basin volumes: TotVolume =  2.7293523690E+16 m3
+                        MinVolume =  1.0428377156E+07 m3
+                        MaxVolume =  1.9587014974E+10 m3
+                          Max/Min =  1.8782419048E+03
+
+ NL ROMS/TOMS: started time-stepping: (Grid: 01 TimeSteps: 00012601 - 00370000)
+
+    GET_2DFLD   - surface u-wind component,                  t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_Uwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -7.42612181E+00 Max =  9.04343258E+00)
+    GET_2DFLD   - surface v-wind component,                  t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_Vwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -4.69083255E+00 Max =  1.21806047E+01)
+    GET_2DFLD   - surface air pressure,                      t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_Pair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  9.96071108E+02 Max =  1.02816277E+03)
+    GET_2DFLD   - surface air temperature,                   t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_Tair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -1.14454431E+01 Max =  3.08143916E+01)
+    GET_2DFLD   - surface air relative humidity,             t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_Qair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  1.52127659E-03 Max =  1.85014578E-02)
+    GET_2DFLD   - no3 river source,                          t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_no3_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  3.59127818E-07)
+    GET_2DFLD   - ldon river source,                         t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_ldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.17063114E-08)
+    GET_2DFLD   - sldon river source,                        t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_sldon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.86573593E-08)
+    GET_2DFLD   - srdon river source,                        t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_srdon_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  4.86573593E-08)
+    GET_2DFLD   - ndet river source,                         t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_ndet_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_2DFLD   - po4 river source,                          t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_po4_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  6.87018342E-09)
+    GET_2DFLD   - ldop river source,                         t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_ldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.18294531E-09)
+    GET_2DFLD   - sldop river source,                        t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_sldop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.38010284E-09)
+    GET_2DFLD   - srdop river source,                        t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: NWA_river_srdop_runoff_bio_NEWS_y1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  1.38010284E-09)
+    GET_2DFLD   - atmCO2,                                    t = 40981 00:00:00
+                   (Rec=0000651, Index=2, File: composite_CO2_MLO+GLO.nc)
+                   (Tmin=      21198.0000 Tmax=      41986.0000)
+                   (Min =  3.93600000E+02 Max =  3.93600000E+02)
+    GET_2DFLD   - mineralfe,                                 t =    74 12:00:00
+                   (Rec=0000003, Index=2, File: Mineral_Fe_Flux_PI_ROMS.nc)
+                   (Tmin=         15.5000 Tmax=        349.5000)
+                   (Min =  5.95471095E-09 Max =  7.25202593E-08)
+    GET_2DFLD   - solar shortwave radiation flux,            t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_swrad_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  1.47260860E-06)
+    GET_2DFLD   - downwelling longwave radiation flux,       t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_lwrad_down_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  6.28049520E-05 Max =  1.11925540E-04)
+    GET_2DFLD   - rain fall rate,                            t = 40960 01:30:00
+                   (Rec=0009185, Index=2, File: MERRA_rain_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  5.19630165E-04)
+    GET_2DFLD   - Fresh water runoff from land,              t = 40960 12:00:00
+                   (Rec=0000771, Index=2, File: runoff_NWA_daitren_inter_annual_1948-2015.nc)
+                   (Tmin=      17546.5000 Tmax=      42310.5000)
+                   (Min =  0.00000000E+00 Max =  7.32398806E-03)
+    GET_2DFLD   - sea surface salinity climatology,          t =    76 02:15:00
+                   (Rec=0000003, Index=2, File: sss_monthly_climato_flooded.nc)
+                   (Tmin=         15.2188 Tmax=        350.0312)
+                   (Min =  1.89106566E+01 Max =  3.68207202E+01)
+    GET_NGFLD   - free-surface eastern boundary condition,   t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -8.49277925E-01 Max =  1.47876215E-01)
+    GET_NGFLD   - free-surface southern boundary condition,  t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -4.98032456E-02 Max =  5.60041641E-01)
+    GET_NGFLD   - 2D u-momentum eastern boundary condition,  t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.98383680E-01 Max =  6.77128178E-02)
+    GET_NGFLD   - 2D v-momentum eastern boundary condition,  t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -7.28138555E-02 Max =  1.34167470E-01)
+    GET_NGFLD   - 2D u-momentum southern boundary condition, t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.10530385E-01 Max =  1.41049583E-01)
+    GET_NGFLD   - 2D v-momentum southern boundary condition, t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -3.16225931E-01 Max =  1.95073421E-01)
+    GET_NGFLD   - 3D u-momentum eastern boundary condition,  t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -2.67068217E-01 Max =  4.38448075E-01)
+    GET_NGFLD   - 3D v-momentum eastern boundary condition,  t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.70872694E-01 Max =  5.49598636E-01)
+    GET_NGFLD   - 3D u-momentum southern boundary condition, t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -3.27704284E-01 Max =  2.87002876E-01)
+    GET_NGFLD   - 3D v-momentum southern boundary condition, t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -4.77452367E-01 Max =  8.08026774E-01)
+    GET_NGFLD   - temperature eastern boundary condition,    t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min = -1.60351348E+00 Max =  1.86944061E+01)
+    GET_NGFLD   - salinity eastern boundary condition,       t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.65990796E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen eastern boundat =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.25570377E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen eastern boundat =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.43763783E-07)
+    GET_NGFLD   - Diazotroph Nitrogen eastern boundary conditt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.68937870E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen eastern boundaryt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.96060278E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen eastern bt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.51818927E-07)
+    GET_NGFLD   - large Zooplankton Nitrogen eastern boundaryt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.17166535E-07)
+    GET_NGFLD   - labile DON eastern boundary condition,     t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.84185543E-08)
+    GET_NGFLD   - Semilabile DON eastern boundary condition, t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -1.80918366E-15 Max =  3.74865892E-07)
+    GET_NGFLD   - Semi-Refractory DON eastern boundary conditt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -6.13741559E-11 Max =  1.55436510E-06)
+    GET_NGFLD   - bacterial eastern boundary condition,      t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.17177970E-07)
+    GET_NGFLD   - Ammonia eastern boundary condition,        t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.51209973E-07)
+    GET_NGFLD   - Nitrate eastern boundary condition,        t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.08427846E-05)
+    GET_NGFLD   - ndet eastern boundary condition,           t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.79421052E-08)
+    GET_NGFLD   - Silicate eastern boundary condition,       t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.42128265E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon eastern boundart =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.38295762E-07)
+    GET_NGFLD   - Detrital Silicon eastern boundary conditiont =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  5.15168388E-08)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.87512017E-09)
+    GET_NGFLD   - Detrital CaCO3 eastern boundary condition, t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.41609496E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate eastern boundaryt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  8.50116978E-04)
+    GET_NGFLD   - lithdet eastern boundary condition,        t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.48339590E-07)
+    GET_NGFLD   - Phosphate eastern boundary condition,      t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.33063168E-06)
+    GET_NGFLD   - Oxygen eastern boundary condition,         t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.76017764E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon eastern boundaryt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.36334559E-03)
+    GET_NGFLD   - Alkalinity eastern boundary condition,     t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43065250E-03)
+    GET_NGFLD   - temperature southern boundary condition,   t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  2.77336478E+01)
+    GET_NGFLD   - salinity southern boundary condition,      t = 40961 13:00:00
+                   (Rec=0000011, Index=1, File: NWA_bdry_SODA3.3.1_y2012.nc)
+                   (Tmin=      40911.5417 Tmax=      41271.5417)
+                   (Min =  0.00000000E+00 Max =  3.70746749E+01)
+    GET_NGFLD   - Small Phytoplankton Nitrogen southern boundt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.27156756E-07)
+    GET_NGFLD   - Large Phytoplankton Nitrogen southern boundt =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.45222291E-07)
+    GET_NGFLD   - Diazotroph Nitrogen southern boundary condit =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.35211693E-08)
+    GET_NGFLD   - Small Zooplankton Nitrogen southern boundart =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.62821511E-07)
+    GET_NGFLD   - Medium-sized zooplankton Nitrogen southern t =    74 18:00:00,
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.47593441E-07)
+    GET_NGFLD   - large Zooplankton Nitrogen southern boundart =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.24528234E-07)
+    GET_NGFLD   - labile DON southern boundary condition,    t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.76292958E-08)
+    GET_NGFLD   - Semilabile DON southern boundary condition,t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  9.08001311E-07)
+    GET_NGFLD   - Semi-Refractory DON southern boundary condit =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min = -9.66711572E-14 Max =  2.27769665E-06)
+    GET_NGFLD   - bacterial southern boundary condition,     t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.62617574E-07)
+    GET_NGFLD   - Ammonia southern boundary condition,       t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.38129363E-07)
+    GET_NGFLD   - Nitrate southern boundary condition,       t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.04559162E-05)
+    GET_NGFLD   - ndet southern boundary condition,          t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.34693496E-08)
+    GET_NGFLD   - Silicate southern boundary condition,      t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.27064593E-05)
+    GET_NGFLD   - Large Phytoplankton Silicon southern boundat =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.41301432E-07)
+    GET_NGFLD   - Detrital Silicon southern boundary conditiot =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  7.84141552E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  5.78701744E-09)
+    GET_NGFLD   - Detrital CaCO3 southern boundary condition,t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  6.07469306E-09)
+    GET_NGFLD   - Lithogenic Aluminosilicate southern boundart =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  1.09262528E-03)
+    GET_NGFLD   - lithdet southern boundary condition,       t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  3.03193365E-07)
+    GET_NGFLD   - Phosphate southern boundary condition,     t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.09279051E-06)
+    GET_NGFLD   - Oxygen southern boundary condition,        t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.44888448E-04)
+    GET_NGFLD   - Dissolved Inorganic Carbon southern boundart =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.35828431E-03)
+    GET_NGFLD   - Alkalinity southern boundary condition,    t =    74 18:00:00
+                   (Rec=0000003, Index=1, File: NWA_bdry_bio.nc)
+                   (Tmin=         15.5000 Tmax=        349.7500)
+                   (Min =  0.00000000E+00 Max =  2.43464718E-03)
+    GET_2DFLD   - sea surface height climatology,            t = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -7.65682919E-01 Max =  5.95032036E-01)
+    GET_2DFLD   - vertically integrated u-momentum climatologt = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -2.74656732E-01 Max =  8.05274100E-01)
+    GET_2DFLD   - vertically integrated v-momentum climatologt = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -4.04821101E-01 Max =  6.98455351E-01)
+    GET_3DFLD   - u-momentum component climatology,          t = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -5.63574713E-01 Max =  1.24746646E+00)
+    GET_3DFLD   - v-momentum component climatology,          t = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.15185223E+00 Max =  9.94823404E-01)
+    GET_3DFLD   - potential temperature climatology,         t = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min = -1.66196718E+00 Max =  2.83058145E+01)
+    GET_3DFLD   - salinity climatology,                      t = 40984 01:00:00
+                   (Rec=0000003, Index=2, File: NWA_clim_SODA3.3.1_y2012.nc)
+                   (Tmin=      40924.0417 Tmax=      41259.0417)
+                   (Min =  2.13798230E+01 Max =  3.70992572E+01)
+    GET_3DFLD   - Small Phytoplankton Nitrogen climatology,  t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  5.37068474E-13 Max =  2.83035007E-07)
+    GET_3DFLD   - Large Phytoplankton Nitrogen climatology,  t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  3.98103166E-13 Max =  4.13904393E-07)
+    GET_3DFLD   - Diazotroph Nitrogen climatology,           t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.35678103E-13 Max =  5.03940463E-08)
+    GET_3DFLD   - Small Zooplankton Nitrogen climatology,    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.18882942E-11 Max =  2.55995531E-07)
+    GET_3DFLD   - Medium-sized zooplankton Nitrogen climatolot =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.17420148E-11 Max =  2.93548823E-07)
+    GET_3DFLD   - large Zooplankton Nitrogen climatology,    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  3.21646519E-12 Max =  1.87012446E-07)
+    GET_3DFLD   - labile DON climatology,                    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.80464992E-11 Max =  4.56829490E-08)
+    GET_3DFLD   - Semilabile DON climatology,                t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -1.09359105E-12 Max =  9.08001311E-07)
+    GET_3DFLD   - Semi-Refractory DON climatology,           t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min = -6.71343836E-11 Max =  2.34922124E-06)
+    GET_3DFLD   - bacterial climatology,                     t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.25872490E-13 Max =  2.86542047E-07)
+    GET_3DFLD   - Ammonia climatology,                       t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.27159263E-09 Max =  1.30397157E-06)
+    GET_3DFLD   - Nitrate climatology,                       t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  0.00000000E+00 Max =  3.52008210E-05)
+    GET_3DFLD   - ndet climatology,                          t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  8.39177893E-11 Max =  2.49184781E-08)
+    GET_3DFLD   - Silicate climatology,                      t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.74583438E-11 Max =  4.96330649E-05)
+    GET_3DFLD   - Large Phytoplankton Silicon climatology,   t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  8.94062022E-13 Max =  1.72884143E-06)
+    GET_3DFLD   - Detrital Silicon climatology,              t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.11286739E-11 Max =  8.37899843E-08)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  7.62333807E-11 Max =  6.99630635E-09)
+    GET_3DFLD   - Detrital CaCO3 climatology,                t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  9.71150971E-12 Max =  6.36974488E-09)
+    GET_3DFLD   - Lithogenic Aluminosilicate climatology,    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.13114763E-07 Max =  1.57899258E-03)
+    GET_3DFLD   - lithdet climatology,                       t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  4.25728952E-09 Max =  4.41700462E-07)
+    GET_3DFLD   - Phosphate climatology,                     t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  0.00000000E+00 Max =  3.32434774E-06)
+    GET_3DFLD   - Oxygen climatology,                        t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  3.16178048E-05 Max =  4.13773494E-04)
+    GET_3DFLD   - Dissolved Inorganic Carbon climatology,    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  1.89034024E-03 Max =  2.36458099E-03)
+    GET_3DFLD   - Alkalinity climatology,                    t =    76 18:00:00
+                   (Rec=0000003, Index=2, File: clim_bio_edit.nc)
+                   (Tmin=         17.5000 Tmax=        351.7500)
+                   (Min =  2.24147597E-03 Max =  2.43471307E-03)
+
+   STEP   Day HH:MM:SS  KINETIC_ENRG   POTEN_ENRG    TOTAL_ENRG    NET_VOLUME
+          C => (i,j,k)       Cu            Cv            Cw         Max Speed
+
+   12600 40960 00:56:00  9.480060E-03  2.260067E+04  2.260068E+04  2.733017E+16
+          (595,275,40)  1.906580E-01  1.357573E-02  0.000000E+00  5.633955E+00
+   12601 40960 01:00:00  9.478394E-03  2.260068E+04  2.260069E+04  2.733022E+16
+          (597,275,40)  9.366024E-02  8.527877E-02  7.203545E-01  5.640495E+00
+   12602 40960 01:04:00  9.476367E-03  2.260070E+04  2.260071E+04  2.733027E+16
+          (556,339,40)  1.032622E-01  4.952377E-03  1.490367E+00  5.641762E+00
+   12603 40960 01:08:00  9.474255E-03  2.260071E+04  2.260072E+04  2.733031E+16
+          (556,339,40)  9.596060E-02  5.861797E-03  1.448768E+00  5.637511E+00
+   12604 40960 01:12:00  9.472053E-03  2.260072E+04  2.260073E+04  2.733036E+16
+          (556,339,40)  8.914331E-02  6.169992E-03  1.255130E+00  5.627498E+00
+   12605 40960 01:16:00  9.469767E-03  2.260073E+04  2.260074E+04  2.733040E+16
+          (597,275,40)  9.307240E-02  8.503756E-02  9.470524E-01  5.611553E+00
+   12606 40960 01:20:00  9.467409E-03  2.260074E+04  2.260075E+04  2.733044E+16
+          (597,275,40)  9.269787E-02  8.482987E-02  9.357113E-01  5.589514E+00
+   12607 40960 01:24:00  9.464994E-03  2.260074E+04  2.260075E+04  2.733048E+16
+          (597,275,40)  9.222588E-02  8.456075E-02  9.211796E-01  5.561258E+00
+   12608 40960 01:28:00  9.462524E-03  2.260075E+04  2.260076E+04  2.733051E+16
+          (597,275,40)  9.165340E-02  8.422932E-02  9.032918E-01  5.526695E+00
+    GET_2DFLD   - surface u-wind component,                  t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_Uwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -7.38586939E+00 Max =  9.50091687E+00)
+    GET_2DFLD   - surface v-wind component,                  t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_Vwind_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -3.76344741E+00 Max =  1.35687901E+01)
+    GET_2DFLD   - surface air pressure,                      t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_Pair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  9.96289216E+02 Max =  1.02824976E+03)
+    GET_2DFLD   - surface air temperature,                   t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_Tair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min = -1.43359749E+01 Max =  2.91220554E+01)
+    GET_2DFLD   - surface air relative humidity,             t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_Qair_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  1.14967087E-03 Max =  1.95265759E-02)
+    GET_2DFLD   - solar shortwave radiation flux,            t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_swrad_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  0.00000000E+00)
+    GET_2DFLD   - downwelling longwave radiation flux,       t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_lwrad_down_2009-2014_3hours_corr.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  6.20596044E-05 Max =  1.11570402E-04)
+    GET_2DFLD   - rain fall rate,                            t = 40960 04:30:00
+                   (Rec=0009186, Index=1, File: MERRA_rain_2009-2014_3hours.nc)
+                   (Tmin=      39812.0625 Tmax=      42002.9375)
+                   (Min =  0.00000000E+00 Max =  6.04266309E-04)
+   12609 40960 01:32:00  9.460016E-03  2.260075E+04  2.260076E+04  2.733055E+16
+          (597,275,40)  9.097771E-02  8.383416E-02  8.818801E-01  5.485773E+00
+   12610 40960 01:36:00  9.457476E-03  2.260076E+04  2.260077E+04  2.733058E+16
+          (597,275,40)  9.019685E-02  8.337244E-02  8.568444E-01  5.438483E+00
+   12611 40960 01:40:00  9.454917E-03  2.260076E+04  2.260077E+04  2.733061E+16
+          (597,275,40)  8.930932E-02  8.283992E-02  8.282402E-01  5.384843E+00
+   12612 40960 01:44:00  9.452348E-03  2.260076E+04  2.260077E+04  2.733064E+16
+          (597,275,40)  8.831368E-02  8.223128E-02  7.963052E-01  5.324878E+00
+   12613 40960 01:48:00  9.449784E-03  2.260076E+04  2.260077E+04  2.733067E+16
+          (597,275,40)  8.720832E-02  8.154111E-02  7.613855E-01  5.258621E+00
+   12614 40960 01:52:00  9.447232E-03  2.260075E+04  2.260076E+04  2.733070E+16
+          (597,275,40)  8.599223E-02  8.076473E-02  7.238083E-01  5.186124E+00
+   12615 40960 01:56:00  9.444704E-03  2.260075E+04  2.260076E+04  2.733072E+16
+          (597,275,40)  8.463175E-02  7.989679E-02  6.836830E-01  5.106454E+00
+   12616 40960 02:00:00  9.442211E-03  2.260075E+04  2.260076E+04  2.733074E+16
+          (597,275,40)  8.314559E-02  7.892944E-02  6.386106E-01  5.020031E+00
+   12617 40960 02:04:00  9.439759E-03  2.260074E+04  2.260075E+04  2.733076E+16
+          (597,275,40)  8.154889E-02  7.785546E-02  5.916927E-01  4.927433E+00
+   12618 40960 02:08:00  9.437360E-03  2.260073E+04  2.260074E+04  2.733078E+16
+          (597,275,40)  7.983682E-02  7.667169E-02  5.440194E-01  4.828910E+00
+   12619 40960 02:12:00  9.435020E-03  2.260072E+04  2.260073E+04  2.733080E+16
+          (597,275,40)  7.800597E-02  7.537727E-02  4.957276E-01  4.724600E+00
+   12620 40960 02:16:00  9.432748E-03  2.260071E+04  2.260072E+04  2.733081E+16
+          (597,275,40)  7.605336E-02  7.397028E-02  4.465254E-01  4.614577E+00
+   12621 40960 02:20:00  9.430557E-03  2.260070E+04  2.260071E+04  2.733082E+16
+          (597,275,40)  7.398056E-02  7.244894E-02  3.962357E-01  4.499549E+00
+   12622 40960 02:24:00  9.428449E-03  2.260069E+04  2.260070E+04  2.733083E+16
+          (595,275,40)  1.498120E-01  3.792919E-03  3.938485E-01  4.375144E+00
+   12623 40960 02:28:00  9.426435E-03  2.260068E+04  2.260069E+04  2.733084E+16
+          (595,275,40)  1.457369E-01  3.232905E-03  4.008908E-01  4.246231E+00
+   12624 40960 02:32:00  9.424521E-03  2.260066E+04  2.260067E+04  2.733084E+16
+          (595,275,40)  1.415082E-01  2.639881E-03  4.089242E-01  4.111460E+00
+   12625 40960 02:36:00  9.422710E-03  2.260065E+04  2.260066E+04  2.733085E+16
+          (595,275,40)  1.371231E-01  2.022878E-03  4.193343E-01  3.971451E+00
+   12626 40960 02:40:00  9.421009E-03  2.260063E+04  2.260064E+04  2.733085E+16
+          (595,275,40)  1.325841E-01  1.396004E-03  4.304361E-01  3.834638E+00
+   12627 40960 02:44:00  9.419422E-03  2.260061E+04  2.260062E+04  2.733085E+16
+          (595,275,40)  1.278866E-01  7.704372E-04  4.399053E-01  3.698124E+00
+   12628 40960 02:48:00  9.417952E-03  2.260059E+04  2.260060E+04  2.733084E+16
+          (595,275,40)  1.230370E-01  1.481852E-04  4.468481E-01  3.557367E+00
+   12629 40960 02:52:00  9.416603E-03  2.260057E+04  2.260058E+04  2.733084E+16
+          (595,275,40)  1.180531E-01  4.743323E-04  4.520999E-01  3.412920E+00
+   12630 40960 02:56:00  9.415379E-03  2.260055E+04  2.260056E+04  2.733083E+16
+          (595,275,40)  1.129465E-01  1.100061E-03  4.567734E-01  3.265153E+00
+   12631 40960 03:00:00  9.414283E-03  2.260053E+04  2.260054E+04  2.733082E+16
+          (595,275,40)  1.080159E-01  1.727802E-03  4.606975E-01  3.122433E+00
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+oceanG             0000000002726B35  Unknown               Unknown  Unknown
+oceanG             0000000002724757  Unknown               Unknown  Unknown
+oceanG             00000000026DE3F4  Unknown               Unknown  Unknown
+oceanG             00000000026DE206  Unknown               Unknown  Unknown
+oceanG             0000000002690C26  Unknown               Unknown  Unknown
+oceanG             00000000026947EE  Unknown               Unknown  Unknown
+libpthread.so.0    00002B958C15C630  Unknown               Unknown  Unknown
+oceanG             0000000001B52224  biology_mod_mp_bi        1619  biology.f90
+oceanG             0000000001A37084  biology_mod_mp_bi          72  biology.f90
+oceanG             0000000000898E40  main3d_                   369  main3d.f90
+oceanG             000000000040CEC1  ocean_control_mod         173  ocean_control.f90
+oceanG             000000000040BCCD  MAIN__                    108  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B958DFFF545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+slurmstepd: *** JOB 3853925 ON cn329 CANCELLED AT 2020-11-18T17:05:12 ***

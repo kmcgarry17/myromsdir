@@ -412,10 +412,10 @@
     real(r8)                                     :: co2_trans_vel
     real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: airsea_co2_flx
     real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: delta_co2star
-    !real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: co2_sc_no, co2_alpha, co2_csurf
-    real(r8)                                     :: co2_sc_no, co2_alpha
-    !real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: u10squ, co2_piston_vel, pCO2atm, pCO2surf
-    real(r8)                                     :: u10squ, co2_piston_vel, pCO2atm, pCO2surface
+    real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: co2_sc_no, co2_alpha, co2_csurf
+    !real(r8)                                     :: co2_sc_no, co2_alpha
+    real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: u10squ, co2_piston_vel, pCO2atm, pCO2surf
+    !real(r8)                                     :: u10squ, co2_piston_vel, pCO2atm, pCO2surface
 
     real(r8)                                     :: o2_saturation, tt, ts, ts2, ts3, ts4, ts5
     real(r8), dimension(IminS:ImaxS,JminS:JmaxS) :: airsea_o2_flx
@@ -726,9 +726,9 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
        !---------------------------------------------------------------------
 
        ! RD dev notes : replaced namelist values by values in TABLE A1 from Wanninkhof (1992)
-       !co2_sc_no(i,j) = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 ) * rmask(i,j)
+       co2_sc_no(i,j) = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 ) * rmask(i,j)
        !co2_sc_no = ( 2073.1d0 - 125.62d0 * ST + 3.6276d0 * ST**2 - 0.043219d0 * ST**3 )
-       co2_sc_no = 660.0
+       !co2_sc_no = 660.0
 
        ! RD dev notes : use 10 meters neutral wind and not wind from forcing
        ! files, this field is computed by ccsm_flux.F (Large/Yeager) or bulk_flux.F (Fairall)
@@ -736,31 +736,31 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
 
        ! RD dev notes : piston/transfer velocity also from Wanninkhof (1992) eq. 3 (valid for short-term
        ! or steady winds), this piston velocity is given in cm/hour
-       !co2_piston_vel(i,j) = 0.31d0 * u10squ(i,j) * sqrt(660.0 / (co2_sc_no(i,j) + epsln))
-       co2_piston_vel = 0.31d0 * u10_neutral(i,j)*u10_neutral(i,j) * sqrt(660.0 / (co2_sc_no + epsln))
+       co2_piston_vel(i,j) = 0.31d0 * u10squ(i,j) * sqrt(660.0 / (co2_sc_no(i,j) + epsln))
+       !co2_piston_vel = 0.31d0 * u10_neutral(i,j)*u10_neutral(i,j) * sqrt(660.0 / (co2_sc_no + epsln))
 
        ! convert piston velocity in m.s-1
-       !co2_piston_vel(i,j) = co2_piston_vel(i,j) * 0.01d0 / 3600.0d0
-       co2_piston_vel = co2_piston_vel * 0.01d0 / 3600.0d0
+       co2_piston_vel(i,j) = co2_piston_vel(i,j) * 0.01d0 / 3600.0d0
+       !co2_piston_vel = co2_piston_vel * 0.01d0 / 3600.0d0
 
        ! CO2 solubility computed in FMS module is in mol/kg/atm, convert it in
        ! mol/m3/atm
-       !co2_alpha(i,j) = cobalt%co2_alpha(i,j) * cobalt%Rho_0 
-       co2_alpha = cobalt%co2_alpha(i,j) * cobalt%Rho_0 
+       co2_alpha(i,j) = cobalt%co2_alpha(i,j) * cobalt%Rho_0 
+       !co2_alpha = cobalt%co2_alpha(i,j) * cobalt%Rho_0 
 
        ! convert ppmv to partial pressure in atm
-       !pCO2atm(i,j)  = atmCO2(i,j) * 1.0e-6             
-       pCO2atm  = atmCO2(i,j) * 1.0e-6             
-       !pCO2surf(i,j) = cobalt%pco2_csurf(i,j) * 1.0e-6 
-       pCO2surface = cobalt%pco2_csurf(i,j) * 1.0e-6 
+       pCO2atm(i,j)  = atmCO2(i,j) * 1.0e-6             
+       !pCO2atm  = atmCO2(i,j) * 1.0e-6             
+       pCO2surf(i,j) = cobalt%pco2_csurf(i,j) * 1.0e-6 
+       !pCO2surface = cobalt%pco2_csurf(i,j) * 1.0e-6 
 
        ! Wanninkhov 1992 equation A2 
        ! here the flux is taken positive when CO2 goes from atmosphere -> ocean
        ! co2_piston_vel = k [m.s-1]
        ! co2_alpha = L [mol.m-3.atm-1]
        ! pCO2atm and pCO2surface [atm]
-       !airsea_co2_flx(i,j) = co2_piston_vel(i,j) * co2_alpha(i,j) * (pCO2atm(i,j) - pCO2surf(i,j))
-       airsea_co2_flx(i,j) = co2_piston_vel * co2_alpha * (pCO2atm - pCO2surface) * rmask(i,j)
+       airsea_co2_flx(i,j) = co2_piston_vel(i,j) * co2_alpha(i,j) * (pCO2atm(i,j) - pCO2surf(i,j))
+       !airsea_co2_flx(i,j) = co2_piston_vel * co2_alpha * (pCO2atm - pCO2surface) * rmask(i,j)
 
        ! convert airsea_co2_flx from mol.m-2.s-1 to mol.kg-1.s-1 
        airsea_co2_flx(i,j) = airsea_co2_flx(i,j) / cobalt%Rho_0 / Hz(i,j,UBk)
@@ -774,6 +774,8 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
 #endif
      ENDDO
    ENDDO
+
+WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
 
    DO j=Jstr,Jend
      DO i=Istr,Iend
