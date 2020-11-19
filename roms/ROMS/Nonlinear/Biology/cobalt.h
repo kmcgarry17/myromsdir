@@ -732,7 +732,7 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
 
        ! RD dev notes : use 10 meters neutral wind and not wind from forcing
        ! files, this field is computed by ccsm_flux.F (Large/Yeager) or bulk_flux.F (Fairall)
-       !u10squ(i,j) = u10_neutral(i,j)*u10_neutral(i,j) 
+       u10squ(i,j) = u10_neutral(i,j)*u10_neutral(i,j) 
 
        ! RD dev notes : piston/transfer velocity also from Wanninkhof (1992) eq. 3 (valid for short-term
        ! or steady winds), this piston velocity is given in cm/hour
