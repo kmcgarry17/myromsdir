@@ -775,7 +775,8 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
      ENDDO
    ENDDO
 
-WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
+!WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
+WRITE(stdout,*) 'print this once per step'
 
    DO j=Jstr,Jend
      DO i=Istr,Iend
