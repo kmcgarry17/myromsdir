@@ -13,5 +13,5 @@ module load mpi/mpich2/1.5-ics
 module load netcdf-fortran/4.4.1-ics-haswell
 module load hdf5/1.8.9-ics
 
-srun --mpi=pmi2 ./oceanG ./ocean.in 
+srun --mpi=pmi2 ./oceanM ./ocean_rstfromavg.in 
 

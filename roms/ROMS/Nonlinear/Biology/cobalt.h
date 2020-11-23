@@ -1572,6 +1572,7 @@ IF( Master ) WRITE(stdout,*) '>>>   max irr_mem is = ', MAXVAL(cobalt%f_irr_mem)
 IF( Master ) WRITE(stdout,*) '>>>   max irr_mix is = ', MAXVAL(cobalt%irr_mix)
 IF( Master ) WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
 #endif 
+!WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
 
   !
   ! Calculate the temperature limitation (expkT) and the time integrated
