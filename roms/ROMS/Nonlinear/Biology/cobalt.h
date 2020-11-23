@@ -776,7 +776,7 @@ IF ( Master ) WRITE(stdout,*) '>>>    After CALL FMS surface min/max(co3_ion) ='
    ENDDO
 
 !WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
-WRITE(stdout,*) 'print this once per step'
+!WRITE(stdout,*) size(co2_sc_no)
 
    DO j=Jstr,Jend
      DO i=Istr,Iend
@@ -1570,6 +1570,7 @@ IF( Master ) WRITE(stdout,*) '>>>   max swdk is = ', MAXVAL(swdk3)
 IF( Master ) WRITE(stdout,*) '>>>   max irr_inst is = ', MAXVAL(cobalt%irr_inst)
 IF( Master ) WRITE(stdout,*) '>>>   max irr_mem is = ', MAXVAL(cobalt%f_irr_mem)
 IF( Master ) WRITE(stdout,*) '>>>   max irr_mix is = ', MAXVAL(cobalt%irr_mix)
+IF( Master ) WRITE(stdout,*) 'Schmidt number is ', MINVAL(co2_sc_no(:, :)) , MAXVAL(co2_sc_no(:, :))
 #endif 
 
   !

@@ -183,7 +183,7 @@
 /* biological model options */
 #define BIOLOGY
 #define BIO_COBALT 
-/* #define DEBUG_COBALT */
+#define DEBUG_COBALT 
 /*#define COBALT_CONSERVATION_TEST */
 /*#define COBALT_NOSOURCE */
 /*#define COBALT_DO_NOTHING  */
