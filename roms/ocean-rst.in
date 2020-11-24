@@ -216,8 +216,8 @@ ad_VolCons(north) ==  F                            ! northern boundary
         NHIS == 360
      NDEFHIS == 360
       NTSAVG == 1
-        NAVG == 360
-     NDEFAVG == 360
+        NAVG == 90
+     NDEFAVG == 90
       NTSDIA == 1
         NDIA == 360
      NDEFDIA == 360
@@ -852,7 +852,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! Input NetCDF file names, [1:Ngrids].
 
      GRDNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
-     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/floatinvalout/NWA-KM_avg_00036.nc
+     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/debugoff_out/NWA-KM_rst25.nc
      ITLNAME == /dev/null
      IRPNAME == /dev/null
      IADNAME == /dev/null
