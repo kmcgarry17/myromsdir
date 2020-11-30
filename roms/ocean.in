@@ -44,7 +44,7 @@
 ! Input variable information file name.  This file needs to be processed
 ! first so all information arrays can be initialized properly.
 
-     VARNAME = /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/User/External/varinfo.dat.cobalt
+     VARNAME = /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/External/varinfo.dat.cobalt
 
 ! Number of nested grids.
 

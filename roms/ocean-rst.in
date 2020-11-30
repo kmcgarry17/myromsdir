@@ -44,7 +44,7 @@
 ! Input variable information file name.  This file needs to be processed
 ! first so all information arrays can be initialized properly.
 
-     VARNAME = /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/User/External/varinfo.dat.cobalt
+     VARNAME = /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/User/External/varinfo.dat.cobalt
 
 ! Number of nested grids.
 
@@ -851,7 +851,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
 ! Input NetCDF file names, [1:Ngrids].
 
-     GRDNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
+     GRDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_grd.nc
      ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/debugoff_out/NWA-KM_rst25.nc
      ITLNAME == /dev/null
      IRPNAME == /dev/null

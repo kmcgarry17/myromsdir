@@ -1,0 +1,8 @@
+
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Monday - November 30, 2020 - 10:45:07 AM
+ -----------------------------------------------------------------------------
+
+ MOD_NCPARAM - Unable to open variable information file: 
+               /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/User/External/varinfo.dat.cobalt
+               Default file is located in source directory.
