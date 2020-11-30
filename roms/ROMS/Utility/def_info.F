@@ -122,7 +122,7 @@
 #ifdef BIOLOGY
       character (len=512) :: bio_file
 #endif
-      character (len=4096) :: string
+      character (len=8192) :: string
 !
 !-----------------------------------------------------------------------
 !  Set dimension variables.

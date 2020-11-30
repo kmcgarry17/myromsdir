@@ -710,7 +710,7 @@ Aout(idUair) == T       ! Uwind              surface U-wind
 Aout(idVair) == T       ! Vwind              surface V-wind
 Aout(idUairE) == F      ! Uwind_eastward     surface U-wind
 Aout(idVairN) == F      ! Vwind_northward    surface V-wind
-Aout(idUsms) == T       ! sustr              surface U-stress
+Aout(idUsms) == F       ! sustr              surface U-stress
 Aout(idVsms) == T       ! svstr              surface V-stress
 Aout(idUbms) == F       ! bustr              bottom U-stress
 Aout(idVbms) == F       ! bvstr              bottom V-stress
@@ -851,8 +851,8 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
 ! Input NetCDF file names, [1:Ngrids].
 
-     GRDNAME == /gpfs/scratchfs1/kmm18005-lab/roms_a8cdf6/roms/Data/ROMS/Grid/NWA_grd.nc
-     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_avg_fmumem.nc
+     GRDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_grd.nc
+     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_ic_1994_changetimeonly.nc
      ITLNAME == /dev/null
      IRPNAME == /dev/null
      IADNAME == /dev/null
@@ -928,13 +928,13 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! (rst = restart)
 
      GSTNAME == /dev/null
-     RSTNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_rst.nc
-     HISNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_his.nc
+     RSTNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/lastrun/NWA-KM_rst.nc
+     HISNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/lastrun/NWA-KM_his.nc
      TLMNAME == /dev/null
      TLFNAME == /dev/null
      ADJNAME == /dev/null 
-     AVGNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/NWA-KM_avg.nc
-     DIANAME == /dev/null
+     AVGNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/lastrun/NWA-KM_avg.nc
+     DIANAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/output/lastrun/NWA-KM_dia.nc
      STANAME == /dev/null
      FLTNAME == /dev/null
      FISHNAME == /dev/null
