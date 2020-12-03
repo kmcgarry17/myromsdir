@@ -166,7 +166,7 @@ ad_VolCons(north) ==  F                            ! northern boundary
 
 ! Time-Stepping parameters.
 
-       NTIMES == 370000
+       NTIMES == 100000
            DT == 240
       NDTFAST == 30
 
@@ -219,8 +219,8 @@ ad_VolCons(north) ==  F                            ! northern boundary
         NAVG == 360
      NDEFAVG == 360
       NTSDIA == 1
-        NDIA == 360
-     NDEFDIA == 360
+        NDIA == 14400
+     NDEFDIA == 14400
 
 ! Output tangent linear and adjoint models parameters.
 
@@ -355,7 +355,7 @@ LtracerSponge == F F                            ! temperature, salinity, inert
 ! origin for tidal forcing, and model reference time for output
 ! NetCDF units attribute.
 
-      DSTART =  40925.04                ! days
+      DSTART =  41288.04167                ! days
   TIDE_START =  -1.0d0                     ! days
     TIME_REF =  19000101.0d0               ! yyyymmdd.dd
 
@@ -852,7 +852,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 ! Input NetCDF file names, [1:Ngrids].
 
      GRDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_grd.nc
-     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_ic_1994_changetimeonly.nc
+     ININAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_ic_1994_to_2013.nc
      ITLNAME == /dev/null
      IRPNAME == /dev/null
      IADNAME == /dev/null
@@ -950,7 +950,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      FISHPOSNAM =  fish.in
      PREDPOSNAM =  pred.in
      FLEETPOSNAM =  fleet.in
-     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_Cobalt.in.full
+     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_nodia.in
      SPARNAM =  ROMS/External/sediment.in
      USRNAME =  ROMS/External/MyFile.dat
 

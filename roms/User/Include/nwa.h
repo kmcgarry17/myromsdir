@@ -194,8 +194,8 @@
 # undef COBALT_PHOSPHORUS   	/*# define COBALT_PHOSPHORUS*/
 # undef COBALT_IRON		/*# define COBALT_IRON*/
 # define COBALT_CARBON 
-# define DIAGNOSTICS
-# define DIAGNOSTICS_BIO 
+# undef DIAGNOSTICS
+# undef DIAGNOSTICS_BIO 
 /*# define BENTHIC  */
 /*# define TIMESERIES */
 # undef ANA_BIOLOGY        /* analytical biology initial conditions */
