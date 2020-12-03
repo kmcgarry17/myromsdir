@@ -869,12 +869,12 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      CLMNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2013.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc \
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_bio_edit.nc
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_clim_bio.nc
 
     NBCFILES == 2                          ! number of boundary files
      BRYNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2013.nc |
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir//input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc \
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc \
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_bdry_bio.nc
 
 ! Input climatology nudging coefficients file name.

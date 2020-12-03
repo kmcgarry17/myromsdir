@@ -874,7 +874,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
     NBCFILES == 2                          ! number of boundary files
      BRYNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2012.nc |
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2013.nc |
-                /gpfs/scratchfs1/kmm18005-lab/myromsdir//input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc \
+                /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/bdry_SODA/NWA_bdry_SODA3.3.1_y2014.nc \
                 /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_bdry_bio.nc
 
 ! Input climatology nudging coefficients file name.
@@ -950,7 +950,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      FISHPOSNAM =  fish.in
      PREDPOSNAM =  pred.in
      FLEETPOSNAM =  fleet.in
-     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_nodia.in
+     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_nodia_clo.in
      SPARNAM =  ROMS/External/sediment.in
      USRNAME =  ROMS/External/MyFile.dat
 
