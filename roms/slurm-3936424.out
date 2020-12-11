@@ -1,0 +1,1937 @@
+
+ Model Input Parameters:  ROMS/TOMS version 3.7  
+                          Tuesday - December 8, 2020 -  2:54:37 PM
+ -----------------------------------------------------------------------------
+
+ INP_PAR - incorrect continuation symbol in line:
+                           /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/clim_SODA/NWA_clim_SODA3.3.1_y2014.nc \
+           number of nested grid values exceeded.
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE7A7E83545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B245DBE4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE77778A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AEF04B51545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ACB0D32E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC5BDAA2545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0F03D07545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABCD37B8545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B51B2BBD545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B8BFCF30545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA58B011545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9FC8EE3545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B5C7FED9545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B11A964C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF2E2933545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE2B2A18545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2BF2C8C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2CEEAB9545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B90118C8545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ACF4B1F9545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B16E713E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF9AC8A2545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ADF31D37545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2D81200545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC55A97B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE4ADA43545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3F84BB6545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB515C4B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B6CC1216545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B684260B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B75B2562545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0A45996545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B62BC579545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9BD875E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AAD4A636545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABE681BA545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B732D59C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ADFDF6C4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB38BECB545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B6CC737F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2582E32545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA3E05E3545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9D65CBA545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE65A060545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B387C34B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AD3F411A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7547F7B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B1909E71545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B59F20DD545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AAC41F43545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE6B963B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7EF5DB3545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9060997545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2928221545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AD750343545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AAD0FAF7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B92CD3A0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B00831A4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABF58073545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B42A6355545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC4803F4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B58ED129545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B584F6DC545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE90FCB7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ACBA1B60545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B459AF7D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2F3C638545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFAF86C0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE469C9C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFC14A80545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA981D8F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7ACF9DE545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ACAE3277545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ACA23FE0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B88AE5FD545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B109F67A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFFC54BF545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B521FCA7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B846F5FC545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B401E74D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7939309545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB087073545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFA17DD7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B4F6D960545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7658890545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AACCD2E2545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B5FF5872545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B796B368545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB9C0361545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B5521E79545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B76CAF2E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3B4D4FC545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFA358E4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B69A2A34545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFAC6E59545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B22CF94F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B13B13ED545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AD8D9338545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC4D4BF1545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABBBF450545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B98A4511545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AEB9D35D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFDCDC49545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA8DAA77545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7704809545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9CDB1ED545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0D25BD2545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA326F29545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B93CA576545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA607980545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B7FA9762545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9CA9E73545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA82F599545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB8430DB545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B19F9BA9545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B99D6ED6545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B4BC56C6545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B56EA7DB545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABB1ED18545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B442ED19545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B778B513545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B6ACB7C1545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B95D0B3C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE96F0F0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0B47391545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3C7DDC9545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF551939545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B99026CD545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA5E384A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC9B66CB545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B85580D1545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9F4628F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B76BB99E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B301FBEF545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B711326E545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AFF87DED545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB162848545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B4DFE900545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ADA398C5545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0E37D9C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B322D932545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B08BB132545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B84FE5BB545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF5CD019545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B341E78C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B1E0FE6B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2424BD0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B8D378C3545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ADD1A53F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B511A1E2545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ADFDFA87545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC67B7BE545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3BA6314545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0259E32545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B2317ADA545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA7BF176545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B34DDE06545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B8AC55DF545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA9A99C3545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3286462545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AE0652C4545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AADFD2F8545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA85E050545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AC07D271545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3CCA89A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B585ED32545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B864FA53545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9AC859B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B5098A4B545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B6BF1B7D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA2A4671545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B3C92CE7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0EC1C9C545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002ABADCA62545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF8E9963545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B1898254545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B78768A5545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B111A986545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AF5A5A69545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002AB5DC75D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B8086C0F545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B0A4009A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B426047D545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B9ADA4B7545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B84C0B7A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B89FF28A545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B8A0C642545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B4372808545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B116A845545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B21F6DBC545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002B161E8EA545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+forrtl: severe (194): Run-Time Check Failure. The variable 'load_s2d_$LOAD_S2D' is being used in 'inp_par.f90(1878,7)' without being defined
+Image              PC                Routine            Line        Source             
+oceanG             00000000020A425A  load_s2d_                1878  inp_par.f90
+oceanG             00000000022C93FE  read_phypar_             1645  read_phypar.f90
+oceanG             0000000002002FC4  inp_par_                   91  inp_par.f90
+oceanG             000000000040BE72  ocean_control_mod          84  ocean_control.f90
+oceanG             000000000040B8FC  MAIN__                     95  master.f90
+oceanG             000000000040B6DE  Unknown               Unknown  Unknown
+libc.so.6          00002BA0A48D0545  Unknown               Unknown  Unknown
+oceanG             000000000040B5E9  Unknown               Unknown  Unknown
+srun: error: cn329: tasks 0-17: Exited with exit code 194
+srun: Terminating job step 3936424.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: cn348: tasks 18-45: Exited with exit code 194
+srun: error: cn363: tasks 164-191: Exited with exit code 194
+srun: error: cn361: tasks 100-127: Exited with exit code 194
+srun: error: cn350: tasks 82-99: Exited with exit code 194
+srun: error: cn349: tasks 46-81: Exited with exit code 194
+srun: error: cn362: tasks 128-163: Exited with exit code 194

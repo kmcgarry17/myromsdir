@@ -1179,45 +1179,45 @@ Dout(ipo4lim_sm) == F
 Dout(ipo4lim_di) == F
 Dout(ipo4lim_lg) == F
 
-   LBC(isTvar) ==   Clo     RadNud  RadNud  Clo \ ! insm Small Phytoplankton Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! inlg Large Phytoplankton Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! indi Diazotroph Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! insmz Small Zooplankton Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! inmdz Medium-sized zooplankton Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! inlgz large Zooplankton Nitrogen
-                    Clo     RadNud  RadNud  Clo \ ! ildon labile DON 
-                    Clo     RadNud  RadNud  Clo \ ! isldon Semilabile DON
-                    Clo     RadNud  RadNud  Clo \ ! isrdon Semi-Refractory DON
-                    Clo     RadNud  RadNud  Clo \ ! inbact bacterial
-                    Clo     RadNud  RadNud  Clo \ ! inh4 Ammonia
-                    Clo     RadNud  RadNud  Clo \ ! ino3 Nitrate
-                    Clo     RadNud  RadNud  Clo \ ! indet ndet
-                    Clo     RadNud  RadNud  Clo \ ! isio4 Silicate
-                    Clo     RadNud  RadNud  Clo \ ! isilg Large Phytoplankton Silicon
-                    Clo     RadNud  RadNud  Clo \ ! isidet Detrital Silicon
-                    Clo     RadNud  RadNud  Clo \ ! icadet_calc Detrital CaCO3
-                    Clo     RadNud  RadNud  Clo \ ! icadet_arag Detrital CaCO3
-                    Clo     RadNud  RadNud  Clo \ ! ilith Lithogenic Aluminosilicate
-                    Clo     RadNud  RadNud  Clo \ ! ilithdet lithdet 
-                    Clo     RadNud  RadNud  Clo \ ! ildop labile DOP
-                    Clo     RadNud  RadNud  Clo \ ! isldop Semilabile DOP
-                    Clo     RadNud  RadNud  Clo \ ! isrdop Semi-Refractory DOP
-                    Clo     RadNud  RadNud  Clo \ ! ipo4 Phosphate
-                    Clo     RadNud  RadNud  Clo \ ! ipdet Detrital Phosphorus
-                    Clo     RadNud  RadNud  Clo \ ! ifesm Small Phytoplankton Iron
-                    Clo     RadNud  RadNud  Clo \ ! ifedi Diazotroph Iron 
-                    Clo     RadNud  RadNud  Clo \ ! ifelg Large Phytoplankton Iron
-                    Clo     RadNud  RadNud  Clo \ ! ifed Dissolved Iron
-                    Clo     RadNud  RadNud  Clo \ ! ifedet Detrital Iron
-                    Clo     RadNud  RadNud  Clo \ ! io2 Oxygen
-                    Clo     RadNud  RadNud  Clo \ ! idic Dissolved Inorganic Carbon
-                    Clo     RadNud  RadNud  Clo   ! ialk Alkalinity
+   LBC(isTvar) ==   Clo     Rad  Rad  Clo \ ! insm Small Phytoplankton Nitrogen
+                    Clo     Rad  Rad  Clo \ ! inlg Large Phytoplankton Nitrogen
+                    Clo     Rad  Rad  Clo \ ! indi Diazotroph Nitrogen
+                    Clo     Rad  Rad  Clo \ ! insmz Small Zooplankton Nitrogen
+                    Clo     Rad  Rad  Clo \ ! inmdz Medium-sized zooplankton Nitrogen
+                    Clo     Rad  Rad  Clo \ ! inlgz large Zooplankton Nitrogen
+                    Clo     Rad  Rad  Clo \ ! ildon labile DON 
+                    Clo     Rad  Rad  Clo \ ! isldon Semilabile DON
+                    Clo     Rad  Rad  Clo \ ! isrdon Semi-Refractory DON
+                    Clo     Rad  Rad  Clo \ ! inbact bacterial
+                    Clo     Rad  Rad  Clo \ ! inh4 Ammonia
+                    Clo     Rad  Rad  Clo \ ! ino3 Nitrate
+                    Clo     Rad  Rad  Clo \ ! indet ndet
+                    Clo     Rad  Rad  Clo \ ! isio4 Silicate
+                    Clo     Rad  Rad  Clo \ ! isilg Large Phytoplankton Silicon
+                    Clo     Rad  Rad  Clo \ ! isidet Detrital Silicon
+                    Clo     Rad  Rad  Clo \ ! icadet_calc Detrital CaCO3
+                    Clo     Rad  Rad  Clo \ ! icadet_arag Detrital CaCO3
+                    Clo     Rad  Rad  Clo \ ! ilith Lithogenic Aluminosilicate
+                    Clo     Rad  Rad  Clo \ ! ilithdet lithdet 
+                    Clo     Rad  Rad  Clo \ ! ildop labile DOP
+                    Clo     Rad  Rad  Clo \ ! isldop Semilabile DOP
+                    Clo     Rad  Rad  Clo \ ! isrdop Semi-Refractory DOP
+                    Clo     Rad  Rad  Clo \ ! ipo4 Phosphate
+                    Clo     Rad  Rad  Clo \ ! ipdet Detrital Phosphorus
+                    Clo     Rad  Rad  Clo \ ! ifesm Small Phytoplankton Iron
+                    Clo     Rad  Rad  Clo \ ! ifedi Diazotroph Iron 
+                    Clo     Rad  Rad  Clo \ ! ifelg Large Phytoplankton Iron
+                    Clo     Rad  Rad  Clo \ ! ifed Dissolved Iron
+                    Clo     Rad  Rad  Clo \ ! ifedet Detrital Iron
+                    Clo     Rad  Rad  Clo \ ! io2 Oxygen
+                    Clo     Rad  Rad  Clo \ ! idic Dissolved Inorganic Carbon
+                    Clo     Rad  Rad  Clo   ! ialk Alkalinity
 
 ! Logical switches (TRUE/FALSE) to specify which variables to process for
 ! tracers climatology: [NBT,Ngrids] values are expected. See glossary below
 ! for details.
 
   LtracerCLM == 33*T
-  LnudgeTCLM == 33*T
+  LnudgeTCLM == 33*F
   LtracerSrc == 33*F
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=parallel
 #SBATCH --ntasks=192
-#SBATCH --time=00:40:00
+#SBATCH --time=00:20:00
 #SBATCH --mail-type=END
 #SBATCH --mail-user=kelly.m.mcgarry@uconn.edu
 

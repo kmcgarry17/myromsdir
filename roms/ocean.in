@@ -881,6 +881,8 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
      NUDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_nudging_coef.nc
 
+!      NUDNAME == /dev/null
+
 ! Input Sources/Sinks forcing (like river runoff) file name.
 
      SSFNAME == /dev/null
@@ -950,7 +952,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      FISHPOSNAM =  fish.in
      PREDPOSNAM =  pred.in
      FLEETPOSNAM =  fleet.in
-     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_nodia.in
+     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_Rad.in
      SPARNAM =  ROMS/External/sediment.in
      USRNAME =  ROMS/External/MyFile.dat
 
