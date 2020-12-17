@@ -287,8 +287,8 @@
 
 !  P_C_max_Di: Phytoplankton light limitation/growth rate [s-1]
 !  P_C_max_Di == 0.50/sperd = 0.50 / 86400
-!  P_C_max_Di == 5.787e-6
-   P_C_max_Di == 0
+  P_C_max_Di == 5.787e-7
+!   P_C_max_Di == 0
 
 !  P_C_max_Lg: Phytoplankton light limitation/growth rate [s-1]
 !  P_C_max_Lg == 1.25/sperd 
@@ -1102,31 +1102,31 @@
 ! Lateral, constant, harmonic/biharmonic horizontal diffusion of biological
 ! tracer: [1:NBT,Ngrids].
 
-        TNU2 == 33*5.0d0                        ! m2/s
-        TNU4 == 33*0.0d0                        ! m4/s
+        TNU2 == 24*5.0d0                        ! m2/s
+        TNU4 == 24*0.0d0                        ! m4/s
 
 ! Vertical mixing coefficients for biological tracers: [1:NBT,Ngrids].
 
-     AKT_BAK == 33*1.0d-6                       ! m2/s
+     AKT_BAK == 24*1.0d-6                       ! m2/s
 
 ! Nudging/relaxation time scales, inverse scales will be computed
 ! internally: [1:NBT,Ngrids].
 
-       TNUDG == 33*360.0d0                        ! days
+       TNUDG == 24*360.0d0                        ! days
 
 ! Logical switches (TRUE/FALSE) to activate writing of biological tracers
 ! into HISTORY output file: [1:NBT,Ngrids].
 
-Hout(idTvar) == 33*T                ! biological tracer
-Hout(idTsur) == 33*T                ! surface tracer flux
+Hout(idTvar) == 24*T                ! biological tracer
+Hout(idTsur) == 24*T                ! surface tracer flux
 
-Aout(idTvar) == 33*T
+Aout(idTvar) == 24*T
 
-Dout(iDbio2) == 8*T
+Dout(iDbio2) == 8*F
 
 !! 3D diagnostics variables
 ! Vital diagnostics, you want to keep them
-Dout(ichl)              == T
+Dout(ichl)              == F
 Dout(iirr_mem)          == F
 Dout(ico3_ion)          == F
 Dout(ihtotal)           == F
@@ -1136,9 +1136,9 @@ Dout(iomega_cadet_arag) == F
 Dout(iomega_cadet_calc) == F
 
 ! light penetration diagnostics
-Dout(iswdk)     == T
-Dout(iirr_mix)  == T
-Dout(iirr_inst) == T
+Dout(iswdk)     == F
+Dout(iirr_mix)  == F
+Dout(iirr_inst) == F
 
 ! iron diagnostics
 Dout(ife_bulk_flx) == F
@@ -1155,12 +1155,12 @@ Dout(iaggloss_di) == F
 Dout(iaggloss_lg) == F
 
 ! Food web diagnostics
-Dout(ivirloss_sm) == T
-Dout(ivirloss_di) == T
-Dout(ivirloss_lg) == T
-Dout(izloss_sm)   == T
-Dout(izloss_di)   == T
-Dout(izloss_lg)   == T
+Dout(ivirloss_sm) == F
+Dout(ivirloss_di) == F
+Dout(ivirloss_lg) == F
+Dout(izloss_sm)   == F
+Dout(izloss_di)   == F
+Dout(izloss_lg)   == F
 
 ! limitation diagnostics
 Dout(idef_fe_sm) == F
@@ -1169,9 +1169,9 @@ Dout(idef_fe_lg) == F
 Dout(ifelim_sm)  == F
 Dout(ifelim_di)  == F
 Dout(ifelim_lg)  == F
-Dout(ino3lim_sm) == T
-Dout(ino3lim_di) == T
-Dout(ino3lim_lg) == T
+Dout(ino3lim_sm) == F
+Dout(ino3lim_di) == F
+Dout(ino3lim_lg) == F
 Dout(inh4lim_sm) == F
 Dout(inh4lim_di) == F
 Dout(inh4lim_lg) == F
@@ -1179,45 +1179,36 @@ Dout(ipo4lim_sm) == F
 Dout(ipo4lim_di) == F
 Dout(ipo4lim_lg) == F
 
-   LBC(isTvar) ==   Clo     Rad  Rad  Clo \ ! insm Small Phytoplankton Nitrogen
-                    Clo     Rad  Rad  Clo \ ! inlg Large Phytoplankton Nitrogen
-                    Clo     Rad  Rad  Clo \ ! indi Diazotroph Nitrogen
-                    Clo     Rad  Rad  Clo \ ! insmz Small Zooplankton Nitrogen
-                    Clo     Rad  Rad  Clo \ ! inmdz Medium-sized zooplankton Nitrogen
-                    Clo     Rad  Rad  Clo \ ! inlgz large Zooplankton Nitrogen
-                    Clo     Rad  Rad  Clo \ ! ildon labile DON 
-                    Clo     Rad  Rad  Clo \ ! isldon Semilabile DON
-                    Clo     Rad  Rad  Clo \ ! isrdon Semi-Refractory DON
-                    Clo     Rad  Rad  Clo \ ! inbact bacterial
-                    Clo     Rad  Rad  Clo \ ! inh4 Ammonia
-                    Clo     Rad  Rad  Clo \ ! ino3 Nitrate
-                    Clo     Rad  Rad  Clo \ ! indet ndet
-                    Clo     Rad  Rad  Clo \ ! isio4 Silicate
-                    Clo     Rad  Rad  Clo \ ! isilg Large Phytoplankton Silicon
-                    Clo     Rad  Rad  Clo \ ! isidet Detrital Silicon
-                    Clo     Rad  Rad  Clo \ ! icadet_calc Detrital CaCO3
-                    Clo     Rad  Rad  Clo \ ! icadet_arag Detrital CaCO3
-                    Clo     Rad  Rad  Clo \ ! ilith Lithogenic Aluminosilicate
-                    Clo     Rad  Rad  Clo \ ! ilithdet lithdet 
-                    Clo     Rad  Rad  Clo \ ! ildop labile DOP
-                    Clo     Rad  Rad  Clo \ ! isldop Semilabile DOP
-                    Clo     Rad  Rad  Clo \ ! isrdop Semi-Refractory DOP
-                    Clo     Rad  Rad  Clo \ ! ipo4 Phosphate
-                    Clo     Rad  Rad  Clo \ ! ipdet Detrital Phosphorus
-                    Clo     Rad  Rad  Clo \ ! ifesm Small Phytoplankton Iron
-                    Clo     Rad  Rad  Clo \ ! ifedi Diazotroph Iron 
-                    Clo     Rad  Rad  Clo \ ! ifelg Large Phytoplankton Iron
-                    Clo     Rad  Rad  Clo \ ! ifed Dissolved Iron
-                    Clo     Rad  Rad  Clo \ ! ifedet Detrital Iron
-                    Clo     Rad  Rad  Clo \ ! io2 Oxygen
-                    Clo     Rad  Rad  Clo \ ! idic Dissolved Inorganic Carbon
-                    Clo     Rad  Rad  Clo   ! ialk Alkalinity
+   LBC(isTvar) ==   Clo     RadNud  RadNud  Clo \ ! insm Small Phytoplankton Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! inlg Large Phytoplankton Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! indi Diazotroph Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! insmz Small Zooplankton Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! inmdz Medium-sized zooplankton Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! inlgz large Zooplankton Nitrogen
+                    Clo     RadNud  RadNud  Clo \ ! ildon labile DON 
+                    Clo     RadNud  RadNud  Clo \ ! isldon Semilabile DON
+                    Clo     RadNud  RadNud  Clo \ ! isrdon Semi-Refractory DON
+                    Clo     RadNud  RadNud  Clo \ ! inbact bacterial
+                    Clo     RadNud  RadNud  Clo \ ! inh4 Ammonia
+                    Clo     RadNud  RadNud  Clo \ ! ino3 Nitrate
+                    Clo     RadNud  RadNud  Clo \ ! indet ndet
+                    Clo     RadNud  RadNud  Clo \ ! isio4 Silicate
+                    Clo     RadNud  RadNud  Clo \ ! isilg Large Phytoplankton Silicon
+                    Clo     RadNud  RadNud  Clo \ ! isidet Detrital Silicon
+                    Clo     RadNud  RadNud  Clo \ ! icadet_calc Detrital CaCO3
+                    Clo     RadNud  RadNud  Clo \ ! icadet_arag Detrital CaCO3
+                    Clo     RadNud  RadNud  Clo \ ! ilith Lithogenic Aluminosilicate
+                    Clo     RadNud  RadNud  Clo \ ! ilithdet lithdet 
+                    Clo     RadNud  RadNud  Clo \ ! ipo4 Phosphate
+                    Clo     RadNud  RadNud  Clo \ ! io2 Oxygen
+                    Clo     RadNud  RadNud  Clo \ ! idic Dissolved Inorganic Carbon
+                    Clo     RadNud  RadNud  Clo   ! ialk Alkalinity
 
 ! Logical switches (TRUE/FALSE) to specify which variables to process for
 ! tracers climatology: [NBT,Ngrids] values are expected. See glossary below
 ! for details.
 
-  LtracerCLM == 33*T
-  LnudgeTCLM == 33*F
-  LtracerSrc == 33*F
+  LtracerCLM == 24*T
+  LnudgeTCLM == 24*T
+  LtracerSrc == 24*F
 

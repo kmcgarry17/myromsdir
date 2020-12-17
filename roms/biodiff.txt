@@ -1,0 +1,81 @@
+1105,1106c1105,1106
+<         TNU2 == 33*5.0d0                        ! m2/s
+<         TNU4 == 33*0.0d0                        ! m4/s
+---
+>         TNU2 == 24*5.0d0                        ! m2/s
+>         TNU4 == 24*0.0d0                        ! m4/s
+1110c1110
+<      AKT_BAK == 33*1.0d-6                       ! m2/s
+---
+>      AKT_BAK == 24*1.0d-6                       ! m2/s
+1115c1115
+<        TNUDG == 33*360.0d0                        ! days
+---
+>        TNUDG == 24*360.0d0                        ! days
+1120,1121c1120,1121
+< Hout(idTvar) == 33*T                ! biological tracer
+< Hout(idTsur) == 33*T                ! surface tracer flux
+---
+> Hout(idTvar) == 24*T                ! biological tracer
+> Hout(idTsur) == 24*T                ! surface tracer flux
+1123c1123
+< Aout(idTvar) == 33*T
+---
+> Aout(idTvar) == 24*T
+1125c1125
+< Dout(iDbio2) == 8*T
+---
+> Dout(iDbio2) == 8*F
+1129c1129
+< Dout(ichl)              == T
+---
+> Dout(ichl)              == F
+1139,1141c1139,1141
+< Dout(iswdk)     == T
+< Dout(iirr_mix)  == T
+< Dout(iirr_inst) == T
+---
+> Dout(iswdk)     == F
+> Dout(iirr_mix)  == F
+> Dout(iirr_inst) == F
+1158,1163c1158,1163
+< Dout(ivirloss_sm) == T
+< Dout(ivirloss_di) == T
+< Dout(ivirloss_lg) == T
+< Dout(izloss_sm)   == T
+< Dout(izloss_di)   == T
+< Dout(izloss_lg)   == T
+---
+> Dout(ivirloss_sm) == F
+> Dout(ivirloss_di) == F
+> Dout(ivirloss_lg) == F
+> Dout(izloss_sm)   == F
+> Dout(izloss_di)   == F
+> Dout(izloss_lg)   == F
+1172,1174c1172,1174
+< Dout(ino3lim_sm) == T
+< Dout(ino3lim_di) == T
+< Dout(ino3lim_lg) == T
+---
+> Dout(ino3lim_sm) == F
+> Dout(ino3lim_di) == F
+> Dout(ino3lim_lg) == F
+1202,1204d1201
+<                     Clo     Rad  Rad  Clo \ ! ildop labile DOP
+<                     Clo     Rad  Rad  Clo \ ! isldop Semilabile DOP
+<                     Clo     Rad  Rad  Clo \ ! isrdop Semi-Refractory DOP
+1206,1211d1202
+<                     Clo     Rad  Rad  Clo \ ! ipdet Detrital Phosphorus
+<                     Clo     Rad  Rad  Clo \ ! ifesm Small Phytoplankton Iron
+<                     Clo     Rad  Rad  Clo \ ! ifedi Diazotroph Iron 
+<                     Clo     Rad  Rad  Clo \ ! ifelg Large Phytoplankton Iron
+<                     Clo     Rad  Rad  Clo \ ! ifed Dissolved Iron
+<                     Clo     Rad  Rad  Clo \ ! ifedet Detrital Iron
+1220,1222c1211,1213
+<   LtracerCLM == 33*T
+<   LnudgeTCLM == 33*F
+<   LtracerSrc == 33*F
+---
+>   LtracerCLM == 24*T
+>   LnudgeTCLM == 24*T
+>   LtracerSrc == 24*F

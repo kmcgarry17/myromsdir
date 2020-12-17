@@ -1209,6 +1209,6 @@ Dout(ipo4lim_lg) == F
 ! for details.
 
   LtracerCLM == 24*T
-  LnudgeTCLM == 24*F
+  LnudgeTCLM == 24*T
   LtracerSrc == 24*F
 

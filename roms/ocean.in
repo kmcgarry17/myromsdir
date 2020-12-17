@@ -879,7 +879,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
 
 ! Input climatology nudging coefficients file name.
 
-     NUDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/NWA_nudging_coef.nc
+     NUDNAME == /gpfs/scratchfs1/kmm18005-lab/myromsdir/input/nudge_zero.nc
 
 !      NUDNAME == /dev/null
 
@@ -952,7 +952,7 @@ Dout(iTvdif) == F F     ! temp_vdiff, ...    vertical diffusion
      FISHPOSNAM =  fish.in
      PREDPOSNAM =  pred.in
      FLEETPOSNAM =  fleet.in
-     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_Rad.in
+     BPARNAM =  /gpfs/scratchfs1/kmm18005-lab/myromsdir/roms/bio_Cobalt.in
      SPARNAM =  ROMS/External/sediment.in
      USRNAME =  ROMS/External/MyFile.dat
 
